@@ -1,0 +1,19 @@
+Ammonium hexaiodoplatinate(IV) is an inorganic compound with the chemical formula (NH4)2[PtI6]. It forms dark-red, cubic crystals.
+
+
+== Preparation ==
+Ammonium hexaiodoplatinate can be prepared by heating platinum tetraiodide or hexachloroplatinic acid in a saturated solution of ammonium iodide in the presence of hydroiodic acid and iodine.
+
+
+== Chemical properties ==
+The compound is unstable and decomposes in aqueous solutions:
+
+(NH4)2[PtI6]  →  2NH4I + PtI4
+
+
+== References ==
+
+
+== Further reading ==
+Nakamura, Daiyu; Kubo, Masaji (1 May 2002). "Pure Quadrupole Resonance of Halogens in Some R2[MX6] Type Complexes". ACS Publications. 68 (10): 2986–2991. doi:10.1021/j100792a043. Retrieved 21 February 2025.
+McElroy, Robert G. C; Hwang, James Y; Armstrong, Robin L (15 January 1980). "Temperature dependence of the 127I nuclear quadrupole resonance frequency in (NH4)2PtI6". Journal of Magnetic Resonance. 37 (1): 49–52. doi:10.1016/0022-2364(80)90092-X. ISSN 0022-2364. Retrieved 21 February 2025.

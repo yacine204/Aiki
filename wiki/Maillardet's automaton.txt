@@ -1,0 +1,47 @@
+Maillardet's automaton (or Draughtsman-Writer, Maelzel's Juvenile Artist, Juvenile Artist) is an automaton built in London c. 1800 by a Swiss mechanician, Henri Maillardet. It is currently part of the collections at The Franklin Institute in Philadelphia.
+
+
+== Acquisition ==
+In November 1928 the Franklin Institute received the pieces of a brass machine. It came from the descendants of John Penn Brock, a family who knew that at some time it had been able to write and draw pictures. Having been in a fire, its restoration involved a considerable amount of work. The Brock family believed that the machine had been made in France by an inventor named Maelzel. 
+The original writing instrument, either a quill or a brush, was replaced with a stylographic fountain pen. Once repaired, the automaton began to produce elaborate sketches and poems. In the border surrounding the final poem, the automaton wrote, "Ecrit par L'Automate de Maillardet", translating to "Written by the automaton of Maillardet".
+Restorer and paper engineer Andrew Baron spent about 70 hours in 2007 repairing the Maillardet automaton to bring it back to working order.
+
+
+== Travel exhibitions ==
+During the early nineteenth century, Maillardet exhibited this automaton and other automata that he created throughout England, and to other countries in Europe as far as Saint Petersburg, Russia. The following is a partial list of known exhibitions of the Maillardet's automaton. The automaton was mostly known as the Juvenile Artist in those exhibitions:
+
+1807: The exhibition at Mr. Wigley's Great Rooms in Spring Gardens, London included the Juvenile Artist.
+1821 – 1833: The automata of Maillardet were in the possession of a gentlemen named Mr Schmidt. He held an exhibition in London. The last public display in London was held in 1833 at New Gothic Hall, 7 Haymarket Street before the exhibition was on tour to St. Petersburg where it disappeared along with other automata in the collection.
+1835: An exhibition in Boston under the showman Johann Nepomuk Maelzel included the Juvenile Artist automaton
+1835: The Juvenile Artist automaton was also traveled to Philadelphia in an exhibition at American Museum located then at the corner of Fifth and Chesnut Streets. The announcement for the event mentioned the success of Maelzel's exhibition in Boston. It also attributed the automata including the Juvenile Artist in the exhibition as "Maillardet's unrivalled mechanical and musical automata". The announcement was recorded as having Henri Maillardet, Johann Nepomuk Mälzel, and American Museum (Philadelphia, Pa.) as authors.
+November 27, 1835 – January 16, 1836: Maelzel took Maillardet automata including the Juvenile Artist along with his Chess Player on a tour in Washington, D.C.
+Late 1836 – early 1837: The Juvenile Artist was among other automata presented at American Museum in New York during the Christmas and New Year exhibition.
+
+
+== Museum collections ==
+
+
+=== Amazing Machine ===
+
+The Maillardet's automaton was a highlight of the Amazing Machine permanent exhibit at The Franklin Institute. The exhibition includes more than two dozen rarely displayed machines with exploded views of the machines to show their components such as gears, cams, pulleys and linkages. The Maillardet's automaton was formerly on permanent display and was operated by staff only a few times a year for public demonstrations. The demonstrations show all seven drawings of the automaton as seen here:
+
+Maillardet's automaton is currently on display as part of the Hamilton Collections Gallery, another permanent exhibit at The Franklin Institute which displays other pieces of early technological advances.
+
+
+=== Computer history ===
+The pictures made by Maillardet's automaton are among other artifacts in the collections of the Computer History Museum in Mountain View, California. The museum has a collection of machines from the pre-computer era. Particularly for Maillardet's, the museum highlights the use of its cams in similar function to computer read-only memory (ROM) to store pre-defined data for retrieval at a later time. In the case of Maillardet's automaton, it stores motion data necessary to write a poem on paper. It is believed to be the largest cam-based memory of any automaton of the era. The information capacity of the automaton to hold seven images within the machine was calculated to be 299,040 points, almost 300 kilobits of storage, or slightly more than a quarter of a kilobyte.
+
+
+=== Maelzel's Juvenile Artist ===
+The Massachusetts Historical Society holds a drawing created in 1835 by an automaton in the collections of papers and artwork of the Minot family. The drawing is untitled with a depiction of Cupid. The writing on the picture indicated that it was drawn by Maelzel's automaton which was known at the time as the Maelzel's Juvenile Artist. It is believed that at least one member of the Minot family witnessed the drawing by the Juvenile Artist at the exhibition of Johann Nepomuk Maelzel's automata in Boston on April 29, 1835. The Massachusetts Historical Society theorizes that the Juvenile Artist may in fact be the Maillardet's automaton. An explanation is that Maelzel might have acquired the automaton in the 1830s. As in other automata in his collection, they were known at the time as Maelzel's. After Maelzel's death, the automaton could have been auctioned off in Philadelphia to pay his debts. The new owner then attributed it to Maelzel.
+
+
+== See also ==
+Automaton
+The Invention of Hugo Cabret
+Hugo, 2011 film based on the book
+Jaquet-Droz automata
+The writing hand
+
+
+== References ==

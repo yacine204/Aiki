@@ -1,0 +1,36 @@
+469705 ǂKá̦gára (provisional designation 2005 EF298) is a trans-Neptunian object and binary system of the core Kuiper belt, located in the outermost region of the Solar System. It was discovered on 11 March 2005 by American astronomer Marc Buie at the Kitt Peak Observatory in Arizona. The primary body measures around 140 kilometers (90 miles) in diameter. Its 120-kilometer (75-mile) companion ǃHãunu was discovered with the Hubble Space Telescope in 2009. The ǂKá̦gára–ǃHãunu system is currently undergoing mutual occultation and eclipsing events in which one body casts a shadow on or obstructs the view of the other as seen from Earth.
+
+
+== Names ==
+The names ǂKá̦gára and ǃHãunu are from the mythology of the ǀXam people of South Africa. ǂKá̦gára (also rendered ǂKaʻgara) and his brother-in-law ǃHãunu fought an epic battle in the east using thunder and lightning, producing mountainous clouds and rain. The conflict was fought over ǂKá̦gára returning his younger sister, ǃHãunu's wife, to their parents. The names were approved and an official naming citation was published on 16 June 2021 by the International Astronomical Union's Working Group on Small Body Nomenclature.
+
+
+== Orbit and occultations ==
+ǂKá̦gára is a cold classical Kuiper belt object. It orbits the Sun at a distance of 44 AU once every 290 years. Its orbit has an eccentricity of 0.09 and an inclination of 3 degrees with respect to the ecliptic.
+If the two bodies are spheres with equal density, then mutual occultation events between ǂKá̦gára and its satellite ǃHãunu should have begun in 2015 and should continue until 2035. When ǂKá̦gára passes in front of ǃHãunu, events may last as long as 8 hours, but when ǃHãunu passes in front of ǂKá̦gára they are expected to last as long as 2 days. These latter events are only expected to occur from 2022 to 2027.
+
+
+== Formation ==
+Prograde orbits dominate tight binary systems such as ǂKá̦gára, those with satellite semimajor axes less than about 5% of their Hill radii. Grundy et al. suggest that this could be "the signature of planetesimal formation through gravitational collapse of local density enhancements such as caused by the streaming instability", which has been suggested as the formative mechanism of the only visited planetesimal, 486958 Arrokoth.
+
+
+== Satellite, size and mass ==
+
+ǂKá̦gára has one known satellite, ǃHãunu. The magnitude difference between ǂKá̦gára and ǃHãunu is 0.59 mag. This corresponds to a difference in diameter of 13%, if the two bodies have the same albedo.
+The system mass is (2.18±0.12)×1018 kg, and, given the albedo, the bodies are equivalent to a single sphere of diameter 174+27−32 km. This corresponds to a density of 1.1+0.9−0.4 g/cm3. This does not particularly constrain the composition of the bodies, as the error bars cover the densities of both small, porous bodies and larger, collapsed bodies. Assuming the two bodies have the same albedo and density, their masses are (1.29±0.07)×1018 kg and (0.89±0.05)×1018 kg, and their diameters are 138+21−25 km and 122+16−19 km.
+
+
+== Notes ==
+
+
+== References ==
+ 
+
+
+== External links ==
+Asteroids with Satellites, Johnston's Archive
+List of Known Trans-Neptunian Objects, Johnston's Archive
+List of Transneptunian Objects, Minor Planet Center
+469705 ǂKá̦gára at the JPL Small-Body Database 
+469705 ǂKá̦gára at AstDyS-2, Asteroids—Dynamic Site
+Ephemeris · Observation prediction · Orbital info · Proper elements · Observational info

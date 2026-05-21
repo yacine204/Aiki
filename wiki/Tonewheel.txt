@@ -1,0 +1,24 @@
+A tonewheel or tone wheel is a simple electromechanical apparatus used for generating electric musical notes in electromechanical organ instruments such as the Hammond organ and in telephony to generate audible signals such as ringing tone. It was developed by Thaddeus Cahill for the telharmonium c. 1896 and patented in 1897. It was reinvented around 1910 by Rudolph Goldschmidt for use in pre–vacuum-tube radio receivers as a beat frequency oscillator (BFO) to make continuous wave radiotelegraphy (Morse code) signals audible.
+
+
+== Description ==
+The tonewheel assembly consists of a synchronous AC motor and an associated gearbox that drives a series of rotating disks. Each disk has a given number of smooth bumps at the rim; these generate a specific frequency as the disk rotates close to a pickup assembly that consists of a magnet and electromagnetic coil.
+As each bump in the wheel approaches the pickup, it temporarily concentrates the magnetic field near it, and thus strengthens the magnetic field that passes through the coil, inducing a current in the coil by the process of electromagnetic induction. As the bump moves past, this concentrating effect is reduced again, the magnetic field weakens slightly, and an opposite current is induced in the coil. Thus, the frequency of the current in the coil depends on the speed of rotation of the disk and the number of bumps.
+
+Typically, the coil is connected to an amplifier through a network of switches, contacts, resistor banks, and transformers which can be used to mix the fluctuating current representing the note from one coil with similar currents from other coils representing other notes. A single fundamental frequency can thus be combined with one or more harmonics to produce complex sounds. Tonewheels were first developed for and used in the impractical Telharmonium circa 1896 and later in the original Hammond organs.
+Tonewheel leakage occurs in the Hammond organ and in similar situations, where the large number of tonewheels causes pickups to overhear tonewheels other than their own. This causes the organ to add chromatics to played notes. In some kinds of music this is undesirable, but in others it has become an important part of the Hammond sound. On some digital simulations of Hammond organs tonewheel leakage is a user-set parameter.
+
+
+== Early uses ==
+The tonewheel was independently invented in 1910 by Rudolph Goldschmidt as a beat frequency oscillator in early radio receivers to make continuous wave radiotelegraphy (Morse code) signals audible, before the existence of the vacuum tube.
+
+
+== See also ==
+Alexanderson alternator
+Savart wheel
+
+
+== Notes ==
+
+
+== References ==

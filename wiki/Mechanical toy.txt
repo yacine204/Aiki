@@ -1,0 +1,34 @@
+Mechanical toys are toys powered by mechanical energy. Depending on the mechanism used they can perform a range of motions, from simple to very complex.
+
+
+== Types ==
+The types of mechanical energy used to power mechanical toys include rubber bands, springs, and flywheels.
+Mechanical toys use 4 types of different movements, rotary (going around in a circle), linear (moving in a straight line then stopping), reciprocating (moving backwards and forwards continuously in a straight line) and oscillating (moving backwards and forwards in a curve).
+Mechanical toys use several types of mechanisms, because Cam toys are powered by a very large cam and even bigger cam follower which transfers the cam rotation to the working area of the toy. The cam is unevenly rotated by placing the rotator out of the ideal center. This transforms the circular motion into motion that moves up and powers the toy.
+Crank toys are internally based on cams too but allow more complicated motions. Single rotation of the crank leads to single action in the working area of the toy, and moving the crank forward and backward can result in reversed motion.
+Some toys have cameras in them which makes them very expensive.
+Gear toys use gear wheels to transfer the power in the toy, to change the speed and direction of motion. They can be powered by hand (with a cram or cam and cam follower) or by wind-up mechanism. The different number of teeth in the gear wheels determine the speed transition from wheel to wheel. By chaining and distributing number of gear wheels this type of mechanical toys allows very complex motions.
+Lever toys are mechanical toys that use the mechanical advantage of a lever to transmit and transform movement. Lever toys can use cranks and cams too.
+Pulley toys. Pulleys are very similar to gear wheels but two elements are connected by a metal chain or belt from elastic strong material (for example rubber.) Pulleys allow transferring power on distance much easier and with less losses that using number of gear wheels. Using pulleys in mechanical toys also allows to change the angle, the speed and the direction of the motion.
+Wind-up toys typically are powered by a metal spring that is tightened by turning it. Then gear wheels and pulleys can transfer the power and control the toy motion.
+
+
+== History ==
+One of the first mechanical toys is the flying pigeon by Archytas of Tarentum created 400-350 BC.
+In 16th Century Leonardo da Vinci created his mechanical lion as a present for King Louis XII. The lion could walk and reveal a cluster of lilies from his chest.
+In 1738 Jacques de Vaucanson created a mechanical robot duck that was able to drink and eat.
+Pierre Jaquet-Droz created The Writer, The Draftsman and The Musician - toys that are still present in the museum of Art and History in Switzerland.
+
+
+== In education ==
+The potential educational value of mechanical toys in teaching transversal skills has been recognised by the European Union education project Clockwork objects, enhanced learning: Automata Toys Construction (CLOHE).
+Also they play a valid part in teaching young children motor skills and are used in some schools to do this  
+Mechanical toys were the subject of the Academy Award-winning 1972 short Dutch documentary, This Tiny World.
+
+
+== See also ==
+Automaton
+List of Toy Mechanisms
+
+
+== References ==

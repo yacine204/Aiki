@@ -1,0 +1,20 @@
+NGC 3200 is a large spiral galaxy located in the constellation Hydra. Its velocity relative to the cosmic microwave background is 3,877  ±  25  km/s, which corresponds to a Hubble distance of 57.2 ± 4.0  Mpc (~187 million ly).  NGC 3200 was discovered by American astronomer Edward Singleton Holden in 1882.
+The luminosity class of NGC 3200 is III and it exhibits a broad HI line.
+To date, 21 non-redshift measurements give a distance of 43.086 ± 12.631  Mpc (~141 million ly) which is within the Hubble distance values. Note, however, that the NASA/IPAC database calculates the diameter of a galaxy using the average value of independent measurements, when they exist, and that consequently the diameter of NGC 3200 could be about 87.83 kpc (~286,000 ly) if the Hubble distance were used to calculate it.
+
+
+== Supernovae ==
+One supernova has been observed in NGC 3200: SN 1953D (type unknown, mag. 19.5) was discovered by Chai on 8 March 1953.
+
+
+== See also ==
+List of NGC objects (3001–4000)
+
+
+== External links ==
+NGC 3200 at NASA/IPAC
+NGC 3200 at SIMBAD
+NGC 3200 at LEDA
+
+
+== References ==

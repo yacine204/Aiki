@@ -1,0 +1,45 @@
+The Savart wheel is an acoustical device named after the French physicist Félix Savart (1791–1841), which was originally conceived and developed by the English scientist Robert Hooke (1635–1703).
+A card held to the edge of a spinning toothed wheel will produce a tone whose pitch varies with the speed of the wheel. A mechanism of this sort, made using brass wheels, allowed Hooke to produce sound waves of a known frequency, and to demonstrate to the Royal Society in 1681 how pitch relates to frequency. For practical purposes Hooke's device was soon supplanted by the invention of the tuning fork.
+About a century and a half after Hooke's work, the mechanism was taken up again by Savart for his investigations into the range of human hearing. In the 1830s Savart was able to construct large, finely-toothed brass wheels producing frequencies of up to 24 kHz that seem to have been the world's first artificial ultrasonic generators. In the later 19th century, Savart's wheels were also used in physiological and psychological investigations of time perception.
+Nowadays, Savart wheels are commonly demonstrated in physics lectures, sometimes driven and sounded by an air hose (in place of the card mechanism).
+
+
+== Description ==
+
+The basic device consists of a ratchet-wheel with a large number of uniformly spaced teeth. When the wheel is turned slowly while the edge of a card is held against the teeth a succession of distinct clicks can be heard. When the wheel is spun rapidly it produces a shrill tone, whereas if the wheel is allowed to turn more slowly the tone progressively decreases in pitch. Since the frequency of the tone is directly proportional to the rate at which the teeth strike the card, a Savart wheel can be calibrated to provide an absolute measure of pitch. Multiple wheels of different sizes, carrying different numbers of teeth, can also be attached so as to allow several pitches (or chords) to be produced while the axle is being turned at a constant rate.
+
+
+== Hooke's wheel ==
+Hooke began work on his wheel in March 1676, in conjunction with the renowned clockmaker Thomas Tompion, following conversations with the music theorist William Holder. He had a longstanding interest in musical vibrations, and a decade earlier in 1666 had even boasted to Samuel Pepys that he could tell the rate a fly's wings were beating from the sound they made. In July 1681, he demonstrated to the Royal Society his new device for producing distinct musical tones by striking the teeth of fast-turning brass wheels. In this way, he was able to generate for the first time sound waves of known frequency, and provide an empirical demonstration of the correspondence between the human perception of pitch and the physical property of sound-wave frequency. Furthermore, by fitting different wheels alongside one another on the same axis, he was able to verify frequency ratios for musical intervals, such as perfect fifths and fourths, etc.
+Hooke published his findings in 1705. Despite providing an objective measure of pitch, for everyday use his wheel was soon made irrelevant by the invention in 1711 of the tuning fork.
+
+
+== Savart's version ==
+
+Hooke's device was not used again for study purposes for over a century. Its next documented usage was in 1830 when Savart reported his use of a system similar to Hooke's which he developed while investigating the lower range of human hearing. Savart's specific contribution was to attach a tachometer to the axis of the toothed wheel to facilitate calibration of the tooth rate. Savart used his wheel as a practical alternative to John Robison's siren, which was also being adopted at the time by Charles Cagniard de la Tour to test the range of human hearing. By 1834 Savart was constructing brass wheels with a width of 82 cm, containing as many as 720 teeth. These wheels, which could produce frequencies up to 24 kHz, have been tentatively proposed as the first artificial generators of ultrasound.
+
+
+== Use in time perception experiments ==
+In the later 19th century, Savart's wheel was adapted for use in physiological and psychological investigations of the human perception of time. In 1873, the Austrian physiologist Sigmund Exner reported the auditory ability to distinguish successive clicks from the wheel (or, alternatively, rapidly snapped electric sparks) at time intervals as close as 2 milliseconds (1/500 sec). A modified wheel that produced varying numbers of clicks at different intervals was later used by the American psychologists G. Stanley Hall and Joseph Jastrow, who in 1886 reported on the limits to the human perception of acoustic discontinuities.
+
+
+== Musical and other applications ==
+In 1894, French electrical engineer Gustave Trouvé patented an electrically (or clockwork) powered keyboard instrument capable of playing a series of 88 variously-sized Savart wheels from a piano keyboard, allowing harmonic chords and dynamics. The same principle is used in modern-day electromechanical organs, such as the Hammond organ, that make use of tonewheels.
+The concept has also been adapted to produce an experimental musical instrument created by Bart Hopkin. This application of Savart's wheel consists of a series of 30 wooden disks of increasing size mounted on a motorized axle. Rasping vibrations are induced in a plectrum when it comes into contact with the ridges that line each disk at regular intervals, and are amplified in a styrofoam cup which acts as a sounding board. The instrument is claimed to make "the most obtrusive, obnoxious and irritating sound ever known."
+Nowadays, Savart wheels are commonly used for demonstrations during physics lectures. In one variant, the wheel can be driven by an air hose blowing on the teeth; in this case, the pitch of the sound produced will vary with the force of the air current.
+
+
+== See also ==
+Singing bird box
+Tonometer
+Tonewheel
+
+
+== Notes and references ==
+Notes
+
+References
+
+
+== External links ==
+"Savart's Wheel" – musical instrument designed by Bart Hopkin
