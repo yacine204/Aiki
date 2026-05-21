@@ -6,6 +6,8 @@ from topic_expansion_data import topic_expansion
 import argparse
 import sys
 
+import ollama
+
 # step 1 : vocabulary creation
 
 chunks = chunk_wiki_files()
@@ -167,21 +169,43 @@ def search(query_vector, chunks_vector=tfidf_vectors, n = 3):
     top_n_matches = [(chunks[i], compare_array[i]) for i in top_indices]
     return top_n_matches
 
-query = "android"
-query_vector = query_to_idf_vector(query)
-result = search(query_vector=query_vector)
-print(result)
+def generate_with_llm(query, top_chunks):
+    context = "\n\n".join([chunk['text'] for chunk, _ in top_chunks])
+    
+    response = ollama.chat(
+        model='llama3.2:3b',  
+        messages=[
+            {'role': 'system', 'content': 'Answer concisely based on the Wikipedia excerpts provided.'},
+            {'role': 'user', 'content': f"Context:\n{context}\n\nQuestion: {query}"}
+        ],
+        options={'num_predict': 256}  
+    )
+    return response['message']['content']
 
 if __name__ == "__main__": 
+    if len(sys.argv) <= 1:
+        print("usage: python3 vectorize.py [-llm] your query")
+        sys.exit(0)
 
-    if len(sys.argv) > 1:
-        query = " ".join(sys.argv[1:])
-    else:
-        print("usage: python3 vectorize.py who am i ? ")
+    llm_mode = False
+    args = sys.argv[1:]
+    if args and args[0] == "-llm":
+        llm_mode = True
+        args = args[1:]
+
+    if not args:
+        print("usage: python3 vectorize.py [-llm] your query")
+        sys.exit(0)
+
+    query = " ".join(args)
 
     query_vector = query_to_idf_vector(query)
     result = search(query_vector, chunks_vector=tfidf_vectors, n=5)
 
-    for i, (chunk, score) in enumerate(result,1):
-        print(f"{i}. [{score:.4f}] {chunk['source']}" )
-        print(f"    {chunk['text']}")
+    if llm_mode:
+        answer = generate_with_llm(query, result)
+        print(answer)
+    else:
+        for i, (chunk, score) in enumerate(result,1):
+            print(f"{i}. [{score:.4f}] {chunk['source']}" )
+            print(f"    {chunk['text']}")

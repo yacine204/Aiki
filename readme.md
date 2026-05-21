@@ -16,6 +16,7 @@ Wikipedia search engine using TF-IDF and cosine similarity. Built from scratch w
 python -m venv venv
 source venv/bin/activate
 pip install requests numpy langchain-text-splitters
+pip install ollama
 ```
 
 ## Usage
@@ -26,10 +27,16 @@ Download articles:
 python3 loader.py
 ```
 
-Search (default query: "android"):
+Basic search (prints top chunks):
 
 ```bash
 python3 vectorize.py "what is an android"
+```
+
+LLM answer (uses top chunks as context):
+
+```bash
+python3 vectorize.py -llm "what is an android"
 ```
 
 Generate topic expansion data:
