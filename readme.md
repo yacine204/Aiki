@@ -35,7 +35,13 @@ pip install ollama
 Download articles:
 
 ```bash
-python3 loader.py
+python3 loader.py "Linear Algebra" --type Category --l 50 --ss 5
+```
+
+Render math for CLI and overwrite existing files:
+
+```bash
+python3 loader.py "Linear Algebra" --type Category --l 50 --ss 5 --render-math --overwrite
 ```
 
 Fast search (returns relevant chunks, milliseconds):
@@ -48,6 +54,18 @@ RAG mode (generates answer using local LLM, 5-15 seconds):
 
 ```bash
 python3 vectorize.py -llm "what is an android"
+```
+
+Index cache (built on first run, reused later):
+
+```bash
+ls -lh .cache/
+```
+
+Clear cache if wiki files change:
+
+```bash
+rm -rf .cache/
 ```
 
 Generate topic expansion data:
@@ -87,6 +105,7 @@ It can also refer to Google's operating system for mobile devices.
 - topic_expansion.py - Builds synonym dictionary
 - topic_expansion_data.py - Generated synonyms
 - wiki/ - Downloaded articles
+- .cache/ - Cached index (auto-generated)
 
 ## Requirements
 
