@@ -2,6 +2,8 @@
 
 Wikipedia **RAG system** (Retrieval-Augmented Generation) with a custom TF-IDF retriever built from scratch.
 
+https://github.com/user-attachments/assets/992d43ed-8369-4032-a910-d10c80d528a5
+
 ## What it does
 
 - Downloads Wikipedia articles into wiki/
