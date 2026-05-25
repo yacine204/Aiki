@@ -1,0 +1,320 @@
+In mathematics, especially in linear algebra and matrix theory, a centrosymmetric matrix is a matrix which is symmetric about its center. 
+
+
+== Formal definition ==
+An n × n matrix A = [Ai, j] is centrosymmetric when its entries satisfy
+
+  
+    
+      
+        
+          A
+          
+            i
+            ,
+            
+            j
+          
+        
+        =
+        
+          A
+          
+            n
+            −
+            i
+            +
+            1
+            ,
+            
+            n
+            −
+            j
+            +
+            1
+          
+        
+        
+        
+          for all 
+        
+        i
+        ,
+        j
+        ∈
+        {
+        1
+        ,
+        
+        …
+        ,
+        
+        n
+        }
+        .
+      
+    
+    {\displaystyle A_{i,\,j}=A_{n-i+1,\,n-j+1}\quad {\text{for all }}i,j\in \{1,\,\ldots ,\,n\}.}
+  
+
+Alternatively, if J denotes the n × n exchange matrix with 1 on the antidiagonal and 0 elsewhere: 
+
+  
+    
+      
+        
+          J
+          
+            i
+            ,
+            
+            j
+          
+        
+        =
+        
+          
+            {
+            
+              
+                
+                  1
+                  ,
+                
+                
+                  i
+                  +
+                  j
+                  =
+                  n
+                  +
+                  1
+                
+              
+              
+                
+                  0
+                  ,
+                
+                
+                  i
+                  +
+                  j
+                  ≠
+                  n
+                  +
+                  1
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle J_{i,\,j}={\begin{cases}1,&i+j=n+1\\0,&i+j\neq n+1\\\end{cases}}}
+  
+
+then a matrix A is centrosymmetric if and only if AJ = JA.
+
+
+== Examples ==
+All 2 × 2 centrosymmetric matrices have the form 
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  a
+                
+                
+                  b
+                
+              
+              
+                
+                  b
+                
+                
+                  a
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{bmatrix}a&b\\b&a\end{bmatrix}}.}
+  
+
+All 3 × 3 centrosymmetric matrices have the form 
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  a
+                
+                
+                  b
+                
+                
+                  c
+                
+              
+              
+                
+                  d
+                
+                
+                  e
+                
+                
+                  d
+                
+              
+              
+                
+                  c
+                
+                
+                  b
+                
+                
+                  a
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{bmatrix}a&b&c\\d&e&d\\c&b&a\end{bmatrix}}.}
+  
+
+Symmetric Toeplitz matrices are centrosymmetric.
+
+
+== Algebraic structure and properties ==
+If A and B are n × n centrosymmetric matrices over a field F, then so are A + B and cA for any c in F. Moreover, the matrix product AB is centrosymmetric, since JAB = AJB = ABJ. Since the identity matrix is also centrosymmetric, it follows that the set of n × n centrosymmetric matrices over F forms a subalgebra of the associative algebra of all n × n matrices.
+If A is a centrosymmetric matrix with an m-dimensional eigenbasis, then its m eigenvectors can each be chosen so that they satisfy either x = Jx or x = −Jx where J is the exchange matrix.
+If A is a centrosymmetric matrix with distinct eigenvalues, then the matrices that commute with A must be centrosymmetric. This follows from a theorem "If matrices A and B commute, A with distinct eigenvalues, then B is a polynomial in A".
+The maximum number of unique elements in an m × m centrosymmetric matrix is
+
+  
+    
+      
+        
+          
+            
+              
+                m
+                
+                  2
+                
+              
+              +
+              m
+              
+                mod
+                
+                  2
+                
+              
+            
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {m^{2}+m{\bmod {2}}}{2}}.}
+  
+
+this is also the dimension of the vector space of all m × m centrosymmetric matrices
+
+
+== Related structures ==
+An n × n matrix A is said to be skew-centrosymmetric if its entries satisfy 
+
+  
+    
+      
+        
+          A
+          
+            i
+            ,
+            
+            j
+          
+        
+        =
+        −
+        
+          A
+          
+            n
+            −
+            i
+            +
+            1
+            ,
+            
+            n
+            −
+            j
+            +
+            1
+          
+        
+        
+        
+          for all 
+        
+        i
+        ,
+        j
+        ∈
+        {
+        1
+        ,
+        
+        …
+        ,
+        
+        n
+        }
+        .
+      
+    
+    {\displaystyle A_{i,\,j}=-A_{n-i+1,\,n-j+1}\quad {\text{for all }}i,j\in \{1,\,\ldots ,\,n\}.}
+  
+
+Equivalently, A is skew-centrosymmetric if AJ = −JA, where J is the exchange matrix defined previously.
+The centrosymmetric relation AJ = JA lends itself to a natural generalization, where J is replaced with an involutory matrix K (i.e., K2 = I ) or, more generally, a matrix K satisfying Km = I for an integer m > 1.  The inverse problem for the commutation relation AK = KA of identifying all involutory K that commute with a fixed matrix A has also been studied.
+Symmetric centrosymmetric matrices are sometimes called bisymmetric matrices.  When the ground field is the real numbers, it has been shown that bisymmetric matrices are precisely those symmetric matrices whose eigenvalues remain the same aside from possible sign changes following pre- or post-multiplication by the exchange matrix.  A similar result holds for Hermitian centrosymmetric and skew-centrosymmetric matrices.
+
+
+== References ==
+
+
+== Further reading ==
+Muir, Thomas (1960). A Treatise on the Theory of Determinants. Dover. p. 19. ISBN 0-486-60670-8. {{cite book}}: ISBN / Date incompatibility (help)
+Weaver, James R. (1985). "Centrosymmetric (cross-symmetric) matrices, their basic properties, eigenvalues, and eigenvectors". American Mathematical Monthly. 92 (10): 711–717. doi:10.2307/2323222. JSTOR 2323222.
+
+
+== External links ==
+Centrosymmetric matrix on MathWorld.

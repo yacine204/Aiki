@@ -17,8 +17,8 @@ https://github.com/user-attachments/assets/992d43ed-8369-4032-a910-d10c80d528a5
 
 | Component | Built by |
 |-----------|----------|
-| Retriever (TF-IDF, vectors, similarity) | 100% custom |
-| Query expansion | 100% custom |
+| Retriever (TF-IDF, vectors, similarity) | custom |
+| Query expansion | custom |
 | LLM generation | Ollama + Llama 3.2 |
 
 ## Setup

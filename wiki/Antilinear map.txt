@@ -1,0 +1,2165 @@
+In mathematics, a function 
+  
+    
+      
+        f
+        :
+        V
+        →
+        W
+      
+    
+    {\displaystyle f:V\to W}
+  
+ between two complex vector spaces is said to be antilinear or conjugate-linear if 
+
+  
+    
+      
+        
+          
+            
+              
+                f
+                (
+                x
+                +
+                y
+                )
+              
+              
+                
+                =
+                f
+                (
+                x
+                )
+                +
+                f
+                (
+                y
+                )
+              
+              
+              
+                
+                
+                   (additivity) 
+                
+              
+            
+            
+              
+                f
+                (
+                s
+                x
+                )
+              
+              
+                
+                =
+                
+                  
+                    s
+                    ¯
+                  
+                
+                f
+                (
+                x
+                )
+              
+              
+              
+                
+                
+                   (conjugate homogeneity) 
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{alignedat}{9}f(x+y)&=f(x)+f(y)&&\qquad {\text{ (additivity) }}\\f(sx)&={\overline {s}}f(x)&&\qquad {\text{ (conjugate homogeneity) }}\\\end{alignedat}}}
+  
+
+hold for all vectors 
+  
+    
+      
+        x
+        ,
+        y
+        ∈
+        V
+      
+    
+    {\displaystyle x,y\in V}
+  
+ and every complex number 
+  
+    
+      
+        s
+        ,
+      
+    
+    {\displaystyle s,}
+  
+ where 
+  
+    
+      
+        
+          
+            s
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {s}}}
+  
+ denotes the complex conjugate of 
+  
+    
+      
+        s
+        .
+      
+    
+    {\displaystyle s.}
+  
+ 
+Antilinear maps stand in contrast to linear maps, which are additive maps that are homogeneous rather than conjugate homogeneous. If the vector spaces are real then antilinearity is the same as linearity.
+Antilinear maps occur in quantum mechanics in the study of time reversal and in spinor calculus, where it is customary to replace the bars over the basis vectors and the components of geometric objects by dots put above the indices. Scalar-valued antilinear maps often arise when dealing with complex inner products and Hilbert spaces. 
+
+
+== Definitions and characterizations ==
+A function is called antilinear or conjugate linear if it is additive and conjugate homogeneous. An antilinear functional on a vector space 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+  
+ is a scalar-valued antilinear map. 
+A function 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ is called additive if
+
+  
+    
+      
+        f
+        (
+        x
+        +
+        y
+        )
+        =
+        f
+        (
+        x
+        )
+        +
+        f
+        (
+        y
+        )
+        
+        
+           for all vectors 
+        
+        x
+        ,
+        y
+      
+    
+    {\displaystyle f(x+y)=f(x)+f(y)\quad {\text{ for all vectors }}x,y}
+  
+
+while it is called conjugate homogeneous if 
+
+  
+    
+      
+        f
+        (
+        a
+        x
+        )
+        =
+        
+          
+            a
+            ¯
+          
+        
+        f
+        (
+        x
+        )
+        
+        
+           for all vectors 
+        
+        x
+        
+           and all scalars 
+        
+        a
+        .
+      
+    
+    {\displaystyle f(ax)={\overline {a}}f(x)\quad {\text{ for all vectors }}x{\text{ and all scalars }}a.}
+  
+ 
+In contrast, a linear map is a function that is additive and homogeneous, where 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ is called homogeneous if
+
+  
+    
+      
+        f
+        (
+        a
+        x
+        )
+        =
+        a
+        f
+        (
+        x
+        )
+        
+        
+           for all vectors 
+        
+        x
+        
+           and all scalars 
+        
+        a
+        .
+      
+    
+    {\displaystyle f(ax)=af(x)\quad {\text{ for all vectors }}x{\text{ and all scalars }}a.}
+  
+ 
+An antilinear map 
+  
+    
+      
+        f
+        :
+        V
+        →
+        W
+      
+    
+    {\displaystyle f:V\to W}
+  
+ may be equivalently described in terms of the linear map 
+  
+    
+      
+        
+          
+            f
+            ¯
+          
+        
+        :
+        V
+        →
+        
+          
+            W
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {f}}:V\to {\overline {W}}}
+  
+ from 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+  
+ to the complex conjugate vector space 
+  
+    
+      
+        
+          
+            W
+            ¯
+          
+        
+        .
+      
+    
+    {\displaystyle {\overline {W}}.}
+  
+
+
+=== Examples ===
+
+
+==== Anti-linear dual map ====
+Given a complex vector space 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+  
+ of rank 1, we can construct an anti-linear dual map which is an anti-linear map 
+  
+    
+      
+        l
+        :
+        V
+        →
+        
+          C
+        
+      
+    
+    {\displaystyle l:V\to \mathbb {C} }
+  
+ sending an element 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        +
+        i
+        
+          y
+          
+            1
+          
+        
+      
+    
+    {\displaystyle x_{1}+iy_{1}}
+  
+ for 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          y
+          
+            1
+          
+        
+        ∈
+        
+          R
+        
+      
+    
+    {\displaystyle x_{1},y_{1}\in \mathbb {R} }
+  
+ to 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        +
+        i
+        
+          y
+          
+            1
+          
+        
+        ↦
+        
+          a
+          
+            1
+          
+        
+        
+          x
+          
+            1
+          
+        
+        −
+        i
+        
+          b
+          
+            1
+          
+        
+        
+          y
+          
+            1
+          
+        
+      
+    
+    {\displaystyle x_{1}+iy_{1}\mapsto a_{1}x_{1}-ib_{1}y_{1}}
+  
+ for some fixed real numbers 
+  
+    
+      
+        
+          a
+          
+            1
+          
+        
+        ,
+        
+          b
+          
+            1
+          
+        
+        .
+      
+    
+    {\displaystyle a_{1},b_{1}.}
+  
+ We can extend this to any finite dimensional complex vector space, where if we write out the standard basis 
+  
+    
+      
+        
+          e
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          e
+          
+            n
+          
+        
+      
+    
+    {\displaystyle e_{1},\ldots ,e_{n}}
+  
+ and each standard basis element as 
+  
+    
+      
+        
+          e
+          
+            k
+          
+        
+        =
+        
+          x
+          
+            k
+          
+        
+        +
+        i
+        
+          y
+          
+            k
+          
+        
+      
+    
+    {\displaystyle e_{k}=x_{k}+iy_{k}}
+  
+ then an anti-linear complex map to 
+  
+    
+      
+        
+          C
+        
+      
+    
+    {\displaystyle \mathbb {C} }
+  
+ will be of the form 
+  
+    
+      
+        
+          ∑
+          
+            k
+          
+        
+        
+          x
+          
+            k
+          
+        
+        +
+        i
+        
+          y
+          
+            k
+          
+        
+        ↦
+        
+          ∑
+          
+            k
+          
+        
+        
+          a
+          
+            k
+          
+        
+        
+          x
+          
+            k
+          
+        
+        −
+        i
+        
+          b
+          
+            k
+          
+        
+        
+          y
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \sum _{k}x_{k}+iy_{k}\mapsto \sum _{k}a_{k}x_{k}-ib_{k}y_{k}}
+  
+ for 
+  
+    
+      
+        
+          a
+          
+            k
+          
+        
+        ,
+        
+          b
+          
+            k
+          
+        
+        ∈
+        
+          R
+        
+        .
+      
+    
+    {\displaystyle a_{k},b_{k}\in \mathbb {R} .}
+  
+
+
+==== Isomorphism of anti-linear dual with real dual ====
+The anti-linear dualpg 36 of a complex vector space 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+  
+ 
+  
+    
+      
+        
+          Hom
+          
+            
+              
+                C
+              
+              ¯
+            
+          
+        
+        ⁡
+        (
+        V
+        ,
+        
+          C
+        
+        )
+      
+    
+    {\displaystyle \operatorname {Hom} _{\overline {\mathbb {C} }}(V,\mathbb {C} )}
+  
+ is a special example because it is isomorphic to the real dual of the underlying real vector space of 
+  
+    
+      
+        V
+        ,
+      
+    
+    {\displaystyle V,}
+  
+ 
+  
+    
+      
+        
+          
+            Hom
+          
+          
+            
+              R
+            
+          
+        
+        (
+        V
+        ,
+        
+          R
+        
+        )
+        .
+      
+    
+    {\displaystyle {\text{Hom}}_{\mathbb {R} }(V,\mathbb {R} ).}
+  
+ This is given by the map sending an anti-linear map 
+  
+    
+      
+        ℓ
+        :
+        V
+        →
+        
+          C
+        
+      
+    
+    {\displaystyle \ell :V\to \mathbb {C} }
+  
+to 
+  
+    
+      
+        Im
+        ⁡
+        (
+        ℓ
+        )
+        :
+        V
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle \operatorname {Im} (\ell ):V\to \mathbb {R} }
+  
+ In the other direction, there is the inverse map sending a real dual vector 
+  
+    
+      
+        λ
+        :
+        V
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle \lambda :V\to \mathbb {R} }
+  
+ to 
+  
+    
+      
+        ℓ
+        (
+        v
+        )
+        =
+        −
+        λ
+        (
+        i
+        v
+        )
+        +
+        i
+        λ
+        (
+        v
+        )
+      
+    
+    {\displaystyle \ell (v)=-\lambda (iv)+i\lambda (v)}
+  
+ giving the desired map.
+
+
+== Properties ==
+The composite of two antilinear maps is a linear map. The class of semilinear maps generalizes the class of antilinear maps by generalizing the field.
+
+
+== Anti-dual space ==
+The vector space of all antilinear forms on a vector space 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is called the algebraic anti-dual space of 
+  
+    
+      
+        X
+        .
+      
+    
+    {\displaystyle X.}
+  
+ If 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is a topological vector space, then the vector space of all continuous antilinear functionals on 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+ denoted by 
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+        ,
+      
+    
+    {\textstyle {\overline {X}}^{\prime },}
+  
+ is called the continuous anti-dual space or simply the anti-dual space of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ if no confusion can arise. 
+When 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ is a normed space then the canonical norm on the (continuous) anti-dual space 
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+        ,
+      
+    
+    {\textstyle {\overline {X}}^{\prime },}
+  
+ denoted by 
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+        ,
+      
+    
+    {\textstyle \|f\|_{{\overline {X}}^{\prime }},}
+  
+ is defined by using this same equation: 
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+         
+        :=
+         
+        
+          sup
+          
+            ‖
+            x
+            ‖
+            ≤
+            1
+            ,
+            x
+            ∈
+            X
+          
+        
+        
+          |
+        
+        f
+        (
+        x
+        )
+        
+          |
+        
+        
+        
+           for every 
+        
+        f
+        ∈
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+        .
+      
+    
+    {\displaystyle \|f\|_{{\overline {X}}^{\prime }}~:=~\sup _{\|x\|\leq 1,x\in X}|f(x)|\quad {\text{ for every }}f\in {\overline {X}}^{\prime }.}
+  
+ 
+This formula is identical to the formula for the dual norm on the continuous dual space 
+  
+    
+      
+        
+          X
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle X^{\prime }}
+  
+ of 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+ which is defined by
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+         
+        :=
+         
+        
+          sup
+          
+            ‖
+            x
+            ‖
+            ≤
+            1
+            ,
+            x
+            ∈
+            X
+          
+        
+        
+          |
+        
+        f
+        (
+        x
+        )
+        
+          |
+        
+        
+        
+           for every 
+        
+        f
+        ∈
+        
+          X
+          
+            ′
+          
+        
+        .
+      
+    
+    {\displaystyle \|f\|_{X^{\prime }}~:=~\sup _{\|x\|\leq 1,x\in X}|f(x)|\quad {\text{ for every }}f\in X^{\prime }.}
+  
+ 
+Canonical isometry between the dual and anti-dual
+The complex conjugate 
+  
+    
+      
+        
+          
+            f
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {f}}}
+  
+ of a functional 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ is defined by sending 
+  
+    
+      
+        x
+        ∈
+        domain
+        ⁡
+        f
+      
+    
+    {\displaystyle x\in \operatorname {domain} f}
+  
+ to 
+  
+    
+      
+        
+          
+            
+              f
+              (
+              x
+              )
+            
+            ¯
+          
+        
+        .
+      
+    
+    {\textstyle {\overline {f(x)}}.}
+  
+ It satisfies 
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+         
+        =
+         
+        
+          
+            ‖
+            
+              
+                f
+                ¯
+              
+            
+            ‖
+          
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+        
+        
+           and 
+        
+        
+        
+          
+            ‖
+            
+              
+                g
+                ¯
+              
+            
+            ‖
+          
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+         
+        =
+         
+        ‖
+        g
+        
+          ‖
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+      
+    
+    {\displaystyle \|f\|_{X^{\prime }}~=~\left\|{\overline {f}}\right\|_{{\overline {X}}^{\prime }}\quad {\text{ and }}\quad \left\|{\overline {g}}\right\|_{X^{\prime }}~=~\|g\|_{{\overline {X}}^{\prime }}}
+  
+
+for every 
+  
+    
+      
+        f
+        ∈
+        
+          X
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle f\in X^{\prime }}
+  
+ and every 
+  
+    
+      
+        g
+        ∈
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+        .
+      
+    
+    {\textstyle g\in {\overline {X}}^{\prime }.}
+  
+ 
+This says exactly that the canonical antilinear bijection defined by
+
+  
+    
+      
+        Cong
+        ⁡
+         
+        :
+         
+        
+          X
+          
+            ′
+          
+        
+        →
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+        
+        
+           where 
+        
+        
+        Cong
+        ⁡
+        (
+        f
+        )
+        :=
+        
+          
+            f
+            ¯
+          
+        
+      
+    
+    {\displaystyle \operatorname {Cong} ~:~X^{\prime }\to {\overline {X}}^{\prime }\quad {\text{ where }}\quad \operatorname {Cong} (f):={\overline {f}}}
+  
+ 
+as well as its inverse 
+  
+    
+      
+        
+          Cong
+          
+            −
+            1
+          
+        
+        ⁡
+         
+        :
+         
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+        →
+        
+          X
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle \operatorname {Cong} ^{-1}~:~{\overline {X}}^{\prime }\to X^{\prime }}
+  
+ are antilinear isometries and consequently also homeomorphisms. 
+If 
+  
+    
+      
+        
+          F
+        
+        =
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {F} =\mathbb {R} }
+  
+ then 
+  
+    
+      
+        
+          X
+          
+            ′
+          
+        
+        =
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle X^{\prime }={\overline {X}}^{\prime }}
+  
+ and this canonical map 
+  
+    
+      
+        Cong
+        :
+        
+          X
+          
+            ′
+          
+        
+        →
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle \operatorname {Cong} :X^{\prime }\to {\overline {X}}^{\prime }}
+  
+ reduces down to the identity map.
+Inner product spaces
+If 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is an inner product space then both the canonical norm on 
+  
+    
+      
+        
+          X
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle X^{\prime }}
+  
+ and on 
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle {\overline {X}}^{\prime }}
+  
+ satisfies the parallelogram law, which means that the polarization identity can be used to define a canonical inner product on 
+  
+    
+      
+        
+          X
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle X^{\prime }}
+  
+ and also on 
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+        ,
+      
+    
+    {\displaystyle {\overline {X}}^{\prime },}
+  
+ which this article will denote by the notations 
+
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        
+          ⟩
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+        :=
+        ⟨
+        g
+        ∣
+        f
+        
+          ⟩
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+        
+        
+           and 
+        
+        
+        ⟨
+        f
+        ,
+        g
+        
+          ⟩
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+        :=
+        ⟨
+        g
+        ∣
+        f
+        
+          ⟩
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+      
+    
+    {\displaystyle \langle f,g\rangle _{X^{\prime }}:=\langle g\mid f\rangle _{X^{\prime }}\quad {\text{ and }}\quad \langle f,g\rangle _{{\overline {X}}^{\prime }}:=\langle g\mid f\rangle _{{\overline {X}}^{\prime }}}
+  
+ 
+where this inner product makes 
+  
+    
+      
+        
+          X
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle X^{\prime }}
+  
+ and 
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle {\overline {X}}^{\prime }}
+  
+ into Hilbert spaces. 
+The inner products 
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        
+          ⟩
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+      
+    
+    {\textstyle \langle f,g\rangle _{X^{\prime }}}
+  
+ and 
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        
+          ⟩
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+      
+    
+    {\textstyle \langle f,g\rangle _{{\overline {X}}^{\prime }}}
+  
+ are antilinear in their second arguments. Moreover, the canonical norm induced by this inner product (that is, the norm defined by 
+  
+    
+      
+        f
+        ↦
+        
+          
+            
+              
+                ⟨
+                
+                  f
+                  ,
+                  f
+                
+                ⟩
+              
+              
+                
+                  X
+                  
+                    ′
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\textstyle f\mapsto {\sqrt {\left\langle f,f\right\rangle _{X^{\prime }}}}}
+  
+) is consistent with the dual norm (that is, as defined above by the supremum over the unit ball); explicitly, this means that the following holds for every 
+  
+    
+      
+        f
+        ∈
+        
+          X
+          
+            ′
+          
+        
+        :
+      
+    
+    {\displaystyle f\in X^{\prime }:}
+  
+
+  
+    
+      
+        
+          sup
+          
+            ‖
+            x
+            ‖
+            ≤
+            1
+            ,
+            x
+            ∈
+            X
+          
+        
+        
+          |
+        
+        f
+        (
+        x
+        )
+        
+          |
+        
+        =
+        ‖
+        f
+        
+          ‖
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+         
+        =
+         
+        
+          
+            ⟨
+            f
+            ,
+            f
+            
+              ⟩
+              
+                
+                  X
+                  
+                    ′
+                  
+                
+              
+            
+          
+        
+         
+        =
+         
+        
+          
+            ⟨
+            f
+            ∣
+            f
+            
+              ⟩
+              
+                
+                  X
+                  
+                    ′
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \sup _{\|x\|\leq 1,x\in X}|f(x)|=\|f\|_{X^{\prime }}~=~{\sqrt {\langle f,f\rangle _{X^{\prime }}}}~=~{\sqrt {\langle f\mid f\rangle _{X^{\prime }}}}.}
+  
+ 
+If 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is an inner product space then the inner products on the dual space 
+  
+    
+      
+        
+          X
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle X^{\prime }}
+  
+ and the anti-dual space 
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+        ,
+      
+    
+    {\textstyle {\overline {X}}^{\prime },}
+  
+ denoted respectively by 
+  
+    
+      
+        ⟨
+        
+        ⋅
+        
+        ,
+        
+        ⋅
+        
+        
+          ⟩
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+      
+    
+    {\textstyle \langle \,\cdot \,,\,\cdot \,\rangle _{X^{\prime }}}
+  
+ and 
+  
+    
+      
+        ⟨
+        
+        ⋅
+        
+        ,
+        
+        ⋅
+        
+        
+          ⟩
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+        ,
+      
+    
+    {\textstyle \langle \,\cdot \,,\,\cdot \,\rangle _{{\overline {X}}^{\prime }},}
+  
+ are related by
+  
+    
+      
+        ⟨
+        
+        
+          
+            f
+            ¯
+          
+        
+        
+        
+          |
+        
+        
+        
+          
+            g
+            ¯
+          
+        
+        
+        
+          ⟩
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+        =
+        
+          
+            
+              ⟨
+              
+              f
+              
+              
+                |
+              
+              
+              g
+              
+              
+                ⟩
+                
+                  
+                    X
+                    
+                      ′
+                    
+                  
+                
+              
+            
+            ¯
+          
+        
+        =
+        ⟨
+        
+        g
+        
+        
+          |
+        
+        
+        f
+        
+        
+          ⟩
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+        
+        
+           for all 
+        
+        f
+        ,
+        g
+        ∈
+        
+          X
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle \langle \,{\overline {f}}\,|\,{\overline {g}}\,\rangle _{{\overline {X}}^{\prime }}={\overline {\langle \,f\,|\,g\,\rangle _{X^{\prime }}}}=\langle \,g\,|\,f\,\rangle _{X^{\prime }}\qquad {\text{ for all }}f,g\in X^{\prime }}
+  
+
+and
+
+  
+    
+      
+        ⟨
+        
+        
+          
+            f
+            ¯
+          
+        
+        
+        
+          |
+        
+        
+        
+          
+            g
+            ¯
+          
+        
+        
+        
+          ⟩
+          
+            
+              X
+              
+                ′
+              
+            
+          
+        
+        =
+        
+          
+            
+              ⟨
+              
+              f
+              
+              
+                |
+              
+              
+              g
+              
+              
+                ⟩
+                
+                  
+                    
+                      
+                        X
+                        ¯
+                      
+                    
+                    
+                      ′
+                    
+                  
+                
+              
+            
+            ¯
+          
+        
+        =
+        ⟨
+        
+        g
+        
+        
+          |
+        
+        
+        f
+        
+        
+          ⟩
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                ′
+              
+            
+          
+        
+        
+        
+           for all 
+        
+        f
+        ,
+        g
+        ∈
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            ′
+          
+        
+        .
+      
+    
+    {\displaystyle \langle \,{\overline {f}}\,|\,{\overline {g}}\,\rangle _{X^{\prime }}={\overline {\langle \,f\,|\,g\,\rangle _{{\overline {X}}^{\prime }}}}=\langle \,g\,|\,f\,\rangle _{{\overline {X}}^{\prime }}\qquad {\text{ for all }}f,g\in {\overline {X}}^{\prime }.}
+  
+
+
+== See also ==
+Cauchy's functional equation – Functional equation
+Complex conjugate – Fundamental operation on complex numbers
+Complex conjugate vector space – Mathematics conceptPages displaying short descriptions of redirect targets
+Fundamental theorem of Hilbert spaces – On surjectivity of linear map to anti-dual
+Inner product space – Vector space with generalized dot product
+Linear map – Mathematical function, in linear algebra
+Matrix consimilarity
+Riesz representation theorem – Theorem about the dual of a Hilbert space
+Sesquilinear form – Generalization of complex inner products
+Time reversal – Time reversal symmetry in physics
+
+
+== Citations ==
+
+
+== References ==
+Budinich, P. and Trautman, A. The Spinorial Chessboard. Springer-Verlag, 1988. ISBN 0-387-19078-3. (antilinear maps are discussed in section 3.3).
+Horn and Johnson, Matrix Analysis, Cambridge University Press, 1985. ISBN 0-521-38632-2. (antilinear maps are discussed in section 4.6).
+Trèves, François (2006) [1967]. Topological Vector Spaces, Distributions and Kernels. Mineola, N.Y.: Dover Publications. ISBN 978-0-486-45352-1. OCLC 853623322.

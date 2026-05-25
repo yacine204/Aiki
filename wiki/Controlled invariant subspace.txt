@@ -1,0 +1,56 @@
+In control theory, a controlled invariant subspace of the state space representation of some system is a subspace. If the system's state is initially in the subspace, it can be controlled so that the state is always in the subspace. This concept was introduced by Giuseppe Basile and Giovanni Marro (Basile & Marro 1969).
+
+
+== Definition ==
+Consider a linear system described by the differential equation
+
+  
+    
+      
+        
+          
+            
+              
+                x
+              
+              ˙
+            
+          
+        
+        (
+        t
+        )
+        =
+        A
+        
+          x
+        
+        (
+        t
+        )
+        +
+        B
+        
+          u
+        
+        (
+        t
+        )
+        .
+      
+    
+    {\displaystyle {\dot {\mathbf {x} }}(t)=A\mathbf {x} (t)+B\mathbf {u} (t).}
+  
+
+Here, x(t) ∈ Rn denotes the system's state, and u(t) ∈ Rp is the input. The matrices A and B have sizes n × n and n × p, respectively.
+A subspace V ⊂ Rn is a controlled invariant subspace if, for any x(0) ∈ V, there is an input u(t) such that x(t) ∈ V for all nonnegative t.
+
+
+== Properties ==
+A subspace V ⊂ Rn is a controlled invariant subspace if and only if AV ⊂ V + Im B. If V is a controlled invariant subspace, then there exists a matrix K such that the input u(t) = Kx(t) keeps the state within V; this is a simple feedback control (Ghosh 1985, Thm 1.1).
+
+
+== References ==
+Basile, Giuseppe; Marro, Giovanni (1969), "Controlled and conditioned invariant subspaces in linear system theory", Journal of Optimization Theory and Applications, 3 (5): 306–315, doi:10.1007/BF00931370, S2CID 120847885.
+Ghosh, Bijoy K. (1985), "Controlled invariant and feedback controlled invariant subspaces in the design of a generalized dynamical system", Proceedings of the 24th IEEE Conference on Decision and Control, IEEE, pp. 872–873, doi:10.1109/CDC.1985.268620, S2CID 9644586.
+Basile, Giuseppe; Marro, Giovanni (1992), Controlled and Conditioned Invariants in Linear System Theory, Englewood Cliffs : Prentice-Hall.

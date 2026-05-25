@@ -1,0 +1,41 @@
+C/2017 K2 (PanSTARRS) is an Oort cloud comet with an inbound hyperbolic orbit, discovered in May 2017 at a distance beyond the orbit of Saturn when it was 16 AU (2.4 billion km) from the Sun.
+
+
+== Observational history ==
+The comet was discovered in images obtained on 21 May 2017 by the PanSTARRS survey and its 1.8-m Ritchey-Chretien telescope located at Haleakala, Hawaii. Upon discovery the comet had an apparent magnitude of about 21. Further observations indicated a magnitude of 19.5.
+Precovery images taken from 2013 were located by July 2017. It had been in the constellation of Draco from July 2007 until August 2020.
+As the comet  was approaching it brightened quickly between 4.3 AU and 2.7 AU from the Sun (360 to 160 days before perihelion), as the water-ice sublimation started, which lead to increased dust production. As the comet approached perihelion, between 130 and 50 days before perihelion, the activity reached a plateau, and the comet ended being dimmer than expected.
+The closest approach to Earth took place on 15 July 2022, at a distance of 1.81 astronomical units (271,000,000 km; 168,000,000 mi), when the comet appeared close to the globular cluster Messier 10. The comet at that point had a dust tail about one degree long. The comet passed perihelion on 19 December 2022, located in the constellation of Ara, near the borders with Pavo. It had an apparent magnitude of 8.5, visible through good binoculars under dark skies.
+Post perihelion the comet faded fast and at a consistent rate.
+
+
+== Physical characteristics ==
+The comet is record breaking because it was already becoming active at such a distance. Only Comet Hale–Bopp produced such a show from that distance. However, this comet will not be as visible as Hale–Bopp was in 1997 in part because it does not come nearly as close to the Sun. Astronomers had never seen an active inbound comet this far out, where sunlight is 1/225th its brightness as seen from Earth. Temperatures, correspondingly, are at −262.2 °C (−440 °F) in the Oort cloud. However, as it was approaching the Sun at a distance of 16 AU at discovery, a mix of ancient ices on the surface containing oxygen, nitrogen, carbon dioxide and carbon monoxide began to sublimate and shed the dust frozen into it. This material expands into a vast 130,000 km (81,000 mi) wide halo of dust, called a coma, enveloping the solid nucleus. Outgassing of carbon monoxide was detected when the comet was 6.72 AU (1,005 million km) from the Sun.
+Research with the Canada–France–Hawaii Telescope (CFHT) infered in 2017 the comet nucleus to have a radius between 14–80 km (8.7–49.7 mi), so there is a chance the nucleus could be as large as comet Hale–Bopp. However, research with the Hubble Space Telescope (HST) estimates the nucleus to have a circular equivalent diameter of less than 18 km (11 mi). Near-infrared observations conducted by the James Webb Space Telescope in 2023 revealed a much smaller nucleus, estimated to be less than 8.4 km (5.2 mi) in diameter. 
+The activity of the comet before reaching within 3 AU from the Sun was mostly driven by carbon monoxide and dioxide sublimation. There was a drop in the brightness and dust production between –260 and –170 days of perihelion. The observed trends suggest that the temporary halt in activity was due to the depletion of hypervolatiles in the near-surface layers, and the activity resumed as water sublimation became dominant near perihelion. The switch from a CO2 domination to an H2O dominated coma is also clear from the change of the color of the comet towards less green as the comet crossed the water-ice sublimation. The production rates indicate a typical C2/CN composition and a high dust-to-gas ratio.
+On 17 September 2020, morphological studies of the inner coma, observed on 12 September 2020, were reported, noting that two jet-streamed structure were emitted from the nucleus and, as well, that the length of the tail was about 800,000 km (500,000 mi) long. On 27 July 2021, further detailed observations of the comet about its jet-shaped dust emissions were reported on The Astronomer's Telegram, noting that their appearance was stable over a period of 33 months. The brighter jet showed an oscillation over a period of 156 days, indicating a very slow rotational period. The rotational period of the comet was estimated to be 14.24 hours and its pole pointing towards the ecliptic coordinates 244°, -20°.
+
+
+== Orbit ==
+The comet was within 5 AU (750 million km) of Earth by 11 January 2022. Around 6 July 2022, the comet crossed the celestial equator, and then on 14 July 2022, it passed 1.8 AU (270 million km) from Earth and shone around 9.0 magnitude making it a decent binoculars object. It reached perihelion on 19 December 2022, close to the orbit of Mars, and was not visible to naked eye at 8.0 magnitude.
+JPL Horizons models that C/2017 K2 took millions of years to come from the Oort cloud at a distance of roughly 50,000 AU (0.79 ly). The heliocentric orbital eccentricity drops below 1 in December 2023. The outbound orbital period will be around 25,800 years with aphelion being around 1,750 AU (262 billion km). There was a dispute whether that was the first time the comet entered the inner Solar System, but its orbit suggests that the comet is not dynamically new and there is a 29% chance that the comet is of interstellar origin and was captured by the Solar System within the last 3 million years.
+
+
+== Gallery ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+
+C/2017 K2 at the JPL Small-Body Database
+C/2017 K2 (PANSTARRS) Taken by ALBERTO QUIJANO VODNIZA on August 9, 2022 @ PASTO,NARINO. COLOMBIA
+MPEC 2017-K90 : COMET C/2017 K2 (PANSTARRS)
+NASA's Hubble Observes the Farthest Active Inbound Comet Yet Seen
+Note on the dynamical evolution of C/2017 K2 PANSTARRS (arXiv 2018)
+C/2017 K2  EarthSky July 12, 2022
+C/2017 K2 (PANSTARRS) motion as seen by Catalina Sky Survey 22 August 2020

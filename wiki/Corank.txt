@@ -1,0 +1,94 @@
+In mathematics, corank is complementary to the concept of the rank of a mathematical object, and may refer to the dimension of the left nullspace of a matrix, the dimension of the cokernel of a linear transformation of a vector space, or the number of elements of a matroid minus its rank.
+
+
+== Left nullspace of a matrix ==
+The corank of an 
+  
+    
+      
+        m
+        ×
+        n
+      
+    
+    {\displaystyle m\times n}
+  
+ matrix is 
+  
+    
+      
+        m
+        −
+        r
+      
+    
+    {\displaystyle m-r}
+  
+ where 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+  
+ is the rank of the matrix. It is the dimension of the left nullspace and of the cokernel of the matrix. For a square matrix 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+, the corank and nullity of 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+ are equivalent.
+
+
+== Cokernel of a linear transformation ==
+Generalizing matrices to linear transformations of vector spaces, the corank of a linear transformation is the dimension of the cokernel of the transformation, which is the quotient of the codomain by the image of the transformation.
+
+
+== Matroid ==
+For a matroid with 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ elements and matroid rank 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+  
+, the corank or nullity of the matroid is 
+  
+    
+      
+        n
+        −
+        r
+      
+    
+    {\displaystyle n-r}
+  
+. In the case of linear matroids this coincides with the matrix corank. In the case of graphic matroids the corank is also known as the circuit rank or cyclomatic number.
+
+
+== References ==

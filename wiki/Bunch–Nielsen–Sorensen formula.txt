@@ -1,0 +1,333 @@
+In mathematics, in particular linear algebra, the Bunch–Nielsen–Sorensen formula, named after James R. Bunch, Christopher P. Nielsen and Danny C. Sorensen, expresses the eigenvectors of the sum of a symmetric matrix 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ and the outer product, 
+  
+    
+      
+        v
+        
+          v
+          
+            T
+          
+        
+      
+    
+    {\displaystyle vv^{T}}
+  
+, of vector 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ with itself.
+
+
+== Statement ==
+Let 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+  
+ denote the eigenvalues of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ and 
+  
+    
+      
+        
+          
+            
+              
+                λ
+                ~
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\tilde {\lambda }}_{i}}
+  
+ denote the eigenvalues of the updated matrix 
+  
+    
+      
+        
+          
+            
+              A
+              ~
+            
+          
+        
+        =
+        A
+        +
+        v
+        
+          v
+          
+            T
+          
+        
+      
+    
+    {\displaystyle {\tilde {A}}=A+vv^{T}}
+  
+.  In the special case when 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ is diagonal, the eigenvectors 
+  
+    
+      
+        
+          
+            
+              
+                q
+                ~
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\tilde {q}}_{i}}
+  
+ of 
+  
+    
+      
+        
+          
+            
+              A
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle {\tilde {A}}}
+  
+ can be written
+
+  
+    
+      
+        (
+        
+          
+            
+              
+                q
+                ~
+              
+            
+          
+          
+            i
+          
+        
+        
+          )
+          
+            k
+          
+        
+        =
+        
+          
+            
+              
+                N
+                
+                  i
+                
+              
+              
+                v
+                
+                  k
+                
+              
+            
+            
+              
+                λ
+                
+                  k
+                
+              
+              −
+              
+                
+                  
+                    
+                      λ
+                      ~
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle ({\tilde {q}}_{i})_{k}={\frac {N_{i}v_{k}}{\lambda _{k}-{\tilde {\lambda }}_{i}}}}
+  
+
+where 
+  
+    
+      
+        
+          N
+          
+            i
+          
+        
+      
+    
+    {\displaystyle N_{i}}
+  
+ is a number that makes the vector 
+  
+    
+      
+        
+          
+            
+              
+                q
+                ~
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\tilde {q}}_{i}}
+  
+ normalized.
+
+
+== Derivation ==
+This formula can be derived from the Sherman–Morrison formula by examining the poles of 
+  
+    
+      
+        (
+        A
+        −
+        
+          
+            
+              λ
+              ~
+            
+          
+        
+        I
+        +
+        v
+        
+          v
+          
+            T
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle (A-{\tilde {\lambda }}I+vv^{T})^{-1}}
+  
+.
+
+
+== Remarks ==
+The eigenvalues of 
+  
+    
+      
+        
+          
+            
+              A
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle {\tilde {A}}}
+  
+ were studied by Golub.
+Numerical stability of the computation is studied by Gu and Eisenstat.
+
+
+== See also ==
+Sherman–Morrison formula
+
+
+== References ==
+
+
+== External links ==
+Rank-One Modification of the Symmetric Eigenproblem at EUDML
+Some Modified Matrix Eigenvalue Problems
+A Stable and Efficient Algorithm for the Rank-One Modification of the Symmetric Eigenproblem

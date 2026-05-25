@@ -1,0 +1,4889 @@
+The Cauchy–Schwarz inequality (also called Cauchy–Bunyakovsky–Schwarz inequality) is an upper bound on the absolute value of the inner product between two vectors in an inner product space in terms of the product of the vector norms. It is considered one of the most important and widely used inequalities in mathematics.
+Inner products of vectors can describe finite sums (via finite-dimensional vector spaces), infinite series (via vectors in sequence spaces), and integrals (via vectors in Hilbert spaces). The inequality for sums was published by Augustin-Louis Cauchy (1821). The corresponding inequality for integrals was published by Viktor Bunyakovsky (1859) and Hermann Schwarz (1888). Schwarz gave the modern proof of the integral version.
+
+
+== Statement of the inequality ==
+The Cauchy–Schwarz inequality states that for all vectors 
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  
+ and 
+  
+    
+      
+        
+          v
+        
+      
+    
+    {\displaystyle \mathbf {v} }
+  
+ of an inner product space
+
+where 
+  
+    
+      
+        ⟨
+        ⋅
+        ,
+        ⋅
+        ⟩
+      
+    
+    {\displaystyle \langle \cdot ,\cdot \rangle }
+  
+ is the inner product. Examples of inner products include the real and complex dot product; see the examples in inner product. Every inner product gives rise to a Euclidean 
+  
+    
+      
+        
+          ℓ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \ell _{2}}
+  
+ norm, called the canonical or induced norm, where the norm of a vector 
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  
+ is denoted and defined by
+
+  
+    
+      
+        ‖
+        
+          u
+        
+        ‖
+        :=
+        
+          
+            ⟨
+            
+              u
+            
+            ,
+            
+              u
+            
+            ⟩
+          
+        
+        ,
+      
+    
+    {\displaystyle \|\mathbf {u} \|:={\sqrt {\langle \mathbf {u} ,\mathbf {u} \rangle }},}
+  
+ where 
+  
+    
+      
+        ⟨
+        
+          u
+        
+        ,
+        
+          u
+        
+        ⟩
+      
+    
+    {\displaystyle \langle \mathbf {u} ,\mathbf {u} \rangle }
+  
+ is always a non-negative real number (even if the inner product is complex-valued). 
+By taking the square root of both sides of the above inequality, the Cauchy–Schwarz inequality can be written in its more familiar form in terms of the norm:
+
+Moreover, the two sides are equal if and only if 
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  
+ and 
+  
+    
+      
+        
+          v
+        
+      
+    
+    {\displaystyle \mathbf {v} }
+  
+ are linearly dependent.
+
+
+== Special cases ==
+
+
+=== Sedrakyan's lemma – positive real numbers ===
+Sedrakyan's inequality, also known as Bergström's inequality, Engel's form, Titu's lemma (or the T2 lemma), states that for real numbers 
+  
+    
+      
+        
+          u
+          
+            1
+          
+        
+        ,
+        
+          u
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          u
+          
+            n
+          
+        
+      
+    
+    {\displaystyle u_{1},u_{2},\dots ,u_{n}}
+  
+ and positive real numbers 
+  
+    
+      
+        
+          v
+          
+            1
+          
+        
+        ,
+        
+          v
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          v
+          
+            n
+          
+        
+      
+    
+    {\displaystyle v_{1},v_{2},\dots ,v_{n}}
+  
+:
+
+  
+    
+      
+        
+          
+            
+              
+                (
+                
+                  
+                    u
+                    
+                      1
+                    
+                  
+                  +
+                  
+                    u
+                    
+                      2
+                    
+                  
+                  +
+                  ⋯
+                  +
+                  
+                    u
+                    
+                      n
+                    
+                  
+                
+                )
+              
+              
+                2
+              
+            
+            
+              
+                v
+                
+                  1
+                
+              
+              +
+              
+                v
+                
+                  2
+                
+              
+              +
+              ⋯
+              +
+              
+                v
+                
+                  n
+                
+              
+            
+          
+        
+        ≤
+        
+          
+            
+              u
+              
+                1
+              
+              
+                2
+              
+            
+            
+              v
+              
+                1
+              
+            
+          
+        
+        +
+        
+          
+            
+              u
+              
+                2
+              
+              
+                2
+              
+            
+            
+              v
+              
+                2
+              
+            
+          
+        
+        +
+        ⋯
+        +
+        
+          
+            
+              u
+              
+                n
+              
+              
+                2
+              
+            
+            
+              v
+              
+                n
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\left(u_{1}+u_{2}+\cdots +u_{n}\right)^{2}}{v_{1}+v_{2}+\cdots +v_{n}}}\leq {\frac {u_{1}^{2}}{v_{1}}}+{\frac {u_{2}^{2}}{v_{2}}}+\cdots +{\frac {u_{n}^{2}}{v_{n}}},}
+  
+
+or, using summation notation,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  (
+                  
+                    
+                      ∑
+                      
+                        i
+                        =
+                        1
+                      
+                      
+                        n
+                      
+                    
+                    
+                      u
+                      
+                        i
+                      
+                    
+                  
+                  )
+                
+                
+                  2
+                
+              
+              
+                
+                  ∑
+                  
+                    i
+                    =
+                    1
+                  
+                  
+                    n
+                  
+                
+                
+                  v
+                  
+                    i
+                  
+                
+              
+            
+          
+        
+        ≤
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            
+              u
+              
+                i
+              
+              
+                2
+              
+            
+            
+              v
+              
+                i
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\dfrac {\left(\sum \limits _{i=1}^{n}u_{i}\right)^{2}}{\sum \limits _{i=1}^{n}v_{i}}}\leq \sum _{i=1}^{n}{\frac {u_{i}^{2}}{v_{i}}}.}
+  
+
+It is a direct consequence of the Cauchy–Schwarz inequality, obtained by using the dot product on 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  
+ upon substituting 
+  
+    
+      
+        
+          u
+          
+            i
+          
+          ′
+        
+        =
+        
+          
+            
+              u
+              
+                i
+              
+            
+            
+              
+                v
+                
+                  i
+                
+              
+              
+                
+                  
+                    
+                      t
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle u_{i}'={\frac {u_{i}}{\sqrt {v_{i}{\vphantom {t}}}}}}
+  
+ and 
+  
+    
+      
+        
+          v
+          
+            i
+          
+          ′
+        
+        =
+        
+          
+            
+              
+                
+                  v
+                  
+                    i
+                  
+                
+                
+                  
+                    
+                      
+                        t
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle v_{i}'={\textstyle {\sqrt {v_{i}{\vphantom {t}}}}}}
+  
+. This form is especially helpful when the inequality involves fractions where the numerator is a perfect square.
+
+
+=== R2 - The plane ===
+
+The real vector space 
+  
+    
+      
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{2}}
+  
+ denotes the 2-dimensional plane. It is also the 2-dimensional Euclidean space where the inner product is the dot product. 
+If 
+  
+    
+      
+        
+          u
+        
+        =
+        (
+        
+          u
+          
+            1
+          
+        
+        ,
+        
+          u
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {u} =(u_{1},u_{2})}
+  
+ and 
+  
+    
+      
+        
+          v
+        
+        =
+        (
+        
+          v
+          
+            1
+          
+        
+        ,
+        
+          v
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {v} =(v_{1},v_{2})}
+  
+ then the Cauchy–Schwarz inequality becomes:
+
+  
+    
+      
+        ⟨
+        
+          u
+        
+        ,
+        
+          v
+        
+        
+          ⟩
+          
+            2
+          
+        
+        =
+        
+          
+            (
+          
+        
+        ‖
+        
+          u
+        
+        ‖
+        ‖
+        
+          v
+        
+        ‖
+        cos
+        ⁡
+        θ
+        
+          
+            
+              )
+            
+          
+          
+            2
+          
+        
+        ≤
+        ‖
+        
+          u
+        
+        
+          ‖
+          
+            2
+          
+        
+        ‖
+        
+          v
+        
+        
+          ‖
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle \langle \mathbf {u} ,\mathbf {v} \rangle ^{2}={\bigl (}\|\mathbf {u} \|\|\mathbf {v} \|\cos \theta {\bigr )}^{2}\leq \|\mathbf {u} \|^{2}\|\mathbf {v} \|^{2},}
+  
+
+where 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ is the angle between 
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  
+ and 
+  
+    
+      
+        
+          v
+        
+      
+    
+    {\displaystyle \mathbf {v} }
+  
+.
+The form presented here is perhaps the easiest in which to understand the inequality, as the square of the cosine can be at most 1, which occurs when the vectors are in the same or opposite directions. It can also be restated in terms of the vector coordinates 
+  
+    
+      
+        
+          u
+          
+            1
+          
+        
+      
+    
+    {\displaystyle u_{1}}
+  
+, 
+  
+    
+      
+        
+          u
+          
+            2
+          
+        
+      
+    
+    {\displaystyle u_{2}}
+  
+, 
+  
+    
+      
+        
+          v
+          
+            1
+          
+        
+      
+    
+    {\displaystyle v_{1}}
+  
+, and 
+  
+    
+      
+        
+          v
+          
+            2
+          
+        
+      
+    
+    {\displaystyle v_{2}}
+  
+ as
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                u
+                
+                  1
+                
+              
+              
+                v
+                
+                  1
+                
+              
+              +
+              
+                u
+                
+                  2
+                
+              
+              
+                v
+                
+                  2
+                
+              
+            
+            )
+          
+          
+            2
+          
+        
+        ≤
+        
+          (
+          
+            
+              u
+              
+                1
+              
+              
+                2
+              
+            
+            +
+            
+              u
+              
+                2
+              
+              
+                2
+              
+            
+          
+          )
+        
+        
+          (
+          
+            
+              v
+              
+                1
+              
+              
+                2
+              
+            
+            +
+            
+              v
+              
+                2
+              
+              
+                2
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \left(u_{1}v_{1}+u_{2}v_{2}\right)^{2}\leq \left(u_{1}^{2}+u_{2}^{2}\right)\left(v_{1}^{2}+v_{2}^{2}\right),}
+  
+
+where equality holds if and only if the vector 
+  
+    
+      
+        
+          (
+          
+            
+              u
+              
+                1
+              
+            
+            ,
+            
+              u
+              
+                2
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \left(u_{1},u_{2}\right)}
+  
+ is in the same or opposite direction as the vector 
+  
+    
+      
+        
+          (
+          
+            
+              v
+              
+                1
+              
+            
+            ,
+            
+              v
+              
+                2
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \left(v_{1},v_{2}\right)}
+  
+, or if one of them is the zero vector.
+
+
+=== Rn: n-dimensional Euclidean space ===
+In Euclidean space 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  
+ with the standard inner product, which is the dot product, the Cauchy–Schwarz inequality becomes:
+
+  
+    
+      
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          u
+          
+            i
+          
+        
+        
+          v
+          
+            i
+          
+        
+        
+          
+            
+              )
+            
+          
+          
+            2
+          
+        
+        ≤
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          u
+          
+            i
+          
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          v
+          
+            i
+          
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle {\biggl (}\sum _{i=1}^{n}u_{i}v_{i}{\biggr )}^{2}\leq {\biggl (}\sum _{i=1}^{n}u_{i}^{2}{\biggr )}{\biggl (}\sum _{i=1}^{n}v_{i}^{2}{\biggr )}.}
+  
+
+The Cauchy–Schwarz inequality can be proved using only elementary algebra in this case by observing that the difference of the right and the left hand side is 
+
+  
+    
+      
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          u
+          
+            i
+          
+        
+        
+          v
+          
+            j
+          
+        
+        −
+        
+          u
+          
+            j
+          
+        
+        
+          v
+          
+            i
+          
+        
+        
+          )
+          
+            2
+          
+        
+        ≥
+        0
+      
+    
+    {\displaystyle {\tfrac {1}{2}}\sum _{i=1}^{n}\sum _{j=1}^{n}(u_{i}v_{j}-u_{j}v_{i})^{2}\geq 0}
+  
+ 
+or by considering the following quadratic polynomial in 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+
+  
+    
+      
+        (
+        
+          u
+          
+            1
+          
+        
+        x
+        +
+        
+          v
+          
+            1
+          
+        
+        
+          )
+          
+            2
+          
+        
+        +
+        ⋯
+        +
+        (
+        
+          u
+          
+            n
+          
+        
+        x
+        +
+        
+          v
+          
+            n
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            i
+          
+        
+        
+          u
+          
+            i
+          
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        
+          x
+          
+            2
+          
+        
+        +
+        2
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            i
+          
+        
+        
+          u
+          
+            i
+          
+        
+        
+          v
+          
+            i
+          
+        
+        
+          
+            )
+          
+        
+        x
+        +
+        
+          ∑
+          
+            i
+          
+        
+        
+          v
+          
+            i
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle (u_{1}x+v_{1})^{2}+\cdots +(u_{n}x+v_{n})^{2}={\biggl (}\sum _{i}u_{i}^{2}{\biggr )}x^{2}+2{\biggl (}\sum _{i}u_{i}v_{i}{\biggr )}x+\sum _{i}v_{i}^{2}.}
+  
+
+Since the latter polynomial is nonnegative, it has at most one real root, hence its discriminant is less than or equal to zero. That is,
+
+  
+    
+      
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            i
+          
+        
+        
+          u
+          
+            i
+          
+        
+        
+          v
+          
+            i
+          
+        
+        
+          
+            
+              )
+            
+          
+          
+            2
+          
+        
+        −
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            i
+          
+        
+        
+          
+            u
+            
+              i
+            
+            
+              2
+            
+          
+        
+        
+          
+            )
+          
+        
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            i
+          
+        
+        
+          
+            v
+            
+              i
+            
+            
+              2
+            
+          
+        
+        
+          
+            )
+          
+        
+        ≤
+        0.
+      
+    
+    {\displaystyle {\biggl (}\sum _{i}u_{i}v_{i}{\biggr )}^{2}-{\biggl (}\sum _{i}{u_{i}^{2}}{\biggr )}{\biggl (}\sum _{i}{v_{i}^{2}}{\biggr )}\leq 0.}
+  
+
+
+=== Cn: n-dimensional complex space ===
+If 
+  
+    
+      
+        
+          u
+        
+        ,
+        
+          v
+        
+        ∈
+        
+          
+            C
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbf {u} ,\mathbf {v} \in \mathbb {C} ^{n}}
+  
+ with 
+  
+    
+      
+        
+          u
+        
+        =
+        (
+        
+          u
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          u
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {u} =(u_{1},\ldots ,u_{n})}
+  
+ and 
+  
+    
+      
+        
+          v
+        
+        =
+        (
+        
+          v
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          v
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {v} =(v_{1},\ldots ,v_{n})}
+  
+ (where 
+  
+    
+      
+        
+          u
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          u
+          
+            n
+          
+        
+        ∈
+        
+          C
+        
+      
+    
+    {\displaystyle u_{1},\ldots ,u_{n}\in \mathbb {C} }
+  
+ and 
+  
+    
+      
+        
+          v
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          v
+          
+            n
+          
+        
+        ∈
+        
+          C
+        
+      
+    
+    {\displaystyle v_{1},\ldots ,v_{n}\in \mathbb {C} }
+  
+) and if the inner product on the vector space 
+  
+    
+      
+        
+          
+            C
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {C} ^{n}}
+  
+ is the canonical complex inner product (defined by 
+  
+    
+      
+        ⟨
+        
+          u
+        
+        ,
+        
+          v
+        
+        ⟩
+        :=
+        
+          u
+          
+            1
+          
+        
+        
+          
+            
+              v
+              
+                1
+              
+            
+            ¯
+          
+        
+        +
+        ⋯
+        +
+        
+          u
+          
+            n
+          
+        
+        
+          
+            
+              v
+              
+                n
+              
+            
+            ¯
+          
+        
+        ,
+      
+    
+    {\displaystyle \langle \mathbf {u} ,\mathbf {v} \rangle :=u_{1}{\overline {v_{1}}}+\cdots +u_{n}{\overline {v_{n}}},}
+  
+ where the bar notation is used for complex conjugation), then the inequality may be restated more explicitly as follows: 
+
+  
+    
+      
+        
+          
+            |
+          
+        
+        ⟨
+        
+          u
+        
+        ,
+        
+          v
+        
+        ⟩
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        =
+        
+          
+            |
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          u
+          
+            k
+          
+        
+        
+          
+            
+              
+                v
+                ¯
+              
+            
+          
+          
+            k
+          
+        
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        ≤
+        ⟨
+        
+          u
+        
+        ,
+        
+          u
+        
+        ⟩
+        ⟨
+        
+          v
+        
+        ,
+        
+          v
+        
+        ⟩
+        =
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          u
+          
+            k
+          
+        
+        
+          
+            
+              
+                u
+                ¯
+              
+            
+          
+          
+            k
+          
+        
+        
+          
+            )
+          
+        
+        
+          
+            (
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          v
+          
+            k
+          
+        
+        
+          
+            
+              
+                v
+                ¯
+              
+            
+          
+          
+            k
+          
+        
+        
+          
+            )
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          |
+        
+        
+          u
+          
+            j
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          |
+        
+        
+          v
+          
+            k
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle {\bigl |}\langle \mathbf {u} ,\mathbf {v} \rangle {\bigr |}^{2}={\Biggl |}\sum _{k=1}^{n}u_{k}{\bar {v}}_{k}{\Biggr |}^{2}\leq \langle \mathbf {u} ,\mathbf {u} \rangle \langle \mathbf {v} ,\mathbf {v} \rangle ={\biggl (}\sum _{k=1}^{n}u_{k}{\bar {u}}_{k}{\biggr )}{\biggl (}\sum _{k=1}^{n}v_{k}{\bar {v}}_{k}{\biggr )}=\sum _{j=1}^{n}|u_{j}|^{2}\sum _{k=1}^{n}|v_{k}|^{2}.}
+  
+
+That is,
+
+  
+    
+      
+        
+          
+            |
+          
+        
+        
+          u
+          
+            1
+          
+        
+        
+          
+            
+              
+                v
+                ¯
+              
+            
+          
+          
+            1
+          
+        
+        +
+        ⋯
+        +
+        
+          u
+          
+            n
+          
+        
+        
+          
+            
+              
+                v
+                ¯
+              
+            
+          
+          
+            n
+          
+        
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        ≤
+        
+          
+            (
+          
+        
+        
+          |
+        
+        
+          u
+          
+            1
+          
+        
+        
+          |
+        
+        
+          
+
+          
+          
+            2
+          
+        
+        +
+        ⋯
+        +
+        
+          |
+        
+        
+          u
+          
+            n
+          
+        
+        
+          |
+        
+        
+          
+
+          
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        
+          
+            (
+          
+        
+        
+          |
+        
+        
+          v
+          
+            1
+          
+        
+        
+          |
+        
+        
+          
+
+          
+          
+            2
+          
+        
+        +
+        ⋯
+        +
+        
+          |
+        
+        
+          v
+          
+            n
+          
+        
+        
+          |
+        
+        
+          
+
+          
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle {\bigl |}u_{1}{\bar {v}}_{1}+\cdots +u_{n}{\bar {v}}_{n}{\bigr |}^{2}\leq {\bigl (}|u_{1}|{}^{2}+\cdots +|u_{n}|{}^{2}{\bigr )}{\bigl (}|v_{1}|{}^{2}+\cdots +|v_{n}|{}^{2}{\bigr )}.}
+  
+
+
+=== L2 ===
+For the inner product space of square-integrable complex-valued functions, the following inequality holds.
+
+  
+    
+      
+        
+          
+            |
+            
+              
+                ∫
+                
+                  
+                    
+                      R
+                    
+                    
+                      n
+                    
+                  
+                
+              
+              f
+              (
+              x
+              )
+              
+                
+                  
+                    g
+                    (
+                    x
+                    )
+                  
+                  ¯
+                
+              
+              
+              d
+              x
+            
+            |
+          
+          
+            2
+          
+        
+        ≤
+        
+          ∫
+          
+            
+              
+                R
+              
+              
+                n
+              
+            
+          
+        
+        
+          
+            |
+          
+        
+        f
+        (
+        x
+        )
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        
+        d
+        x
+        
+          ∫
+          
+            
+              
+                R
+              
+              
+                n
+              
+            
+          
+        
+        
+          
+            |
+          
+        
+        g
+        (
+        x
+        )
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        
+        d
+        x
+        .
+      
+    
+    {\displaystyle \left|\int _{\mathbb {R} ^{n}}f(x){\overline {g(x)}}\,dx\right|^{2}\leq \int _{\mathbb {R} ^{n}}{\bigl |}f(x){\bigr |}^{2}\,dx\int _{\mathbb {R} ^{n}}{\bigl |}g(x){\bigr |}^{2}\,dx.}
+  
+
+The Hölder inequality is a generalization of this.
+
+
+== Applications ==
+
+
+=== Analysis ===
+In any inner product space, the triangle inequality is a consequence of the Cauchy–Schwarz inequality, as is now shown: 
+
+  
+    
+      
+        
+          
+            
+              
+                ‖
+                
+                  u
+                
+                +
+                
+                  v
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                ⟨
+                
+                  u
+                
+                +
+                
+                  v
+                
+                ,
+                
+                  u
+                
+                +
+                
+                  v
+                
+                ⟩
+              
+              
+              
+            
+            
+              
+              
+                
+                =
+                ‖
+                
+                  u
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                +
+                ⟨
+                
+                  u
+                
+                ,
+                
+                  v
+                
+                ⟩
+                +
+                ⟨
+                
+                  v
+                
+                ,
+                
+                  u
+                
+                ⟩
+                +
+                ‖
+                
+                  v
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                 
+              
+              
+              
+                 
+                
+                   where 
+                
+                ⟨
+                
+                  v
+                
+                ,
+                
+                  u
+                
+                ⟩
+                =
+                
+                  
+                    
+                      ⟨
+                      
+                        u
+                      
+                      ,
+                      
+                        v
+                      
+                      ⟩
+                    
+                    ¯
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                ‖
+                
+                  u
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                +
+                2
+                Re
+                ⁡
+                ⟨
+                
+                  u
+                
+                ,
+                
+                  v
+                
+                ⟩
+                +
+                ‖
+                
+                  v
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+              
+              
+              
+            
+            
+              
+              
+                
+                ≤
+                ‖
+                
+                  u
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                +
+                2
+                
+                  |
+                
+                ⟨
+                
+                  u
+                
+                ,
+                
+                  v
+                
+                ⟩
+                
+                  |
+                
+                +
+                ‖
+                
+                  v
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+              
+              
+              
+            
+            
+              
+              
+                
+                ≤
+                ‖
+                
+                  u
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                +
+                2
+                ‖
+                
+                  u
+                
+                ‖
+                ‖
+                
+                  v
+                
+                ‖
+                +
+                ‖
+                
+                  v
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                 
+              
+              
+              
+                 
+                
+                   using CS
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    (
+                  
+                
+                ‖
+                
+                  u
+                
+                ‖
+                +
+                ‖
+                
+                  v
+                
+                ‖
+                
+                  
+                    
+                      )
+                    
+                  
+                  
+                    2
+                  
+                
+                .
+              
+              
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{alignedat}{4}\|\mathbf {u} +\mathbf {v} \|^{2}&=\langle \mathbf {u} +\mathbf {v} ,\mathbf {u} +\mathbf {v} \rangle &&\\&=\|\mathbf {u} \|^{2}+\langle \mathbf {u} ,\mathbf {v} \rangle +\langle \mathbf {v} ,\mathbf {u} \rangle +\|\mathbf {v} \|^{2}~&&~{\text{ where }}\langle \mathbf {v} ,\mathbf {u} \rangle ={\overline {\langle \mathbf {u} ,\mathbf {v} \rangle }}\\&=\|\mathbf {u} \|^{2}+2\operatorname {Re} \langle \mathbf {u} ,\mathbf {v} \rangle +\|\mathbf {v} \|^{2}&&\\&\leq \|\mathbf {u} \|^{2}+2|\langle \mathbf {u} ,\mathbf {v} \rangle |+\|\mathbf {v} \|^{2}&&\\&\leq \|\mathbf {u} \|^{2}+2\|\mathbf {u} \|\|\mathbf {v} \|+\|\mathbf {v} \|^{2}~&&~{\text{ using CS}}\\&={\bigl (}\|\mathbf {u} \|+\|\mathbf {v} \|{\bigr )}^{2}.&&\end{alignedat}}}
+  
+
+Taking square roots gives the triangle inequality:
+
+  
+    
+      
+        ‖
+        
+          u
+        
+        +
+        
+          v
+        
+        ‖
+        ≤
+        ‖
+        
+          u
+        
+        ‖
+        +
+        ‖
+        
+          v
+        
+        ‖
+        .
+      
+    
+    {\displaystyle \|\mathbf {u} +\mathbf {v} \|\leq \|\mathbf {u} \|+\|\mathbf {v} \|.}
+  
+
+The Cauchy–Schwarz inequality is used to prove that the inner product is a continuous function with respect to the topology induced by the inner product itself.
+
+
+=== Geometry ===
+The Cauchy–Schwarz inequality allows one to extend the notion of "angle between two vectors" to any real inner-product space by defining:
+
+  
+    
+      
+        cos
+        ⁡
+        
+          θ
+          
+            
+              u
+            
+            
+              v
+            
+          
+        
+        =
+        
+          
+            
+              ⟨
+              
+                u
+              
+              ,
+              
+                v
+              
+              ⟩
+            
+            
+              ‖
+              
+                u
+              
+              ‖
+              ‖
+              
+                v
+              
+              ‖
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \cos \theta _{\mathbf {u} \mathbf {v} }={\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\|\mathbf {u} \|\|\mathbf {v} \|}}.}
+  
+
+The Cauchy–Schwarz inequality proves that this definition is sensible, by showing that the right-hand side lies in the interval [−1, 1] and justifies the notion that (real) Hilbert spaces are simply generalizations of the Euclidean space. It can also be used to define an angle in complex inner-product spaces, by taking the absolute value or the real part of the right-hand side, as is done when extracting a metric from quantum fidelity.
+
+
+=== Probability theory ===
+Let 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ be random variables. Then the covariance inequality is given by:
+
+  
+    
+      
+        Var
+        ⁡
+        (
+        X
+        )
+        ≥
+        
+          
+            
+              Cov
+              ⁡
+              (
+              X
+              ,
+              Y
+              
+                )
+                
+                  2
+                
+              
+            
+            
+              Var
+              ⁡
+              (
+              Y
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \operatorname {Var} (X)\geq {\frac {\operatorname {Cov} (X,Y)^{2}}{\operatorname {Var} (Y)}}.}
+  
+
+After defining an inner product on the set of random variables using the expectation of their product,
+
+  
+    
+      
+        ⟨
+        X
+        ,
+        Y
+        ⟩
+        :=
+        E
+        ⁡
+        (
+        X
+        Y
+        )
+        ,
+      
+    
+    {\displaystyle \langle X,Y\rangle :=\operatorname {E} (XY),}
+  
+
+the Cauchy–Schwarz inequality becomes
+
+  
+    
+      
+        
+          
+            |
+          
+        
+        E
+        ⁡
+        (
+        X
+        Y
+        )
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        ≤
+        E
+        ⁡
+        (
+        
+          X
+          
+            2
+          
+        
+        )
+        E
+        ⁡
+        (
+        
+          Y
+          
+            2
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle {\bigl |}\operatorname {E} (XY){\bigr |}^{2}\leq \operatorname {E} (X^{2})\operatorname {E} (Y^{2}).}
+  
+
+To prove the covariance inequality using the Cauchy–Schwarz inequality, let 
+  
+    
+      
+        μ
+        =
+        E
+        ⁡
+        (
+        X
+        )
+      
+    
+    {\displaystyle \mu =\operatorname {E} (X)}
+  
+ and 
+  
+    
+      
+        ν
+        =
+        E
+        ⁡
+        (
+        Y
+        )
+        ,
+      
+    
+    {\displaystyle \nu =\operatorname {E} (Y),}
+  
+ then
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    |
+                  
+                
+                Cov
+                ⁡
+                (
+                X
+                ,
+                Y
+                )
+                
+                  
+                    
+                      |
+                    
+                  
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    |
+                  
+                
+                E
+                ⁡
+                (
+                (
+                X
+                −
+                μ
+                )
+                (
+                Y
+                −
+                ν
+                )
+                )
+                
+                  
+                    
+                      |
+                    
+                  
+                  
+                    2
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    |
+                  
+                
+                ⟨
+                X
+                −
+                μ
+                ,
+                Y
+                −
+                ν
+                ⟩
+                
+                  
+                    
+                      |
+                    
+                  
+                  
+                    2
+                  
+                
+              
+            
+            
+              
+              
+                
+                ≤
+                ⟨
+                X
+                −
+                μ
+                ,
+                X
+                −
+                μ
+                ⟩
+                ⟨
+                Y
+                −
+                ν
+                ,
+                Y
+                −
+                ν
+                ⟩
+              
+            
+            
+              
+              
+                
+                =
+                E
+                ⁡
+                
+                  (
+                  
+                    (
+                    X
+                    −
+                    μ
+                    
+                      )
+                      
+                        2
+                      
+                    
+                  
+                  )
+                
+                E
+                ⁡
+                
+                  (
+                  
+                    (
+                    Y
+                    −
+                    ν
+                    
+                      )
+                      
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                Var
+                ⁡
+                (
+                X
+                )
+                Var
+                ⁡
+                (
+                Y
+                )
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\bigl |}\operatorname {Cov} (X,Y){\bigr |}^{2}&={\bigl |}\operatorname {E} ((X-\mu )(Y-\nu )){\bigr |}^{2}\\&={\bigl |}\langle X-\mu ,Y-\nu \rangle {\bigr |}^{2}\\&\leq \langle X-\mu ,X-\mu \rangle \langle Y-\nu ,Y-\nu \rangle \\&=\operatorname {E} \left((X-\mu )^{2}\right)\operatorname {E} \left((Y-\nu )^{2}\right)\\&=\operatorname {Var} (X)\operatorname {Var} (Y),\end{aligned}}}
+  
+
+where 
+  
+    
+      
+        Var
+      
+    
+    {\displaystyle \operatorname {Var} }
+  
+ denotes variance and 
+  
+    
+      
+        Cov
+      
+    
+    {\displaystyle \operatorname {Cov} }
+  
+ denotes covariance.
+
+
+=== Graph Theory ===
+In extremal graph theory, the Cauchy-Schwarz inequality is used to prove Mantel's theorem, which states that the number of edges in a triangle-free graph on 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ vertices is bounded above by 
+  
+    
+      
+        ⌊
+        
+          
+            
+              n
+              
+                2
+              
+            
+            4
+          
+        
+        ⌋
+      
+    
+    {\displaystyle \lfloor {\frac {n^{2}}{4}}\rfloor }
+  
+ edges.
+Consider any two adjacent vertices 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ and 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  
+ in the graph with degrees 
+  
+    
+      
+        d
+        (
+        x
+        )
+      
+    
+    {\displaystyle d(x)}
+  
+ and 
+  
+    
+      
+        d
+        (
+        y
+        )
+      
+    
+    {\displaystyle d(y)}
+  
+ respectively. Since the graph is triangle-free, the neighbourhoods of 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ and 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  
+ are disjoint, which gives 
+  
+    
+      
+        d
+        (
+        x
+        )
+        +
+        d
+        (
+        y
+        )
+        ≤
+        n
+      
+    
+    {\displaystyle d(x)+d(y)\leq n}
+  
+. Summing this inequality over all the vertices gives the following.
+
+  
+    
+      
+        
+          ∑
+          
+            x
+            y
+            ∈
+            E
+            (
+            G
+            )
+          
+        
+        (
+        d
+        (
+        x
+        )
+        +
+        d
+        (
+        y
+        )
+        )
+        ≤
+        
+          ∑
+          
+            x
+            y
+            ∈
+            E
+            (
+            G
+            )
+          
+        
+        n
+      
+    
+    {\displaystyle \sum _{xy\in E(G)}(d(x)+d(y))\leq \sum _{xy\in E(G)}n}
+  
+
+We then sum over vertices instead of edges.
+
+  
+    
+      
+        
+          ∑
+          
+            x
+            ∈
+            V
+            (
+            G
+            )
+          
+        
+        d
+        (
+        x
+        
+          )
+          
+            2
+          
+        
+        ≤
+        n
+        
+          |
+        
+        E
+        
+          |
+        
+      
+    
+    {\displaystyle \sum _{x\in V(G)}d(x)^{2}\leq n|E|}
+  
+
+Applying the Cauchy-Schwarz inequality gives the following inequality relating the sum of squares of degrees to the sum of degrees. 
+
+  
+    
+      
+        (
+        
+          ∑
+          
+            x
+            ∈
+            V
+            (
+            G
+            )
+          
+        
+        d
+        (
+        x
+        )
+        
+          )
+          
+            2
+          
+        
+        ≤
+        n
+        (
+        
+          ∑
+          
+            x
+            ∈
+            V
+            (
+            G
+            )
+          
+        
+        d
+        (
+        x
+        
+          )
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle (\sum _{x\in V(G)}d(x))^{2}\leq n(\sum _{x\in V(G)}d(x)^{2})}
+  
+
+Chaining the previous two inequalities, we get:
+
+  
+    
+      
+        (
+        
+          ∑
+          
+            x
+            ∈
+            V
+            (
+            G
+            )
+          
+        
+        d
+        (
+        x
+        )
+        
+          )
+          
+            2
+          
+        
+        ≤
+        
+          n
+          
+            2
+          
+        
+        
+          |
+        
+        E
+        
+          |
+        
+      
+    
+    {\displaystyle (\sum _{x\in V(G)}d(x))^{2}\leq n^{2}|E|}
+  
+
+And then by applying the handshaking lemma and then rearranging, we have that:
+
+  
+    
+      
+        
+          |
+        
+        E
+        
+          |
+        
+        ≤
+        
+          
+            
+              n
+              
+                2
+              
+            
+            4
+          
+        
+      
+    
+    {\displaystyle |E|\leq {\frac {n^{2}}{4}}}
+  
+
+
+== Proofs ==
+There are many different proofs of the Cauchy–Schwarz inequality other than those given below. 
+When consulting other sources, there are often two sources of confusion. First, some authors define ⟨⋅,⋅⟩ to be linear in the second argument rather than the first. 
+Second, some proofs are only valid when the field is 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+  
+ and not 
+  
+    
+      
+        
+          C
+        
+        .
+      
+    
+    {\displaystyle \mathbb {C} .}
+  
+
+This section gives two proofs of the following theorem:
+
+ 
+
+In both of the proofs given below, the proof in the trivial case where at least one of the vectors is zero (or equivalently, in the case where 
+  
+    
+      
+        ‖
+        
+          u
+        
+        ‖
+        ‖
+        
+          v
+        
+        ‖
+        =
+        0
+      
+    
+    {\displaystyle \|\mathbf {u} \|\|\mathbf {v} \|=0}
+  
+) is the same. It is presented immediately below only once to reduce repetition. It also includes the easy part of the proof of the Equality Characterization given above; that is, it proves that if 
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  
+ and 
+  
+    
+      
+        
+          v
+        
+      
+    
+    {\displaystyle \mathbf {v} }
+  
+ are linearly dependent then 
+  
+    
+      
+        
+          
+            |
+          
+        
+        ⟨
+        
+          u
+        
+        ,
+        
+          v
+        
+        ⟩
+        
+          
+            |
+          
+        
+        =
+        ‖
+        
+          u
+        
+        ‖
+        ‖
+        
+          v
+        
+        ‖
+        .
+      
+    
+    {\displaystyle {\bigl |}\langle \mathbf {u} ,\mathbf {v} \rangle {\bigr |}=\|\mathbf {u} \|\|\mathbf {v} \|.}
+  
+ 
+
+Consequently, the Cauchy–Schwarz inequality only needs to be proven only for non-zero vectors and also only the non-trivial direction of the Equality Characterization must be shown. 
+
+
+=== Proof via the orthogonal projection ===
+The special case of 
+  
+    
+      
+        
+          v
+        
+        =
+        
+          0
+        
+      
+    
+    {\displaystyle \mathbf {v} =\mathbf {0} }
+  
+ was proven above so it is henceforth assumed that 
+  
+    
+      
+        
+          v
+        
+        ≠
+        
+          0
+        
+        .
+      
+    
+    {\displaystyle \mathbf {v} \neq \mathbf {0} .}
+  
+
+Let
+
+  
+    
+      
+        
+          z
+        
+        :=
+        
+          u
+        
+        −
+        
+          
+            
+              ⟨
+              
+                u
+              
+              ,
+              
+                v
+              
+              ⟩
+            
+            
+              ⟨
+              
+                v
+              
+              ,
+              
+                v
+              
+              ⟩
+            
+          
+        
+        
+          v
+        
+        .
+      
+    
+    {\displaystyle \mathbf {z} :=\mathbf {u} -{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\langle \mathbf {v} ,\mathbf {v} \rangle }}\mathbf {v} .}
+  
+If we look at its length, we will see
+  
+    
+      
+        
+          
+            
+              
+                ‖
+                
+                  z
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                
+                  ⟨
+                  
+                    
+                      u
+                    
+                    −
+                    
+                      
+                        
+                          ⟨
+                          
+                            u
+                          
+                          ,
+                          
+                            v
+                          
+                          ⟩
+                        
+                        
+                          ⟨
+                          
+                            v
+                          
+                          ,
+                          
+                            v
+                          
+                          ⟩
+                        
+                      
+                    
+                    
+                      v
+                    
+                    ,
+                    
+                      u
+                    
+                    −
+                    
+                      
+                        
+                          ⟨
+                          
+                            u
+                          
+                          ,
+                          
+                            v
+                          
+                          ⟩
+                        
+                        
+                          ⟨
+                          
+                            v
+                          
+                          ,
+                          
+                            v
+                          
+                          ⟩
+                        
+                      
+                    
+                    
+                      v
+                    
+                  
+                  ⟩
+                
+              
+            
+            
+              
+              
+                
+                =
+                ⟨
+                
+                  u
+                
+                ,
+                
+                  u
+                
+                ⟩
+                −
+                2
+                
+                  
+                    
+                      ⟨
+                      
+                        u
+                      
+                      ,
+                      
+                        v
+                      
+                      ⟩
+                    
+                    
+                      ⟨
+                      
+                        v
+                      
+                      ,
+                      
+                        v
+                      
+                      ⟩
+                    
+                  
+                
+                ⟨
+                
+                  u
+                
+                ,
+                
+                  v
+                
+                ⟩
+                +
+                
+                  
+                    
+                      ⟨
+                      
+                        u
+                      
+                      ,
+                      
+                        v
+                      
+                      
+                        ⟩
+                        
+                          2
+                        
+                      
+                    
+                    
+                      ⟨
+                      
+                        v
+                      
+                      ,
+                      
+                        v
+                      
+                      
+                        ⟩
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                ⟨
+                
+                  v
+                
+                ,
+                
+                  v
+                
+                ⟩
+              
+            
+            
+              
+              
+                
+                =
+                ⟨
+                
+                  u
+                
+                ,
+                
+                  u
+                
+                ⟩
+                −
+                
+                  
+                    
+                      ⟨
+                      
+                        u
+                      
+                      ,
+                      
+                        v
+                      
+                      
+                        ⟩
+                        
+                          2
+                        
+                      
+                    
+                    
+                      ⟨
+                      
+                        v
+                      
+                      ,
+                      
+                        v
+                      
+                      ⟩
+                    
+                  
+                
+                =
+                ‖
+                
+                  u
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                −
+                
+                  
+                    
+                      ⟨
+                      
+                        u
+                      
+                      ,
+                      
+                        v
+                      
+                      
+                        ⟩
+                        
+                          2
+                        
+                      
+                    
+                    
+                      ‖
+                      
+                        v
+                      
+                      
+                        ‖
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\|\mathbf {z} \|^{2}&=\left\langle \mathbf {u} -{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\langle \mathbf {v} ,\mathbf {v} \rangle }}\mathbf {v} ,\mathbf {u} -{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\langle \mathbf {v} ,\mathbf {v} \rangle }}\mathbf {v} \right\rangle \\&=\langle \mathbf {u} ,\mathbf {u} \rangle -2{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\langle \mathbf {v} ,\mathbf {v} \rangle }}\langle \mathbf {u} ,\mathbf {v} \rangle +{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle ^{2}}{\langle \mathbf {v} ,\mathbf {v} \rangle ^{2}}}\langle \mathbf {v} ,\mathbf {v} \rangle \\&=\langle \mathbf {u} ,\mathbf {u} \rangle -{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle ^{2}}{\langle \mathbf {v} ,\mathbf {v} \rangle }}=\|\mathbf {u} \|^{2}-{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle ^{2}}{\|\mathbf {v} \|^{2}}}\end{aligned}}}
+  
+Since the length of any vector is always non-negative, we get
+  
+    
+      
+        
+          
+            
+              
+                ‖
+                
+                  u
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                −
+                
+                  
+                    
+                      ⟨
+                      
+                        u
+                      
+                      ,
+                      
+                        v
+                      
+                      
+                        ⟩
+                        
+                          2
+                        
+                      
+                    
+                    
+                      ‖
+                      
+                        v
+                      
+                      
+                        ‖
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                =
+                ‖
+                
+                  z
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                ≥
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\|\mathbf {u} \|^{2}-{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle ^{2}}{\|\mathbf {v} \|^{2}}}=\|\mathbf {z} \|^{2}\geq 0\end{aligned}}}
+  
+The Cauchy–Schwarz inequality follows by multiplying by 
+  
+    
+      
+        ‖
+        
+          v
+        
+        
+          ‖
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \|\mathbf {v} \|^{2}}
+  
+ and then taking the square root. 
+Moreover, if the relation 
+  
+    
+      
+        ≥
+      
+    
+    {\displaystyle \geq }
+  
+ in the above expression is actually an equality, then 
+  
+    
+      
+        ‖
+        
+          z
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \|\mathbf {z} \|^{2}=0}
+  
+ and hence 
+  
+    
+      
+        
+          z
+        
+        =
+        
+          0
+        
+        ;
+      
+    
+    {\displaystyle \mathbf {z} =\mathbf {0} ;}
+  
+ the definition of 
+  
+    
+      
+        
+          z
+        
+      
+    
+    {\displaystyle \mathbf {z} }
+  
+ then establishes a relation of linear dependence between 
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  
+ and 
+  
+    
+      
+        
+          v
+        
+        .
+      
+    
+    {\displaystyle \mathbf {v} .}
+  
+ The converse was proved at the beginning of this section, so the proof is complete. 
+  
+    
+      
+        ◼
+      
+    
+    {\displaystyle \blacksquare }
+  
+
+
+=== Proof by analyzing a quadratic ===
+Consider an arbitrary pair of vectors 
+  
+    
+      
+        
+          u
+        
+        ,
+        
+          v
+        
+      
+    
+    {\displaystyle \mathbf {u} ,\mathbf {v} }
+  
+.  Define the function 
+  
+    
+      
+        p
+        :
+        
+          R
+        
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle p:\mathbb {R} \to \mathbb {R} }
+  
+ defined by 
+  
+    
+      
+        p
+        (
+        t
+        )
+        =
+        ⟨
+        t
+        α
+        
+          u
+        
+        +
+        
+          v
+        
+        ,
+        t
+        α
+        
+          u
+        
+        +
+        
+          v
+        
+        ⟩
+      
+    
+    {\displaystyle p(t)=\langle t\alpha \mathbf {u} +\mathbf {v} ,t\alpha \mathbf {u} +\mathbf {v} \rangle }
+  
+, where 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ is a complex number satisfying 
+  
+    
+      
+        
+          |
+        
+        α
+        
+          |
+        
+        =
+        1
+      
+    
+    {\displaystyle |\alpha |=1}
+  
+ and 
+  
+    
+      
+        α
+        ⟨
+        
+          u
+        
+        ,
+        
+          v
+        
+        ⟩
+        =
+        
+          |
+        
+        ⟨
+        
+          u
+        
+        ,
+        
+          v
+        
+        ⟩
+        
+          |
+        
+      
+    
+    {\displaystyle \alpha \langle \mathbf {u} ,\mathbf {v} \rangle =|\langle \mathbf {u} ,\mathbf {v} \rangle |}
+  
+.
+Such an 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ exists since if 
+  
+    
+      
+        ⟨
+        
+          u
+        
+        ,
+        
+          v
+        
+        ⟩
+        =
+        0
+      
+    
+    {\displaystyle \langle \mathbf {u} ,\mathbf {v} \rangle =0}
+  
+ then 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ can be taken to be 1.
+Since the inner product is positive-definite, 
+  
+    
+      
+        p
+        (
+        t
+        )
+      
+    
+    {\displaystyle p(t)}
+  
+ only takes non-negative real values. On the other hand, 
+  
+    
+      
+        p
+        (
+        t
+        )
+      
+    
+    {\displaystyle p(t)}
+  
+ can be expanded using the bilinearity of the inner product:
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                (
+                t
+                )
+              
+              
+                
+                =
+                ⟨
+                t
+                α
+                
+                  u
+                
+                ,
+                t
+                α
+                
+                  u
+                
+                ⟩
+                +
+                ⟨
+                t
+                α
+                
+                  u
+                
+                ,
+                
+                  v
+                
+                ⟩
+                +
+                ⟨
+                
+                  v
+                
+                ,
+                t
+                α
+                
+                  u
+                
+                ⟩
+                +
+                ⟨
+                
+                  v
+                
+                ,
+                
+                  v
+                
+                ⟩
+              
+            
+            
+              
+              
+                
+                =
+                t
+                α
+                t
+                
+                  
+                    α
+                    ¯
+                  
+                
+                ⟨
+                
+                  u
+                
+                ,
+                
+                  u
+                
+                ⟩
+                +
+                t
+                α
+                ⟨
+                
+                  u
+                
+                ,
+                
+                  v
+                
+                ⟩
+                +
+                t
+                
+                  
+                    α
+                    ¯
+                  
+                
+                ⟨
+                
+                  v
+                
+                ,
+                
+                  u
+                
+                ⟩
+                +
+                ⟨
+                
+                  v
+                
+                ,
+                
+                  v
+                
+                ⟩
+              
+            
+            
+              
+              
+                
+                =
+                ‖
+                
+                  u
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+                
+                  t
+                  
+                    2
+                  
+                
+                +
+                2
+                
+                  |
+                
+                ⟨
+                
+                  u
+                
+                ,
+                
+                  v
+                
+                ⟩
+                
+                  |
+                
+                t
+                +
+                ‖
+                
+                  v
+                
+                
+                  ‖
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}p(t)&=\langle t\alpha \mathbf {u} ,t\alpha \mathbf {u} \rangle +\langle t\alpha \mathbf {u} ,\mathbf {v} \rangle +\langle \mathbf {v} ,t\alpha \mathbf {u} \rangle +\langle \mathbf {v} ,\mathbf {v} \rangle \\&=t\alpha t{\overline {\alpha }}\langle \mathbf {u} ,\mathbf {u} \rangle +t\alpha \langle \mathbf {u} ,\mathbf {v} \rangle +t{\overline {\alpha }}\langle \mathbf {v} ,\mathbf {u} \rangle +\langle \mathbf {v} ,\mathbf {v} \rangle \\&=\lVert \mathbf {u} \rVert ^{2}t^{2}+2|\langle \mathbf {u} ,\mathbf {v} \rangle |t+\lVert \mathbf {v} \rVert ^{2}\end{aligned}}}
+  
+
+Thus, 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ is a polynomial of degree 
+  
+    
+      
+        2
+      
+    
+    {\displaystyle 2}
+  
+ (unless 
+  
+    
+      
+        
+          u
+        
+        =
+        0
+        ,
+      
+    
+    {\displaystyle \mathbf {u} =0,}
+  
+ which is a case that was checked earlier). Since the sign of 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ does not change, the discriminant of this polynomial must be non-positive:
+
+  
+    
+      
+        Δ
+        =
+        4
+        
+          
+            (
+          
+        
+        
+        
+          |
+        
+        ⟨
+        
+          u
+        
+        ,
+        
+          v
+        
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+        −
+        ‖
+        
+          u
+        
+        
+          ‖
+          
+            2
+          
+        
+        ‖
+        
+          v
+        
+        
+          ‖
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        ≤
+        0.
+      
+    
+    {\displaystyle \Delta =4{\bigl (}\,|\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}-\Vert \mathbf {u} \Vert ^{2}\Vert \mathbf {v} \Vert ^{2}{\bigr )}\leq 0.}
+  
+
+The conclusion follows.
+For the equality case, notice that 
+  
+    
+      
+        Δ
+        =
+        0
+      
+    
+    {\displaystyle \Delta =0}
+  
+ happens if and only if 
+  
+    
+      
+        p
+        (
+        t
+        )
+        =
+        
+          
+            (
+          
+        
+        t
+        ‖
+        
+          u
+        
+        ‖
+        +
+        ‖
+        
+          v
+        
+        ‖
+        
+          
+            
+              )
+            
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle p(t)={\bigl (}t\Vert \mathbf {u} \Vert +\Vert \mathbf {v} \Vert {\bigr )}^{2}.}
+  
+ If 
+  
+    
+      
+        
+          t
+          
+            0
+          
+        
+        =
+        −
+        ‖
+        
+          v
+        
+        ‖
+        
+          /
+        
+        ‖
+        
+          u
+        
+        ‖
+        ,
+      
+    
+    {\displaystyle t_{0}=-\Vert \mathbf {v} \Vert /\Vert \mathbf {u} \Vert ,}
+  
+ then 
+  
+    
+      
+        p
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        =
+        ⟨
+        
+          t
+          
+            0
+          
+        
+        α
+        
+          u
+        
+        +
+        
+          v
+        
+        ,
+        
+          t
+          
+            0
+          
+        
+        α
+        
+          u
+        
+        +
+        
+          v
+        
+        ⟩
+        =
+        0
+        ,
+      
+    
+    {\displaystyle p(t_{0})=\langle t_{0}\alpha \mathbf {u} +\mathbf {v} ,t_{0}\alpha \mathbf {u} +\mathbf {v} \rangle =0,}
+  
+ and hence 
+  
+    
+      
+        
+          v
+        
+        =
+        −
+        
+          t
+          
+            0
+          
+        
+        α
+        
+          u
+        
+        .
+      
+    
+    {\displaystyle \mathbf {v} =-t_{0}\alpha \mathbf {u} .}
+  
+
+
+== Generalizations ==
+Various generalizations of the Cauchy–Schwarz inequality exist. Hölder's inequality generalizes it to 
+  
+    
+      
+        
+          L
+          
+            p
+          
+        
+      
+    
+    {\displaystyle L^{p}}
+  
+ norms. More generally, it can be interpreted as a special case of the definition of the norm of a linear operator on a Banach space (Namely, when the space is a Hilbert space).  Further generalizations are in the context of operator theory, e.g. for operator-convex functions and operator algebras, where the domain and/or range are replaced by a C*-algebra or W*-algebra.
+An inner product can be used to define a positive linear functional. For example, given a Hilbert space 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        (
+        m
+        )
+        ,
+        m
+      
+    
+    {\displaystyle L^{2}(m),m}
+  
+ being a finite measure, the standard inner product gives rise to a positive functional 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+ by 
+  
+    
+      
+        φ
+        (
+        g
+        )
+        =
+        ⟨
+        g
+        ,
+        1
+        ⟩
+        .
+      
+    
+    {\displaystyle \varphi (g)=\langle g,1\rangle .}
+  
+  Conversely, every positive linear functional 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+ on 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        (
+        m
+        )
+      
+    
+    {\displaystyle L^{2}(m)}
+  
+ can be used to define an  inner product 
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        
+          ⟩
+          
+            φ
+          
+        
+        :=
+        φ
+        
+          (
+          
+            
+              g
+              
+                ∗
+              
+            
+            f
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \langle f,g\rangle _{\varphi }:=\varphi \left(g^{*}f\right),}
+  
+ where 
+  
+    
+      
+        
+          g
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle g^{*}}
+  
+ is the pointwise complex conjugate of 
+  
+    
+      
+        g
+        .
+      
+    
+    {\displaystyle g.}
+  
+ In this language, the Cauchy–Schwarz inequality becomes
+
+  
+    
+      
+        
+          
+            |
+          
+        
+        φ
+        (
+        
+          g
+          
+            ∗
+          
+        
+        f
+        )
+        
+          
+            
+              |
+            
+          
+          
+            2
+          
+        
+        ≤
+        φ
+        
+          (
+          
+            
+              f
+              
+                ∗
+              
+            
+            f
+          
+          )
+        
+        φ
+        
+          (
+          
+            
+              g
+              
+                ∗
+              
+            
+            g
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle {\bigl |}\varphi (g^{*}f){\bigr |}^{2}\leq \varphi \left(f^{*}f\right)\varphi \left(g^{*}g\right),}
+  
+
+which extends verbatim to positive functionals on C*-algebras:
+
+The next two theorems are further examples in operator algebra.
+
+This extends the fact 
+  
+    
+      
+        φ
+        
+          (
+          
+            
+              a
+              
+                ∗
+              
+            
+            a
+          
+          )
+        
+        ⋅
+        1
+        ≥
+        φ
+        (
+        a
+        
+          )
+          
+            ∗
+          
+        
+        φ
+        (
+        a
+        )
+        =
+        
+          |
+        
+        φ
+        (
+        a
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle \varphi \left(a^{*}a\right)\cdot 1\geq \varphi (a)^{*}\varphi (a)=|\varphi (a)|^{2},}
+  
+ when 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+ is a linear functional. The case when 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ is self-adjoint, that is, 
+  
+    
+      
+        a
+        =
+        
+          a
+          
+            ∗
+          
+        
+        ,
+      
+    
+    {\displaystyle a=a^{*},}
+  
+ is sometimes known as Kadison's inequality.
+
+Another generalization is a refinement obtained by interpolating between both sides of the Cauchy–Schwarz inequality:  
+
+This theorem can be deduced from Hölder's inequality. There are also non-commutative versions for operators and tensor products of matrices.
+Several matrix versions of the Cauchy–Schwarz inequality and Kantorovich inequality are applied to linear regression models.
+
+
+== See also ==
+Bessel's inequality – Theorem on orthonormal sequences
+Hölder's inequality – Inequality between integrals in Lp spaces
+Jensen's inequality – Theorem of convex functions
+Kantorovich inequality – Mathematical theorem
+Kunita–Watanabe inequality
+Lagrange's identity – On products on sums of squares
+Minkowski inequality – Triangle inequality in Lp spaces
+Paley–Zygmund inequality – Probability equation in mathematics
+
+
+== Citations ==
+
+
+== References ==
+
+
+== External links ==
+Earliest Uses: The entry on the Cauchy–Schwarz inequality has some historical information.
+Example of application of Cauchy–Schwarz inequality to determine Linearly Independent Vectors Tutorial and Interactive program.

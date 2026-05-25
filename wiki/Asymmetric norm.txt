@@ -1,0 +1,783 @@
+In mathematics, an asymmetric norm on a vector space is a generalization of the concept of a norm.
+
+
+== Definition ==
+An asymmetric norm on a real vector space 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is a function 
+  
+    
+      
+        p
+        :
+        X
+        →
+        [
+        0
+        ,
+        +
+        ∞
+        )
+      
+    
+    {\displaystyle p:X\to [0,+\infty )}
+  
+ that has the following properties:
+
+Subadditivity, or the triangle inequality: 
+  
+    
+      
+        p
+        (
+        x
+        +
+        y
+        )
+        ≤
+        p
+        (
+        x
+        )
+        +
+        p
+        (
+        y
+        )
+        
+           for all 
+        
+        x
+        ,
+        y
+        ∈
+        X
+        .
+      
+    
+    {\displaystyle p(x+y)\leq p(x)+p(y){\text{ for all }}x,y\in X.}
+  
+
+Nonnegative homogeneity: 
+  
+    
+      
+        p
+        (
+        r
+        x
+        )
+        =
+        r
+        p
+        (
+        x
+        )
+        
+           for all 
+        
+        x
+        ∈
+        X
+      
+    
+    {\displaystyle p(rx)=rp(x){\text{ for all }}x\in X}
+  
+ and every non-negative real number 
+  
+    
+      
+        r
+        ≥
+        0.
+      
+    
+    {\displaystyle r\geq 0.}
+  
+
+Positive definiteness: 
+  
+    
+      
+        p
+        (
+        x
+        )
+        >
+        0
+        
+           unless 
+        
+        x
+        =
+        0
+      
+    
+    {\displaystyle p(x)>0{\text{ unless }}x=0}
+  
+
+Asymmetric norms differ from norms in that they need not satisfy the equality 
+  
+    
+      
+        p
+        (
+        −
+        x
+        )
+        =
+        p
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle p(-x)=p(x).}
+  
+ 
+If the condition of positive definiteness is omitted, then 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ is an asymmetric seminorm. A weaker condition than positive definiteness is non-degeneracy: that for 
+  
+    
+      
+        x
+        ≠
+        0
+        ,
+      
+    
+    {\displaystyle x\neq 0,}
+  
+ at least one of the two numbers 
+  
+    
+      
+        p
+        (
+        x
+        )
+      
+    
+    {\displaystyle p(x)}
+  
+ and 
+  
+    
+      
+        p
+        (
+        −
+        x
+        )
+      
+    
+    {\displaystyle p(-x)}
+  
+ is not zero.
+
+
+== Examples ==
+On the real line 
+  
+    
+      
+        
+          R
+        
+        ,
+      
+    
+    {\displaystyle \mathbb {R} ,}
+  
+ the function 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ given by
+
+  
+    
+      
+        p
+        (
+        x
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    |
+                  
+                  x
+                  
+                    |
+                  
+                  ,
+                
+                
+                  x
+                  ≤
+                  0
+                  ;
+                
+              
+              
+                
+                  2
+                  
+                    |
+                  
+                  x
+                  
+                    |
+                  
+                  ,
+                
+                
+                  x
+                  ≥
+                  0
+                  ;
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle p(x)={\begin{cases}|x|,&x\leq 0;\\2|x|,&x\geq 0;\end{cases}}}
+  
+
+is an asymmetric norm but not a norm.
+In a real vector space 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+ the Minkowski functional 
+  
+    
+      
+        
+          p
+          
+            B
+          
+        
+      
+    
+    {\displaystyle p_{B}}
+  
+ of a convex subset 
+  
+    
+      
+        B
+        ⊆
+        X
+      
+    
+    {\displaystyle B\subseteq X}
+  
+ that contains the origin is defined by the formula
+
+  
+    
+      
+        
+          p
+          
+            B
+          
+        
+        (
+        x
+        )
+        =
+        inf
+        
+          {
+          
+            r
+            ≥
+            0
+            :
+            x
+            ∈
+            r
+            B
+          
+          }
+        
+        
+      
+    
+    {\displaystyle p_{B}(x)=\inf \left\{r\geq 0:x\in rB\right\}\,}
+  
+ for 
+  
+    
+      
+        x
+        ∈
+        X
+      
+    
+    {\displaystyle x\in X}
+  
+.
+This functional is an asymmetric seminorm if 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ is an absorbing set, which means that 
+  
+    
+      
+        
+          ⋃
+          
+            r
+            ≥
+            0
+          
+        
+        r
+        B
+        =
+        X
+        ,
+      
+    
+    {\displaystyle \bigcup _{r\geq 0}rB=X,}
+  
+ and ensures that 
+  
+    
+      
+        p
+        (
+        x
+        )
+      
+    
+    {\displaystyle p(x)}
+  
+ is finite for each 
+  
+    
+      
+        x
+        ∈
+        X
+        .
+      
+    
+    {\displaystyle x\in X.}
+  
+
+
+== Corresponce between asymmetric seminorms and convex subsets of the dual space ==
+If 
+  
+    
+      
+        
+          B
+          
+            ∗
+          
+        
+        ⊆
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle B^{*}\subseteq \mathbb {R} ^{n}}
+  
+ is a convex set that contains the origin, then an asymmetric seminorm 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ can be defined on 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  
+ by the formula
+
+  
+    
+      
+        p
+        (
+        x
+        )
+        =
+        
+          max
+          
+            φ
+            ∈
+            
+              B
+              
+                ∗
+              
+            
+          
+        
+        ⟨
+        φ
+        ,
+        x
+        ⟩
+        .
+      
+    
+    {\displaystyle p(x)=\max _{\varphi \in B^{*}}\langle \varphi ,x\rangle .}
+  
+
+For instance, if 
+  
+    
+      
+        
+          B
+          
+            ∗
+          
+        
+        ⊆
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle B^{*}\subseteq \mathbb {R} ^{2}}
+  
+ is the square with vertices 
+  
+    
+      
+        (
+        ±
+        1
+        ,
+        ±
+        1
+        )
+        ,
+      
+    
+    {\displaystyle (\pm 1,\pm 1),}
+  
+ then 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ is the taxicab norm 
+  
+    
+      
+        x
+        =
+        
+          (
+          
+            
+              x
+              
+                0
+              
+            
+            ,
+            
+              x
+              
+                1
+              
+            
+          
+          )
+        
+        ↦
+        
+          |
+          
+            x
+            
+              0
+            
+          
+          |
+        
+        +
+        
+          |
+          
+            x
+            
+              1
+            
+          
+          |
+        
+        .
+      
+    
+    {\displaystyle x=\left(x_{0},x_{1}\right)\mapsto \left|x_{0}\right|+\left|x_{1}\right|.}
+  
+ Different convex sets yield different seminorms, and every asymmetric seminorm on 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  
+ can be obtained from some convex set, called its dual unit ball. Therefore, asymmetric seminorms are in one-to-one correspondence with convex sets that contain the origin. The seminorm 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ is 
+
+positive definite if and only if 
+  
+    
+      
+        
+          B
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle B^{*}}
+  
+ contains the origin in its topological interior,
+degenerate if and only if 
+  
+    
+      
+        
+          B
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle B^{*}}
+  
+ is contained in a linear subspace of dimension less than 
+  
+    
+      
+        n
+        ,
+      
+    
+    {\displaystyle n,}
+  
+ and
+symmetric if and only if 
+  
+    
+      
+        
+          B
+          
+            ∗
+          
+        
+        =
+        −
+        
+          B
+          
+            ∗
+          
+        
+        .
+      
+    
+    {\displaystyle B^{*}=-B^{*}.}
+  
+
+More generally, if 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is a finite-dimensional real vector space and 
+  
+    
+      
+        
+          B
+          
+            ∗
+          
+        
+        ⊆
+        
+          X
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle B^{*}\subseteq X^{*}}
+  
+ is a compact convex subset of the dual space 
+  
+    
+      
+        
+          X
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle X^{*}}
+  
+ that contains the origin, then 
+  
+    
+      
+        p
+        (
+        x
+        )
+        =
+        
+          max
+          
+            φ
+            ∈
+            
+              B
+              
+                ∗
+              
+            
+          
+        
+        φ
+        (
+        x
+        )
+      
+    
+    {\displaystyle p(x)=\max _{\varphi \in B^{*}}\varphi (x)}
+  
+ is an asymmetric seminorm on 
+  
+    
+      
+        X
+        .
+      
+    
+    {\displaystyle X.}
+  
+
+
+== See also ==
+Finsler manifold – Generalization of Riemannian manifolds
+Minkowski functional – Function made from a set
+
+
+== References ==
+Cobzaş, S. (2006). "Compact operators on spaces with asymmetric norm". Stud. Univ. Babeş-Bolyai Math. 51 (4): 69–87. arXiv:math/0608031. Bibcode:2006math......8031C. ISSN 0252-1938. MR 2314639.
+S. Cobzas, Functional Analysis in Asymmetric Normed Spaces, Frontiers in Mathematics, Basel: Birkhäuser, 2013; ISBN 978-3-0348-0477-6.

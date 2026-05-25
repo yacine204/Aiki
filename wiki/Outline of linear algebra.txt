@@ -1,0 +1,186 @@
+This is an outline of topics related to linear algebra, the branch of mathematics concerning linear equations and linear maps and their representations in vector spaces and through matrices.
+
+
+== Linear equations ==
+Linear equation
+
+System of linear equations
+Determinant
+Minor
+Cauchy–Binet formula
+Cramer's rule
+Gaussian elimination
+Gauss–Jordan elimination
+Overcompleteness
+Strassen algorithm
+
+
+== Matrices ==
+Matrix
+
+Matrix addition
+Matrix multiplication
+Basis transformation matrix
+Characteristic polynomial
+Trace
+Eigenvalue, eigenvector and eigenspace
+Cayley–Hamilton theorem
+Spread of a matrix
+Jordan normal form
+Weyr canonical form
+Rank
+Matrix inversion, invertible matrix
+Pseudoinverse
+Adjugate
+Transpose
+Dot product
+Symmetric matrix
+Orthogonal matrix
+Skew-symmetric matrix
+Conjugate transpose
+Unitary matrix
+Hermitian matrix, Antihermitian matrix
+Positive-definite, positive-semidefinite matrix
+Pfaffian
+Projection
+Spectral theorem
+Perron–Frobenius theorem
+List of matrices
+Diagonal matrix, main diagonal
+Diagonalizable matrix
+Triangular matrix
+Tridiagonal matrix
+Block matrix
+Sparse matrix
+Hessenberg matrix
+Hessian matrix
+Vandermonde matrix
+Stochastic matrix
+Toeplitz matrix
+Circulant matrix
+Hankel matrix
+(0,1)-matrix
+Bohemian matrices
+
+
+== Matrix decompositions ==
+Matrix decomposition
+
+Cholesky decomposition
+LU decomposition
+QR decomposition
+Polar decomposition
+Reducing subspace
+Spectral theorem
+Singular value decomposition
+Higher-order singular value decomposition
+Schur decomposition
+Schur complement
+Haynsworth inertia additivity formula
+
+
+== Relations ==
+Matrix equivalence
+Matrix congruence
+Matrix similarity
+Matrix consimilarity
+Row equivalence
+
+
+== Computations ==
+Elementary row operations
+Householder transformation
+Least squares, linear least squares
+Gram–Schmidt process
+Woodbury matrix identity
+
+
+== Vector spaces ==
+Vector space
+
+Linear combination
+Linear span
+Linear independence
+Scalar multiplication
+Basis
+Change of basis
+Hamel basis
+Cyclic decomposition theorem
+Dimension theorem for vector spaces
+Hamel dimension
+Examples of vector spaces
+Linear map
+Shear mapping or Galilean transformation
+Squeeze mapping or Lorentz transformation
+Linear subspace
+Row and column spaces
+Column space
+Row space
+Cyclic subspace
+Null space, nullity
+Rank–nullity theorem
+Nullity theorem
+Dual space
+Linear function
+Linear functional
+Category of vector spaces
+
+
+== Structures ==
+Topological vector space
+Normed vector space
+Inner product space
+Euclidean space
+Orthogonality
+Orthogonal complement
+Orthogonal projection
+Orthogonal group
+Pseudo-Euclidean space
+Null vector
+Indefinite orthogonal group
+Orientation (geometry)
+Improper rotation
+Symplectic structure
+
+
+== Multilinear algebra ==
+Multilinear algebra
+
+Tensor
+Classical treatment of tensors
+Component-free treatment of tensors
+Gamas's Theorem
+Outer product
+Tensor algebra
+Exterior algebra
+Symmetric algebra
+Clifford algebra
+Geometric algebra
+
+
+== Topics related to affine spaces ==
+Affine space
+
+Affine transformation
+Affine group
+Affine geometry
+Affine coordinate system
+Flat (geometry)
+Cartesian coordinate system
+Euclidean group
+Poincaré group
+Galilean group
+
+
+== Projective space ==
+Projective space
+
+Projective transformation
+Projective geometry
+Projective linear group
+Quadric and conic section
+
+
+== See also ==
+Glossary of linear algebra
+Glossary of tensor theory

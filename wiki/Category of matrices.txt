@@ -1,0 +1,726 @@
+In mathematics, the category of matrices, often denoted 
+  
+    
+      
+        
+          M
+          a
+          t
+        
+      
+    
+    {\displaystyle \mathbf {Mat} }
+  
+, is the category whose objects are natural numbers and whose morphisms are matrices, with composition given by matrix multiplication.
+
+
+== Construction ==
+Let 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ be an 
+  
+    
+      
+        n
+        ×
+        m
+      
+    
+    {\displaystyle n\times m}
+  
+ real matrix, i.e. a matrix with 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ rows and 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ columns. 
+Given a 
+  
+    
+      
+        p
+        ×
+        q
+      
+    
+    {\displaystyle p\times q}
+  
+ matrix 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+, we can form the matrix multiplication 
+  
+    
+      
+        B
+        A
+      
+    
+    {\displaystyle BA}
+  
+ or 
+  
+    
+      
+        B
+        ∘
+        A
+      
+    
+    {\displaystyle B\circ A}
+  
+ only when 
+  
+    
+      
+        q
+        =
+        n
+      
+    
+    {\displaystyle q=n}
+  
+, and in that case the resulting matrix is of dimension 
+  
+    
+      
+        p
+        ×
+        m
+      
+    
+    {\displaystyle p\times m}
+  
+. 
+In other words, we can only multiply matrices 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ and 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ when the number of rows of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ matches the number of columns of 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+. 
+One can keep track of this fact by declaring an 
+  
+    
+      
+        n
+        ×
+        m
+      
+    
+    {\displaystyle n\times m}
+  
+ matrix to be of type 
+  
+    
+      
+        m
+        →
+        n
+      
+    
+    {\displaystyle m\to n}
+  
+, and similarly a 
+  
+    
+      
+        p
+        ×
+        q
+      
+    
+    {\displaystyle p\times q}
+  
+ matrix to be of type 
+  
+    
+      
+        q
+        →
+        p
+      
+    
+    {\displaystyle q\to p}
+  
+. This way, when 
+  
+    
+      
+        q
+        =
+        n
+      
+    
+    {\displaystyle q=n}
+  
+ the two arrows have matching source and target, 
+  
+    
+      
+        m
+        →
+        n
+        →
+        p
+      
+    
+    {\displaystyle m\to n\to p}
+  
+, and can hence be composed to an arrow of type 
+  
+    
+      
+        m
+        →
+        p
+      
+    
+    {\displaystyle m\to p}
+  
+.
+This is precisely captured by the mathematical concept of a category, where the arrows, or morphisms, are the matrices, and they can be composed only when their domain and codomain are compatible (similar to what happens with functions). In detail, the category 
+  
+    
+      
+        
+          
+            M
+            a
+            t
+          
+          
+            
+              R
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {Mat} _{\mathbb {R} }}
+  
+ is constructed as follows:
+
+It has natural numbers as objects;
+Given numbers 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ and 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+, a morphism 
+  
+    
+      
+        m
+        →
+        n
+      
+    
+    {\displaystyle m\to n}
+  
+ is an 
+  
+    
+      
+        n
+        ×
+        m
+      
+    
+    {\displaystyle n\times m}
+  
+ matrix, i.e. a matrix with 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ rows and 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ columns;
+The identity morphism at each object 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ is given by the 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+  
+ identity matrix;
+The composition of morphisms 
+  
+    
+      
+        A
+        :
+        m
+        →
+        n
+      
+    
+    {\displaystyle A:m\to n}
+  
+ and 
+  
+    
+      
+        B
+        :
+        n
+        →
+        p
+      
+    
+    {\displaystyle B:n\to p}
+  
+ (i.e. of matrices 
+  
+    
+      
+        n
+        ×
+        m
+      
+    
+    {\displaystyle n\times m}
+  
+ and 
+  
+    
+      
+        p
+        ×
+        n
+      
+    
+    {\displaystyle p\times n}
+  
+) is given by matrix multiplication.
+More generally, one can define the category 
+  
+    
+      
+        
+          
+            M
+            a
+            t
+          
+          
+            
+              F
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {Mat} _{\mathbb {F} }}
+  
+ of matrices over a fixed field 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbb {F} }
+  
+, such as the one of complex numbers.
+
+
+== Properties ==
+The category of matrices 
+  
+    
+      
+        
+          
+            M
+            a
+            t
+          
+          
+            
+              R
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {Mat} _{\mathbb {R} }}
+  
+ is equivalent to the category of finite-dimensional real vector spaces and linear maps. This is witnessed by the functor mapping the number 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ to the vector space 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  
+, and an 
+  
+    
+      
+        n
+        ×
+        m
+      
+    
+    {\displaystyle n\times m}
+  
+ matrix to the corresponding linear map 
+  
+    
+      
+        
+          
+            R
+          
+          
+            m
+          
+        
+        →
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{m}\to \mathbb {R} ^{n}}
+  
+. A possible interpretation of this fact is that, as mathematical theories, abstract finite-dimensional vector spaces and concrete matrices have the same expressive power.
+More generally, the category of matrices 
+  
+    
+      
+        
+          
+            M
+            a
+            t
+          
+          
+            
+              F
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {Mat} _{\mathbb {F} }}
+  
+ is equivalent to the category of finite-dimensional vector spaces over the field 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbb {F} }
+  
+ and 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbb {F} }
+  
+-linear maps.
+A linear row operation on a 
+  
+    
+      
+        n
+        ×
+        m
+      
+    
+    {\displaystyle n\times m}
+  
+ matrix 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ can be equivalently obtained by applying the same operation to the 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+  
+ identity matrix, and then multiplying the resulting 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+  
+ matrix with 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+. In particular, elementary row operations correspond to elementary matrices. This fact can be seen as an instance of the Yoneda lemma for the category of matrices.
+The transpose operation makes the category of matrices a dagger category. The same can be said about the conjugate transpose in the case of complex numbers.
+
+
+== Particular subcategories ==
+For every fixed 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+, the morphisms 
+  
+    
+      
+        n
+        →
+        n
+      
+    
+    {\displaystyle n\to n}
+  
+ of 
+  
+    
+      
+        
+          
+            M
+            a
+            t
+          
+          
+            
+              R
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {Mat} _{\mathbb {R} }}
+  
+ are the 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+  
+ matrices, and form a monoid, canonically isomorphic to the monoid of linear endomorphisms of 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  
+. In particular, the invertible 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+  
+ matrices form a group. The same can be said for a generic field 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbb {F} }
+  
+.
+A stochastic matrix is a real matrix of nonnegative entries, such that the sum of each column is one. Stochastic matrices include the identity and are closed under composition, and so they form a subcategory of 
+  
+    
+      
+        
+          
+            M
+            a
+            t
+          
+          
+            
+              R
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {Mat} _{\mathbb {R} }}
+  
+.
+
+
+== Citations ==
+
+
+== References ==
+
+
+== External links ==
+The Yoneda lemma in the category of matrices, tutorial video.

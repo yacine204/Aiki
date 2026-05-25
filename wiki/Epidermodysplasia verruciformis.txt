@@ -1,0 +1,72 @@
+Epidermodysplasia verruciformis (EV) is a skin condition characterised by warty skin lesions. It results from an abnormal susceptibility to HPV infection (HPV). It is associated with a high lifetime risk of squamous cell carcinomas in skin. It generally presents with scaly spots and small bumps particularly on the hands, feet, face, and neck; typically beginning in childhood or a young adult. The bumps tend to be flat, grow in number, and then merge to form plaques. On the trunk, it typically appears like pityriasis versicolor; lesions are slightly scaly and tan, brown, red, or pale. On the elbows, it may appear like psoriasis. On the forehead, neck, and trunk, the lesions may appear like seborrheic keratosis.
+It is most frequently inherited as an autosomal recessive trait, with some reports of autosomal dominant and X-linked inheritance. Other types include atypical EV which develops due to gene mutations that cause an impaired immune system, and acquired EV which occurs due to acquired immunodeficiency. It is characterized by an inability to protect against HPV infection of skin. HPV types 5 and 8 are detected in around 90% of skin cancers in people with EV. Other types are also associated with EV. In rare cases, warts may develop into giant horns resulting in treeman syndrome.
+Prevention of skin cancer requires sun protection. Treatment typically involves surgery; sometimes with the addition of skin grafting. Medications used to treat the lesions include ALA-PDT (photodynamic therapy with aminolevulinic acid), applying 5-FU, imiquimod, and retinoids by mouth. The lesions tend to recur on stopping treatment.
+The condition is rare. The lesions have been noted to occur at a younger age in warmer climates. EV associated skin cancer develops less frequently in Africans. The condition was first described by Felix Lewandowsky and Wilhelm Lutz in 1922.
+
+
+== Signs and symptoms ==
+Clinical diagnostic features are lifelong eruptions of pityriasis versicolor-like macules, flat wart-like papules, one to many cutaneous horn-like lesions and development of cutaneous carcinomas.
+Patients present with flat, slightly scaly, red-brown macules on the face, neck, and body, recurring especially around the penial area, or verruca-like papillomatous lesions, seborrheic keratosis-like lesions, and pinkish-red plane papules on the hands, upper and lower extremities, and face. The initial form of EV presents with only flat, wart-like lesions over the body, whereas the malignant form shows a higher rate of polymorphic skin lesions and development of multiple cutaneous tumors.
+Generally, cutaneous lesions are spread over the body. Some cases have only a few lesions which are limited to one extremity.
+
+
+== Genetics ==
+Most patients with classic EV carry biallelic loss-of-function mutations of transmembrane channel-like protein 6 (TMC6; also called EV protein 1, EVER1), TMC8 (also called EVER2), or calcium- and integrin-binding protein 1 (CIB1). The EVER1 or EVER2 genes are located adjacent to one another on chromosome 17. These genes play a role in regulating the distribution of zinc in the cell nuclei. Zinc is a necessary cofactor for many viral proteins, and the activity of EVER1/EVER2 complex appears to restrict the access of viral proteins to cellular zinc stores, limiting their growth.
+Other genes have also rarely been associated with this condition. These include the ras homolog gene family member H.
+
+
+== Treatment ==
+No curative treatment against EV has been found yet. Several treatments have been suggested, and acitretin 0.5–1 mg/day for 6 months is the most effective treatment owing to antiproliferative and differentiation-inducing effects. Interferons can also be used effectively together with retinoids.
+Cimetidine was reported to be effective because of its depressing mitogen-induced lymphocyte proliferation and regulatory T cell activity features. A report by Oliveira et al. showed that cimetidine was ineffective. Hayashi et al. applied topical calcipotriol to a patient with a successful result.
+As mentioned, various treatment methods are offered against EV; however, most importantly, education of the patient, early diagnosis, and excision of the tumoral lesions take precedence to prevent the development of cutaneous tumors.
+
+
+== Notable cases ==
+
+
+=== Ion Toader ===
+In March 2007, a Romanian man named Ion Toader was diagnosed with this condition. A patient of dermatologist Carmen Madeleine Curea, his pictures appeared on numerous blogs and Romanian press sources. Curea works with Spitalul Clinic Colentina in Bucharest, Romania. Stephen Stone, past president of the American Academy of Dermatology, confirmed that this was Lewandowsky–Lutz. Toader underwent surgery in late 2013, and since then has been mostly symptom-free, with only small reappearances.
+
+
+=== Dede Koswara ===
+In November 2007, a video of a 35-year-old Indonesian man named Dede Koswara with a similar disease appeared on the Internet. His story appeared on the U.S. Discovery Channel and TLC series My Shocking Story (Extraordinary People on UK's Five) in the episode "Half Man Half Tree". On August 12, 2008, Koswara's story was the subject of an ABC's Medical Mystery episode entitled "Tree Man".
+On 26 August 2008, Koswara returned home following surgery to remove 6 kg (13 lb) of warts from his body. The surgery consisted of three steps:
+
+Removal of the thick carpet of warts and massive horns on his hands
+Removal of the smaller warts on his head, torso, and feet
+Covering the hands with grafted skin
+In all, 96% of the warts were removed. The surgery was documented by the Discovery Channel and TLC in the episode "Treeman: Search for the Cure". However, his warts returned and he was thought to require two surgeries per year for the rest of his life to manage the warts. The Discovery Channel funded a blood analysis and found he lacked an immune system antigen to fight yeast infection. He was offered to have more tests run to determine whether it was treatable, and the doctor was fairly optimistic, but he refused the treatment.
+According to The Jakarta Post, Koswara underwent the first of a series of new surgical procedures to remove the regrown warts in the spring of 2011. Surgery had, however, proven to be a temporary solution for Koswara, as the warts continued to re-emerge. He had thus undergone three surgical operations since his major surgery in 2008. At the end of December 2010, two doctors from the Japanese Society for Complementary and Alternative Medicine brought him a drug made from Job's tears. The medicine was still undergoing lab tests as of 2016.
+Koswara died on 30 January 2016 at Hasan Sadikin Hospital, Bandung, from the complications related to his condition.
+In 2009, the Discovery Channel episode "Treeman Meets Treeman" reported on another Indonesian man, from the same region as Koswara, who also has the disease and received a similar treatment. His treatment seemed to have worked better.
+
+
+=== Abul Bajandar ===
+In January 2016, a 25-year-old patient named Abul Bajandar from Khulna, Bangladesh was admitted to Dhaka Medical College and Hospital and was diagnosed with this condition. Doctors at the hospital decided to form a medical board to treat the patient. Over the following year, Bajandar underwent at least 25 surgeries for the removal of the warts—weighing more than 5 kg (11 lb)—from his hands, feet, and legs. Bajandar’s condition returned after he interrupted treatments in May 2018. His doctors requested that he return for treatment many times. He finally returned for treatment in late 2018, but his condition had significantly worsened and spread to his feet. He will reportedly need five to six operations to get the condition back under control. In June 2019, he requested to get his hands amputated as the pain is unbearable. As of July 2023, doctors had refused amputation as a solution and insisted on continuous minor surgeries to manage the condition, which would be provided free of charge by the Bangladeshi government.
+
+
+=== Sahana Khatun ===
+In January 2017, it was reported that a 10-year-old girl in Bangladesh, Sahana Khatun, was diagnosed after developing lesions four months earlier. BBC News said that the case may have been the first diagnosis in a female.
+
+
+=== Mohammed Taluli ===
+In August 2017, it was reported that a 42-year-old man from Gaza, Mohammed Taluli, had been successfully operated on at the Hadassah Medical Centre in Jerusalem.
+
+
+=== Cristhél Suyapa Martínez ===
+In October 2018, a five-year-old girl in Honduras, Cristhél Suyapa Martínez, was diagnosed with the condition.
+
+
+=== Sebastian Quinn ===
+Sebastian Quinn is a Pittsburgh man with the condition who featured as a patient on an episode of TLC's My Feet Are Killing Me in January 2021. His overseeing specialist, Ebonie Vincent, operated on him to manage the growths on his feet.
+
+
+== References ==
+
+
+== Further reading ==
+Yabe Y, Sadakane H (September 1975). "The virus of epidermodysplasia verruciformis: electron microscopic and fluorescent antibody studies". The Journal of Investigative Dermatology. 65 (3): 324–30. doi:10.1111/1523-1747.ep12598388. PMID 808576.
+Lewandowsky F, Lutz W (October 1922). "Ein Fall einer bisher nicht beschriebenen Hauterkrankung (Epidermodysplasia verruciformis)". Archiv für Dermatologie und Syphilis (in German). 141 (2): 193–203. doi:10.1007/BF01938833. S2CID 8585441.
+
+
+== External links ==

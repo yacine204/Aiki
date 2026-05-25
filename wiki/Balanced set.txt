@@ -1,0 +1,4576 @@
+In linear algebra and related areas of mathematics a balanced set, circled set or disk in a vector space (over a field 
+  
+    
+      
+        
+          K
+        
+      
+    
+    {\displaystyle \mathbb {K} }
+  
+ with an absolute value function 
+  
+    
+      
+        
+          |
+        
+        ⋅
+        
+          |
+        
+      
+    
+    {\displaystyle |\cdot |}
+  
+) is a set 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ such that 
+  
+    
+      
+        a
+        S
+        ⊆
+        S
+      
+    
+    {\displaystyle aS\subseteq S}
+  
+ for all scalars 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ satisfying 
+  
+    
+      
+        
+          |
+        
+        a
+        
+          |
+        
+        ≤
+        1.
+      
+    
+    {\displaystyle |a|\leq 1.}
+  
+
+The balanced hull or balanced envelope of a set 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is the smallest balanced set containing 
+  
+    
+      
+        S
+        .
+      
+    
+    {\displaystyle S.}
+  
+
+The balanced core of a set 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is the largest balanced set contained in 
+  
+    
+      
+        S
+        .
+      
+    
+    {\displaystyle S.}
+  
+
+Balanced sets are ubiquitous in functional analysis because every neighborhood of the origin in every topological vector space (TVS) contains a balanced neighborhood of the origin and every convex neighborhood of the origin contains a balanced convex neighborhood of the origin (even if the TVS is not locally convex). This neighborhood can also be chosen to be an open set or, alternatively, a closed set.
+
+
+== Definition ==
+Let 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ be a vector space over the field 
+  
+    
+      
+        
+          K
+        
+      
+    
+    {\displaystyle \mathbb {K} }
+  
+ of real or complex numbers. 
+Notation
+If 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is a set, 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ is a scalar, and 
+  
+    
+      
+        B
+        ⊆
+        
+          K
+        
+      
+    
+    {\displaystyle B\subseteq \mathbb {K} }
+  
+ then let 
+  
+    
+      
+        a
+        S
+        =
+        {
+        a
+        s
+        :
+        s
+        ∈
+        S
+        }
+      
+    
+    {\displaystyle aS=\{as:s\in S\}}
+  
+ and 
+  
+    
+      
+        B
+        S
+        =
+        {
+        b
+        s
+        :
+        b
+        ∈
+        B
+        ,
+        s
+        ∈
+        S
+        }
+      
+    
+    {\displaystyle BS=\{bs:b\in B,s\in S\}}
+  
+ and for any 
+  
+    
+      
+        0
+        ≤
+        r
+        ≤
+        ∞
+        ,
+      
+    
+    {\displaystyle 0\leq r\leq \infty ,}
+  
+ let 
+
+  
+    
+      
+        
+          B
+          
+            r
+          
+        
+        =
+        {
+        a
+        ∈
+        
+          K
+        
+        :
+        
+          |
+        
+        a
+        
+          |
+        
+        <
+        r
+        }
+        
+        
+           and 
+        
+        
+        
+          B
+          
+            ≤
+            r
+          
+        
+        =
+        {
+        a
+        ∈
+        
+          K
+        
+        :
+        
+          |
+        
+        a
+        
+          |
+        
+        ≤
+        r
+        }
+        .
+      
+    
+    {\displaystyle B_{r}=\{a\in \mathbb {K} :|a|<r\}\qquad {\text{ and }}\qquad B_{\leq r}=\{a\in \mathbb {K} :|a|\leq r\}.}
+  
+
+denote, respectively, the open ball and the closed ball of radius 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+  
+ in the scalar field 
+  
+    
+      
+        
+          K
+        
+      
+    
+    {\displaystyle \mathbb {K} }
+  
+ centered at 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+  
+ where 
+  
+    
+      
+        
+          B
+          
+            0
+          
+        
+        =
+        ∅
+        ,
+        
+          B
+          
+            ≤
+            0
+          
+        
+        =
+        {
+        0
+        }
+        ,
+      
+    
+    {\displaystyle B_{0}=\varnothing ,B_{\leq 0}=\{0\},}
+  
+ and 
+  
+    
+      
+        
+          B
+          
+            ∞
+          
+        
+        =
+        
+          B
+          
+            ≤
+            ∞
+          
+        
+        =
+        
+          K
+        
+        .
+      
+    
+    {\displaystyle B_{\infty }=B_{\leq \infty }=\mathbb {K} .}
+  
+ 
+Every balanced subset of the field 
+  
+    
+      
+        
+          K
+        
+      
+    
+    {\displaystyle \mathbb {K} }
+  
+ is of the form 
+  
+    
+      
+        
+          B
+          
+            ≤
+            r
+          
+        
+      
+    
+    {\displaystyle B_{\leq r}}
+  
+ or 
+  
+    
+      
+        
+          B
+          
+            r
+          
+        
+      
+    
+    {\displaystyle B_{r}}
+  
+ for some 
+  
+    
+      
+        0
+        ≤
+        r
+        ≤
+        ∞
+        .
+      
+    
+    {\displaystyle 0\leq r\leq \infty .}
+  
+
+Balanced set
+A subset 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is called a balanced set or balanced if it satisfies any of the following equivalent conditions:
+
+Definition: 
+  
+    
+      
+        a
+        s
+        ∈
+        S
+      
+    
+    {\displaystyle as\in S}
+  
+ for all 
+  
+    
+      
+        s
+        ∈
+        S
+      
+    
+    {\displaystyle s\in S}
+  
+ and all scalars 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ satisfying 
+  
+    
+      
+        
+          |
+        
+        a
+        
+          |
+        
+        ≤
+        1.
+      
+    
+    {\displaystyle |a|\leq 1.}
+  
+
+  
+    
+      
+        a
+        S
+        ⊆
+        S
+      
+    
+    {\displaystyle aS\subseteq S}
+  
+ for all scalars 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ satisfying 
+  
+    
+      
+        
+          |
+        
+        a
+        
+          |
+        
+        ≤
+        1.
+      
+    
+    {\displaystyle |a|\leq 1.}
+  
+
+  
+    
+      
+        
+          B
+          
+            ≤
+            1
+          
+        
+        S
+        ⊆
+        S
+      
+    
+    {\displaystyle B_{\leq 1}S\subseteq S}
+  
+ (where 
+  
+    
+      
+        
+          B
+          
+            ≤
+            1
+          
+        
+        :=
+        {
+        a
+        ∈
+        
+          K
+        
+        :
+        
+          |
+        
+        a
+        
+          |
+        
+        ≤
+        1
+        }
+      
+    
+    {\displaystyle B_{\leq 1}:=\{a\in \mathbb {K} :|a|\leq 1\}}
+  
+).
+
+  
+    
+      
+        S
+        =
+        
+          B
+          
+            ≤
+            1
+          
+        
+        S
+        .
+      
+    
+    {\displaystyle S=B_{\leq 1}S.}
+  
+
+For every 
+  
+    
+      
+        s
+        ∈
+        S
+        ,
+      
+    
+    {\displaystyle s\in S,}
+  
+ 
+  
+    
+      
+        S
+        ∩
+        
+          K
+        
+        s
+        =
+        
+          B
+          
+            ≤
+            1
+          
+        
+        (
+        S
+        ∩
+        
+          K
+        
+        s
+        )
+        .
+      
+    
+    {\displaystyle S\cap \mathbb {K} s=B_{\leq 1}(S\cap \mathbb {K} s).}
+  
+
+  
+    
+      
+        
+          K
+        
+        s
+        =
+        span
+        ⁡
+        {
+        s
+        }
+      
+    
+    {\displaystyle \mathbb {K} s=\operatorname {span} \{s\}}
+  
+ is a 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+  
+ (if 
+  
+    
+      
+        s
+        =
+        0
+      
+    
+    {\displaystyle s=0}
+  
+) or 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+  
+ (if 
+  
+    
+      
+        s
+        ≠
+        0
+      
+    
+    {\displaystyle s\neq 0}
+  
+) dimensional vector subspace of 
+  
+    
+      
+        X
+        .
+      
+    
+    {\displaystyle X.}
+  
+
+If 
+  
+    
+      
+        R
+        :=
+        S
+        ∩
+        
+          K
+        
+        s
+      
+    
+    {\displaystyle R:=S\cap \mathbb {K} s}
+  
+ then the above equality becomes 
+  
+    
+      
+        R
+        =
+        
+          B
+          
+            ≤
+            1
+          
+        
+        R
+        ,
+      
+    
+    {\displaystyle R=B_{\leq 1}R,}
+  
+ which is exactly the previous condition for a set to be balanced. Thus, 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is balanced if and only if for every 
+  
+    
+      
+        s
+        ∈
+        S
+        ,
+      
+    
+    {\displaystyle s\in S,}
+  
+ 
+  
+    
+      
+        S
+        ∩
+        
+          K
+        
+        s
+      
+    
+    {\displaystyle S\cap \mathbb {K} s}
+  
+ is a balanced set (according to any of the previous defining conditions).
+For every 1-dimensional vector subspace 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ of 
+  
+    
+      
+        span
+        ⁡
+        S
+        ,
+      
+    
+    {\displaystyle \operatorname {span} S,}
+  
+ 
+  
+    
+      
+        S
+        ∩
+        Y
+      
+    
+    {\displaystyle S\cap Y}
+  
+ is a balanced set (according to any defining condition other than this one).
+For every 
+  
+    
+      
+        s
+        ∈
+        S
+        ,
+      
+    
+    {\displaystyle s\in S,}
+  
+ there exists some 
+  
+    
+      
+        0
+        ≤
+        r
+        ≤
+        ∞
+      
+    
+    {\displaystyle 0\leq r\leq \infty }
+  
+ such that 
+  
+    
+      
+        S
+        ∩
+        
+          K
+        
+        s
+        =
+        
+          B
+          
+            r
+          
+        
+        s
+      
+    
+    {\displaystyle S\cap \mathbb {K} s=B_{r}s}
+  
+ or 
+  
+    
+      
+        S
+        ∩
+        
+          K
+        
+        s
+        =
+        
+          B
+          
+            ≤
+            r
+          
+        
+        s
+        .
+      
+    
+    {\displaystyle S\cap \mathbb {K} s=B_{\leq r}s.}
+  
+
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is a balanced subset of 
+  
+    
+      
+        span
+        ⁡
+        S
+      
+    
+    {\displaystyle \operatorname {span} S}
+  
+ (according to any defining condition of "balanced" other than this one).
+Thus 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is a balanced subset of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ if and only if it is balanced subset of every (equivalently, of some) vector space over the field 
+  
+    
+      
+        
+          K
+        
+      
+    
+    {\displaystyle \mathbb {K} }
+  
+ that contains 
+  
+    
+      
+        S
+        .
+      
+    
+    {\displaystyle S.}
+  
+ So assuming that the field 
+  
+    
+      
+        
+          K
+        
+      
+    
+    {\displaystyle \mathbb {K} }
+  
+ is clear from context, this justifies writing "
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is balanced" without mentioning any vector space.
+
+If 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is a convex set then this list may be extended to include:
+
+  
+    
+      
+        a
+        S
+        ⊆
+        S
+      
+    
+    {\displaystyle aS\subseteq S}
+  
+ for all scalars 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ satisfying 
+  
+    
+      
+        
+          |
+        
+        a
+        
+          |
+        
+        =
+        1.
+      
+    
+    {\displaystyle |a|=1.}
+  
+
+If 
+  
+    
+      
+        
+          K
+        
+        =
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {K} =\mathbb {R} }
+  
+ then this list may be extended to include:
+
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is symmetric (meaning 
+  
+    
+      
+        −
+        S
+        =
+        S
+      
+    
+    {\displaystyle -S=S}
+  
+) and 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        )
+        S
+        ⊆
+        S
+        .
+      
+    
+    {\displaystyle [0,1)S\subseteq S.}
+  
+
+
+=== Balanced hull ===
+
+  
+    
+      
+        bal
+        ⁡
+        S
+         
+        =
+         
+        
+          ⋃
+          
+            
+              |
+            
+            a
+            
+              |
+            
+            ≤
+            1
+          
+        
+        a
+        S
+        =
+        
+          B
+          
+            ≤
+            1
+          
+        
+        S
+      
+    
+    {\displaystyle \operatorname {bal} S~=~\bigcup _{|a|\leq 1}aS=B_{\leq 1}S}
+  
+
+The balanced hull of a subset 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ of 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+ denoted by 
+  
+    
+      
+        bal
+        ⁡
+        S
+        ,
+      
+    
+    {\displaystyle \operatorname {bal} S,}
+  
+ is defined in any of the following equivalent ways:
+
+Definition: 
+  
+    
+      
+        bal
+        ⁡
+        S
+      
+    
+    {\displaystyle \operatorname {bal} S}
+  
+ is the smallest (with respect to 
+  
+    
+      
+        
+        ⊆
+        
+      
+    
+    {\displaystyle \,\subseteq \,}
+  
+) balanced subset of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ containing 
+  
+    
+      
+        S
+        .
+      
+    
+    {\displaystyle S.}
+  
+
+  
+    
+      
+        bal
+        ⁡
+        S
+      
+    
+    {\displaystyle \operatorname {bal} S}
+  
+ is the intersection of all balanced sets containing 
+  
+    
+      
+        S
+        .
+      
+    
+    {\displaystyle S.}
+  
+
+  
+    
+      
+        bal
+        ⁡
+        S
+        =
+        
+          ⋃
+          
+            
+              |
+            
+            a
+            
+              |
+            
+            ≤
+            1
+          
+        
+        (
+        a
+        S
+        )
+        .
+      
+    
+    {\displaystyle \operatorname {bal} S=\bigcup _{|a|\leq 1}(aS).}
+  
+
+  
+    
+      
+        bal
+        ⁡
+        S
+        =
+        
+          B
+          
+            ≤
+            1
+          
+        
+        S
+        .
+      
+    
+    {\displaystyle \operatorname {bal} S=B_{\leq 1}S.}
+  
+
+
+=== Balanced core ===
+
+  
+    
+      
+        balcore
+        ⁡
+        S
+         
+        =
+         
+        
+          
+            {
+            
+              
+                
+                  
+                    
+                      ⋂
+                      
+                        
+                          |
+                        
+                        a
+                        
+                          |
+                        
+                        ≥
+                        1
+                      
+                    
+                    a
+                    S
+                  
+                
+                
+                  
+                     if 
+                  
+                  0
+                  ∈
+                  S
+                
+              
+              
+                
+                  ∅
+                
+                
+                  
+                     if 
+                  
+                  0
+                  ∉
+                  S
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle \operatorname {balcore} S~=~{\begin{cases}\displaystyle \bigcap _{|a|\geq 1}aS&{\text{ if }}0\in S\\\varnothing &{\text{ if }}0\not \in S\\\end{cases}}}
+  
+
+The balanced core of a subset 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ of 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+ denoted by 
+  
+    
+      
+        balcore
+        ⁡
+        S
+        ,
+      
+    
+    {\displaystyle \operatorname {balcore} S,}
+  
+ is defined in any of the following equivalent ways:
+
+Definition: 
+  
+    
+      
+        balcore
+        ⁡
+        S
+      
+    
+    {\displaystyle \operatorname {balcore} S}
+  
+ is the largest (with respect to 
+  
+    
+      
+        
+        ⊆
+        
+      
+    
+    {\displaystyle \,\subseteq \,}
+  
+) balanced subset of 
+  
+    
+      
+        S
+        .
+      
+    
+    {\displaystyle S.}
+  
+
+  
+    
+      
+        balcore
+        ⁡
+        S
+      
+    
+    {\displaystyle \operatorname {balcore} S}
+  
+ is the union of all balanced subsets of 
+  
+    
+      
+        S
+        .
+      
+    
+    {\displaystyle S.}
+  
+
+  
+    
+      
+        balcore
+        ⁡
+        S
+        =
+        ∅
+      
+    
+    {\displaystyle \operatorname {balcore} S=\varnothing }
+  
+ if 
+  
+    
+      
+        0
+        ∉
+        S
+      
+    
+    {\displaystyle 0\not \in S}
+  
+ while 
+  
+    
+      
+        balcore
+        ⁡
+        S
+        =
+        
+          ⋂
+          
+            
+              |
+            
+            a
+            
+              |
+            
+            ≥
+            1
+          
+        
+        (
+        a
+        S
+        )
+      
+    
+    {\displaystyle \operatorname {balcore} S=\bigcap _{|a|\geq 1}(aS)}
+  
+ if 
+  
+    
+      
+        0
+        ∈
+        S
+        .
+      
+    
+    {\displaystyle 0\in S.}
+  
+
+
+== Examples ==
+The empty set is a balanced set. As is any vector subspace of any (real or complex) vector space. In particular, 
+  
+    
+      
+        {
+        0
+        }
+      
+    
+    {\displaystyle \{0\}}
+  
+ is always a balanced set.
+Any non-empty set that does not contain the origin is not balanced and furthermore, the balanced core of such a set will equal the empty set. 
+Normed and topological vector spaces
+The open and closed balls centered at the origin in a normed vector space are balanced sets. If 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ is a seminorm (or norm) on a vector space 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ then for any constant 
+  
+    
+      
+        c
+        >
+        0
+        ,
+      
+    
+    {\displaystyle c>0,}
+  
+ the set 
+  
+    
+      
+        {
+        x
+        ∈
+        X
+        :
+        p
+        (
+        x
+        )
+        ≤
+        c
+        }
+      
+    
+    {\displaystyle \{x\in X:p(x)\leq c\}}
+  
+ is balanced.
+If 
+  
+    
+      
+        S
+        ⊆
+        X
+      
+    
+    {\displaystyle S\subseteq X}
+  
+ is any subset and 
+  
+    
+      
+        
+          B
+          
+            1
+          
+        
+        :=
+        {
+        a
+        ∈
+        
+          K
+        
+        :
+        
+          |
+        
+        a
+        
+          |
+        
+        <
+        1
+        }
+      
+    
+    {\displaystyle B_{1}:=\{a\in \mathbb {K} :|a|<1\}}
+  
+ then 
+  
+    
+      
+        
+          B
+          
+            1
+          
+        
+        S
+      
+    
+    {\displaystyle B_{1}S}
+  
+ is a balanced set. 
+In particular, if 
+  
+    
+      
+        U
+        ⊆
+        X
+      
+    
+    {\displaystyle U\subseteq X}
+  
+ is any balanced neighborhood of the origin in a topological vector space 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ then 
+  
+    
+      
+        
+          Int
+          
+            X
+          
+        
+        ⁡
+        U
+         
+        ⊆
+         
+        
+          B
+          
+            1
+          
+        
+        U
+         
+        =
+         
+        
+          ⋃
+          
+            0
+            <
+            
+              |
+            
+            a
+            
+              |
+            
+            <
+            1
+          
+        
+        a
+        U
+         
+        ⊆
+         
+        U
+        .
+      
+    
+    {\displaystyle \operatorname {Int} _{X}U~\subseteq ~B_{1}U~=~\bigcup _{0<|a|<1}aU~\subseteq ~U.}
+  
+
+Balanced sets in 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+  
+ and 
+  
+    
+      
+        
+          C
+        
+      
+    
+    {\displaystyle \mathbb {C} }
+  
+
+Let 
+  
+    
+      
+        
+          K
+        
+      
+    
+    {\displaystyle \mathbb {K} }
+  
+ be the field real numbers 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+  
+ or complex numbers 
+  
+    
+      
+        
+          C
+        
+        ,
+      
+    
+    {\displaystyle \mathbb {C} ,}
+  
+ let 
+  
+    
+      
+        
+          |
+        
+        ⋅
+        
+          |
+        
+      
+    
+    {\displaystyle |\cdot |}
+  
+ denote the absolute value on 
+  
+    
+      
+        
+          K
+        
+        ,
+      
+    
+    {\displaystyle \mathbb {K} ,}
+  
+ and let 
+  
+    
+      
+        X
+        :=
+        
+          K
+        
+      
+    
+    {\displaystyle X:=\mathbb {K} }
+  
+ denotes the vector space over 
+  
+    
+      
+        
+          K
+        
+        .
+      
+    
+    {\displaystyle \mathbb {K} .}
+  
+ So for example, if 
+  
+    
+      
+        
+          K
+        
+        :=
+        
+          C
+        
+      
+    
+    {\displaystyle \mathbb {K} :=\mathbb {C} }
+  
+ is the field of complex numbers then 
+  
+    
+      
+        X
+        =
+        
+          K
+        
+        =
+        
+          C
+        
+      
+    
+    {\displaystyle X=\mathbb {K} =\mathbb {C} }
+  
+ is a 1-dimensional complex vector space whereas if 
+  
+    
+      
+        
+          K
+        
+        :=
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {K} :=\mathbb {R} }
+  
+ then 
+  
+    
+      
+        X
+        =
+        
+          K
+        
+        =
+        
+          R
+        
+      
+    
+    {\displaystyle X=\mathbb {K} =\mathbb {R} }
+  
+ is a 1-dimensional real vector space.
+The balanced subsets of 
+  
+    
+      
+        X
+        =
+        
+          K
+        
+      
+    
+    {\displaystyle X=\mathbb {K} }
+  
+ are exactly the following: 
+
+  
+    
+      
+        ∅
+      
+    
+    {\displaystyle \varnothing }
+  
+
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+
+  
+    
+      
+        {
+        0
+        }
+      
+    
+    {\displaystyle \{0\}}
+  
+
+  
+    
+      
+        {
+        x
+        ∈
+        X
+        :
+        
+          |
+        
+        x
+        
+          |
+        
+        <
+        r
+        }
+      
+    
+    {\displaystyle \{x\in X:|x|<r\}}
+  
+ for some real 
+  
+    
+      
+        r
+        >
+        0
+      
+    
+    {\displaystyle r>0}
+  
+
+  
+    
+      
+        {
+        x
+        ∈
+        X
+        :
+        
+          |
+        
+        x
+        
+          |
+        
+        ≤
+        r
+        }
+      
+    
+    {\displaystyle \{x\in X:|x|\leq r\}}
+  
+ for some real 
+  
+    
+      
+        r
+        >
+        0.
+      
+    
+    {\displaystyle r>0.}
+  
+
+Consequently, both the balanced core and the balanced hull of every set of scalars is equal to one of the sets listed above. 
+The balanced sets are 
+  
+    
+      
+        
+          C
+        
+      
+    
+    {\displaystyle \mathbb {C} }
+  
+ itself, the empty set and the open and closed discs centered at zero. Contrariwise, in the two dimensional Euclidean space there are many more balanced sets: any line segment with midpoint at the origin will do. As a result, 
+  
+    
+      
+        
+          C
+        
+      
+    
+    {\displaystyle \mathbb {C} }
+  
+ and 
+  
+    
+      
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{2}}
+  
+ are entirely different as far as scalar multiplication is concerned.
+Balanced sets in 
+  
+    
+      
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{2}}
+  
+
+Throughout, let 
+  
+    
+      
+        X
+        =
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X=\mathbb {R} ^{2}}
+  
+ (so 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is a vector space over 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+  
+) and let 
+  
+    
+      
+        
+          B
+          
+            ≤
+            1
+          
+        
+      
+    
+    {\displaystyle B_{\leq 1}}
+  
+ is the closed unit ball in 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ centered at the origin. 
+If 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+        ∈
+        X
+        =
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle x_{0}\in X=\mathbb {R} ^{2}}
+  
+ is non-zero, and 
+  
+    
+      
+        L
+        :=
+        
+          R
+        
+        
+          x
+          
+            0
+          
+        
+        ,
+      
+    
+    {\displaystyle L:=\mathbb {R} x_{0},}
+  
+ then the set 
+  
+    
+      
+        R
+        :=
+        
+          B
+          
+            ≤
+            1
+          
+        
+        ∪
+        L
+      
+    
+    {\displaystyle R:=B_{\leq 1}\cup L}
+  
+ is a closed, symmetric, and balanced neighborhood of the origin in 
+  
+    
+      
+        X
+        .
+      
+    
+    {\displaystyle X.}
+  
+ More generally, if 
+  
+    
+      
+        C
+      
+    
+    {\displaystyle C}
+  
+ is any closed subset of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ such that 
+  
+    
+      
+        (
+        0
+        ,
+        1
+        )
+        C
+        ⊆
+        C
+        ,
+      
+    
+    {\displaystyle (0,1)C\subseteq C,}
+  
+ then 
+  
+    
+      
+        S
+        :=
+        
+          B
+          
+            ≤
+            1
+          
+        
+        ∪
+        C
+        ∪
+        (
+        −
+        C
+        )
+      
+    
+    {\displaystyle S:=B_{\leq 1}\cup C\cup (-C)}
+  
+ is a closed, symmetric, and balanced neighborhood of the origin in 
+  
+    
+      
+        X
+        .
+      
+    
+    {\displaystyle X.}
+  
+ This example can be generalized to 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  
+ for any integer 
+  
+    
+      
+        n
+        ≥
+        1.
+      
+    
+    {\displaystyle n\geq 1.}
+  
+
+Let 
+  
+    
+      
+        B
+        ⊆
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle B\subseteq \mathbb {R} ^{2}}
+  
+ be the union of the line segment between the points 
+  
+    
+      
+        (
+        −
+        1
+        ,
+        0
+        )
+      
+    
+    {\displaystyle (-1,0)}
+  
+ and 
+  
+    
+      
+        (
+        1
+        ,
+        0
+        )
+      
+    
+    {\displaystyle (1,0)}
+  
+ and the line segment between 
+  
+    
+      
+        (
+        0
+        ,
+        −
+        1
+        )
+      
+    
+    {\displaystyle (0,-1)}
+  
+ and 
+  
+    
+      
+        (
+        0
+        ,
+        1
+        )
+        .
+      
+    
+    {\displaystyle (0,1).}
+  
+ Then 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ is balanced but not convex. Nor is 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ is absorbing (despite the fact that 
+  
+    
+      
+        span
+        ⁡
+        B
+        =
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \operatorname {span} B=\mathbb {R} ^{2}}
+  
+ is the entire vector space).
+For every 
+  
+    
+      
+        0
+        ≤
+        t
+        ≤
+        π
+        ,
+      
+    
+    {\displaystyle 0\leq t\leq \pi ,}
+  
+ let 
+  
+    
+      
+        
+          r
+          
+            t
+          
+        
+      
+    
+    {\displaystyle r_{t}}
+  
+ be any positive real number and let 
+  
+    
+      
+        
+          B
+          
+            t
+          
+        
+      
+    
+    {\displaystyle B^{t}}
+  
+ be the (open or closed) line segment in 
+  
+    
+      
+        X
+        :=
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X:=\mathbb {R} ^{2}}
+  
+ between the points 
+  
+    
+      
+        (
+        cos
+        ⁡
+        t
+        ,
+        sin
+        ⁡
+        t
+        )
+      
+    
+    {\displaystyle (\cos t,\sin t)}
+  
+ and 
+  
+    
+      
+        −
+        (
+        cos
+        ⁡
+        t
+        ,
+        sin
+        ⁡
+        t
+        )
+        .
+      
+    
+    {\displaystyle -(\cos t,\sin t).}
+  
+ Then the set 
+  
+    
+      
+        B
+        =
+        
+          ⋃
+          
+            0
+            ≤
+            t
+            <
+            π
+          
+        
+        
+          r
+          
+            t
+          
+        
+        
+          B
+          
+            t
+          
+        
+      
+    
+    {\displaystyle B=\bigcup _{0\leq t<\pi }r_{t}B^{t}}
+  
+ is a balanced and absorbing set but it is not necessarily convex.
+The balanced hull of a closed set need not be closed. Take for instance the graph of 
+  
+    
+      
+        x
+        y
+        =
+        1
+      
+    
+    {\displaystyle xy=1}
+  
+ in 
+  
+    
+      
+        X
+        =
+        
+          
+            R
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle X=\mathbb {R} ^{2}.}
+  
+ 
+The next example shows that the balanced hull of a convex set may fail to be convex (however, the convex hull of a balanced set is always balanced). For an example, let the convex subset be 
+  
+    
+      
+        S
+        :=
+        [
+        −
+        1
+        ,
+        1
+        ]
+        ×
+        {
+        1
+        }
+        ,
+      
+    
+    {\displaystyle S:=[-1,1]\times \{1\},}
+  
+ which is a horizontal closed line segment lying above the 
+  
+    
+      
+        x
+        −
+      
+    
+    {\displaystyle x-}
+  
+axis in 
+  
+    
+      
+        X
+        :=
+        
+          
+            R
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle X:=\mathbb {R} ^{2}.}
+  
+ The balanced hull 
+  
+    
+      
+        bal
+        ⁡
+        S
+      
+    
+    {\displaystyle \operatorname {bal} S}
+  
+ is a non-convex subset that is "hour glass shaped" and equal to the union of two closed and filled isosceles triangles 
+  
+    
+      
+        
+          T
+          
+            1
+          
+        
+      
+    
+    {\displaystyle T_{1}}
+  
+ and 
+  
+    
+      
+        
+          T
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle T_{2},}
+  
+ where 
+  
+    
+      
+        
+          T
+          
+            2
+          
+        
+        =
+        −
+        
+          T
+          
+            1
+          
+        
+      
+    
+    {\displaystyle T_{2}=-T_{1}}
+  
+ and 
+  
+    
+      
+        
+          T
+          
+            1
+          
+        
+      
+    
+    {\displaystyle T_{1}}
+  
+ is the filled triangle whose vertices are the origin together with the endpoints of 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ (said differently, 
+  
+    
+      
+        
+          T
+          
+            1
+          
+        
+      
+    
+    {\displaystyle T_{1}}
+  
+ is the convex hull of 
+  
+    
+      
+        S
+        ∪
+        {
+        (
+        0
+        ,
+        0
+        )
+        }
+      
+    
+    {\displaystyle S\cup \{(0,0)\}}
+  
+ while 
+  
+    
+      
+        
+          T
+          
+            2
+          
+        
+      
+    
+    {\displaystyle T_{2}}
+  
+ is the convex hull of 
+  
+    
+      
+        (
+        −
+        S
+        )
+        ∪
+        {
+        (
+        0
+        ,
+        0
+        )
+        }
+      
+    
+    {\displaystyle (-S)\cup \{(0,0)\}}
+  
+).
+
+
+=== Sufficient conditions ===
+A set 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  
+ is balanced if and only if it is equal to its balanced hull 
+  
+    
+      
+        bal
+        ⁡
+        T
+      
+    
+    {\displaystyle \operatorname {bal} T}
+  
+ or to its balanced core 
+  
+    
+      
+        balcore
+        ⁡
+        T
+        ,
+      
+    
+    {\displaystyle \operatorname {balcore} T,}
+  
+ in which case all three of these sets are equal: 
+  
+    
+      
+        T
+        =
+        bal
+        ⁡
+        T
+        =
+        balcore
+        ⁡
+        T
+        .
+      
+    
+    {\displaystyle T=\operatorname {bal} T=\operatorname {balcore} T.}
+  
+
+The Cartesian product of a family of balanced sets is balanced in the product space of the corresponding vector spaces (over the same field 
+  
+    
+      
+        
+          K
+        
+      
+    
+    {\displaystyle \mathbb {K} }
+  
+). 
+
+The balanced hull of a compact (respectively, totally bounded, bounded) set has the same property.
+The convex hull of a balanced set is convex and balanced (that is, it is absolutely convex). However, the balanced hull of a convex set may fail to be convex (a counter-example is given above).
+Arbitrary unions of balanced sets are balanced, and the same is true of arbitrary intersections of balanced sets.
+Scalar multiples and (finite) Minkowski sums of balanced sets are again balanced.
+Images and preimages of balanced sets under linear maps are again balanced. Explicitly, if 
+  
+    
+      
+        L
+        :
+        X
+        →
+        Y
+      
+    
+    {\displaystyle L:X\to Y}
+  
+ is a linear map and 
+  
+    
+      
+        B
+        ⊆
+        X
+      
+    
+    {\displaystyle B\subseteq X}
+  
+ and 
+  
+    
+      
+        C
+        ⊆
+        Y
+      
+    
+    {\displaystyle C\subseteq Y}
+  
+ are balanced sets, then 
+  
+    
+      
+        L
+        (
+        B
+        )
+      
+    
+    {\displaystyle L(B)}
+  
+ and 
+  
+    
+      
+        
+          L
+          
+            −
+            1
+          
+        
+        (
+        C
+        )
+      
+    
+    {\displaystyle L^{-1}(C)}
+  
+ are balanced sets.
+
+
+=== Balanced neighborhoods ===
+In any topological vector space, the closure of a balanced set is balanced. The union of the origin 
+  
+    
+      
+        {
+        0
+        }
+      
+    
+    {\displaystyle \{0\}}
+  
+ and the topological interior of a balanced set is balanced. Therefore, the topological interior of a balanced neighborhood of the origin is balanced. However, 
+  
+    
+      
+        
+          {
+          
+            (
+            z
+            ,
+            w
+            )
+            ∈
+            
+              
+                C
+              
+              
+                2
+              
+            
+            :
+            
+              |
+            
+            z
+            
+              |
+            
+            ≤
+            
+              |
+            
+            w
+            
+              |
+            
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{(z,w)\in \mathbb {C} ^{2}:|z|\leq |w|\right\}}
+  
+ is a balanced subset of 
+  
+    
+      
+        X
+        =
+        
+          
+            C
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X=\mathbb {C} ^{2}}
+  
+ that contains the origin 
+  
+    
+      
+        (
+        0
+        ,
+        0
+        )
+        ∈
+        X
+      
+    
+    {\displaystyle (0,0)\in X}
+  
+ but whose (nonempty) topological interior does not contain the origin and is therefore not a balanced set. Similarly for real vector spaces, if 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  
+ denotes the convex hull of 
+  
+    
+      
+        (
+        0
+        ,
+        0
+        )
+      
+    
+    {\displaystyle (0,0)}
+  
+ and 
+  
+    
+      
+        (
+        ±
+        1
+        ,
+        1
+        )
+      
+    
+    {\displaystyle (\pm 1,1)}
+  
+ (a filled triangle whose vertices are these three points) then 
+  
+    
+      
+        B
+        :=
+        T
+        ∪
+        (
+        −
+        T
+        )
+      
+    
+    {\displaystyle B:=T\cup (-T)}
+  
+ is an (hour glass shaped) balanced subset of 
+  
+    
+      
+        X
+        :=
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X:=\mathbb {R} ^{2}}
+  
+ whose non-empty topological interior does not contain the origin and so is not a balanced set (and although the set 
+  
+    
+      
+        {
+        (
+        0
+        ,
+        0
+        )
+        }
+        ∪
+        
+          Int
+          
+            X
+          
+        
+        ⁡
+        B
+      
+    
+    {\displaystyle \{(0,0)\}\cup \operatorname {Int} _{X}B}
+  
+ formed by adding the origin is balanced, it is neither an open set nor a neighborhood of the origin).
+Every neighborhood (respectively, convex neighborhood) of the origin in a topological vector space 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ contains a balanced (respectively, convex and balanced) open neighborhood of the origin. In fact, the following construction produces such balanced sets. Given 
+  
+    
+      
+        W
+        ⊆
+        X
+        ,
+      
+    
+    {\displaystyle W\subseteq X,}
+  
+ the symmetric set 
+  
+    
+      
+        
+          ⋂
+          
+            
+              |
+            
+            u
+            
+              |
+            
+            =
+            1
+          
+        
+        u
+        W
+        ⊆
+        W
+      
+    
+    {\displaystyle \bigcap _{|u|=1}uW\subseteq W}
+  
+ will be convex (respectively, closed, balanced, bounded, a neighborhood of the origin, an absorbing subset of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+) whenever this is true of 
+  
+    
+      
+        W
+        .
+      
+    
+    {\displaystyle W.}
+  
+ It will be a balanced set if 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  
+ is a star shaped at the origin, which is true, for instance, when 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  
+ is convex and contains 
+  
+    
+      
+        0.
+      
+    
+    {\displaystyle 0.}
+  
+ In particular, if 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  
+ is a convex neighborhood of the origin then 
+  
+    
+      
+        
+          ⋂
+          
+            
+              |
+            
+            u
+            
+              |
+            
+            =
+            1
+          
+        
+        u
+        W
+      
+    
+    {\displaystyle \bigcap _{|u|=1}uW}
+  
+ will be a balanced convex neighborhood of the origin and so its topological interior will be a balanced convex open neighborhood of the origin.
+
+Suppose that 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  
+ is a convex and absorbing subset of 
+  
+    
+      
+        X
+        .
+      
+    
+    {\displaystyle X.}
+  
+ Then 
+  
+    
+      
+        D
+        :=
+        
+          ⋂
+          
+            
+              |
+            
+            u
+            
+              |
+            
+            =
+            1
+          
+        
+        u
+        W
+      
+    
+    {\displaystyle D:=\bigcap _{|u|=1}uW}
+  
+ will be convex balanced absorbing subset of 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+ which guarantees that the Minkowski functional 
+  
+    
+      
+        
+          p
+          
+            D
+          
+        
+        :
+        X
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle p_{D}:X\to \mathbb {R} }
+  
+ of 
+  
+    
+      
+        D
+      
+    
+    {\displaystyle D}
+  
+ will be a seminorm on 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+ thereby making 
+  
+    
+      
+        
+          (
+          
+            X
+            ,
+            
+              p
+              
+                D
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \left(X,p_{D}\right)}
+  
+ into a seminormed space that carries its canonical pseduometrizable topology. The set of scalar multiples 
+  
+    
+      
+        r
+        D
+      
+    
+    {\displaystyle rD}
+  
+ as 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+  
+ ranges over 
+  
+    
+      
+        
+          {
+          
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            ,
+            
+              
+                
+                  1
+                  3
+                
+              
+            
+            ,
+            
+              
+                
+                  1
+                  4
+                
+              
+            
+            ,
+            …
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{{\tfrac {1}{2}},{\tfrac {1}{3}},{\tfrac {1}{4}},\ldots \right\}}
+  
+ (or over any other set of non-zero scalars having 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+  
+ as a limit point) forms a neighborhood basis of absorbing disks at the origin for this locally convex topology. If 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is a topological vector space and if this convex absorbing subset 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  
+ is also a bounded subset of 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+ then the same will be true of the absorbing disk 
+  
+    
+      
+        D
+        :=
+        
+          
+            
+              ⋂
+              
+                
+                  |
+                
+                u
+                
+                  |
+                
+                =
+                1
+              
+            
+          
+        
+        u
+        W
+        ;
+      
+    
+    {\displaystyle D:={\textstyle \bigcap \limits _{|u|=1}}uW;}
+  
+ if in addition 
+  
+    
+      
+        D
+      
+    
+    {\displaystyle D}
+  
+ does not contain any non-trivial vector subspace then 
+  
+    
+      
+        
+          p
+          
+            D
+          
+        
+      
+    
+    {\displaystyle p_{D}}
+  
+ will be a norm and 
+  
+    
+      
+        
+          (
+          
+            X
+            ,
+            
+              p
+              
+                D
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \left(X,p_{D}\right)}
+  
+ will form what is known as an auxiliary normed space.  If this normed space is a Banach space then 
+  
+    
+      
+        D
+      
+    
+    {\displaystyle D}
+  
+ is called a Banach disk.
+
+
+== Properties ==
+
+Properties of balanced sets
+A balanced set is not empty if and only if it contains the origin. 
+By definition, a set is absolutely convex if and only if it is convex and balanced. 
+Every balanced set is star-shaped (at 0) and a symmetric set.
+If 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ is a balanced subset of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ then:
+
+for any scalars 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ and 
+  
+    
+      
+        d
+        ,
+      
+    
+    {\displaystyle d,}
+  
+ if 
+  
+    
+      
+        
+          |
+        
+        c
+        
+          |
+        
+        ≤
+        
+          |
+        
+        d
+        
+          |
+        
+      
+    
+    {\displaystyle |c|\leq |d|}
+  
+ then 
+  
+    
+      
+        c
+        B
+        ⊆
+        d
+        B
+      
+    
+    {\displaystyle cB\subseteq dB}
+  
+ and 
+  
+    
+      
+        c
+        B
+        =
+        
+          |
+        
+        c
+        
+          |
+        
+        B
+        .
+      
+    
+    {\displaystyle cB=|c|B.}
+  
+ Thus if 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ and 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+ are any scalars then 
+  
+    
+      
+        (
+        c
+        B
+        )
+        ∩
+        (
+        d
+        B
+        )
+        =
+        
+          min
+          
+
+          
+        
+        {
+        
+          |
+        
+        c
+        
+          |
+        
+        ,
+        
+          |
+        
+        d
+        
+          |
+        
+        }
+        B
+        .
+      
+    
+    {\displaystyle (cB)\cap (dB)=\min _{}\{|c|,|d|\}B.}
+  
+
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ is absorbing in 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ if and only if for all 
+  
+    
+      
+        x
+        ∈
+        X
+        ,
+      
+    
+    {\displaystyle x\in X,}
+  
+ there exists 
+  
+    
+      
+        r
+        >
+        0
+      
+    
+    {\displaystyle r>0}
+  
+ such that 
+  
+    
+      
+        x
+        ∈
+        r
+        B
+        .
+      
+    
+    {\displaystyle x\in rB.}
+  
+
+for any 1-dimensional vector subspace 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ of 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+ the set 
+  
+    
+      
+        B
+        ∩
+        Y
+      
+    
+    {\displaystyle B\cap Y}
+  
+ is convex and balanced. If 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ is not empty and if 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ is a 1-dimensional vector subspace of 
+  
+    
+      
+        span
+        ⁡
+        B
+      
+    
+    {\displaystyle \operatorname {span} B}
+  
+ then 
+  
+    
+      
+        B
+        ∩
+        Y
+      
+    
+    {\displaystyle B\cap Y}
+  
+ is either 
+  
+    
+      
+        {
+        0
+        }
+      
+    
+    {\displaystyle \{0\}}
+  
+ or else it is absorbing in 
+  
+    
+      
+        Y
+        .
+      
+    
+    {\displaystyle Y.}
+  
+
+for any 
+  
+    
+      
+        x
+        ∈
+        X
+        ,
+      
+    
+    {\displaystyle x\in X,}
+  
+ if 
+  
+    
+      
+        B
+        ∩
+        span
+        ⁡
+        x
+      
+    
+    {\displaystyle B\cap \operatorname {span} x}
+  
+ contains more than one point then it is a convex and balanced neighborhood of 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+  
+ in the 1-dimensional vector space 
+  
+    
+      
+        span
+        ⁡
+        x
+      
+    
+    {\displaystyle \operatorname {span} x}
+  
+ when this space is endowed with the Hausdorff Euclidean topology; and the set 
+  
+    
+      
+        B
+        ∩
+        
+          R
+        
+        x
+      
+    
+    {\displaystyle B\cap \mathbb {R} x}
+  
+ is a convex balanced subset of the real vector space 
+  
+    
+      
+        
+          R
+        
+        x
+      
+    
+    {\displaystyle \mathbb {R} x}
+  
+ that contains the origin.
+
+Properties of balanced hulls and balanced cores
+For any collection 
+  
+    
+      
+        
+          
+            S
+          
+        
+      
+    
+    {\displaystyle {\mathcal {S}}}
+  
+ of subsets of 
+  
+    
+      
+        X
+        ,
+      
+    
+    {\displaystyle X,}
+  
+
+  
+    
+      
+        bal
+        ⁡
+        
+          (
+          
+            
+              ⋃
+              
+                S
+                ∈
+                
+                  
+                    S
+                  
+                
+              
+            
+            S
+          
+          )
+        
+        =
+        
+          ⋃
+          
+            S
+            ∈
+            
+              
+                S
+              
+            
+          
+        
+        bal
+        ⁡
+        S
+        
+        
+           and 
+        
+        
+        balcore
+        ⁡
+        
+          (
+          
+            
+              ⋂
+              
+                S
+                ∈
+                
+                  
+                    S
+                  
+                
+              
+            
+            S
+          
+          )
+        
+        =
+        
+          ⋂
+          
+            S
+            ∈
+            
+              
+                S
+              
+            
+          
+        
+        balcore
+        ⁡
+        S
+        .
+      
+    
+    {\displaystyle \operatorname {bal} \left(\bigcup _{S\in {\mathcal {S}}}S\right)=\bigcup _{S\in {\mathcal {S}}}\operatorname {bal} S\quad {\text{ and }}\quad \operatorname {balcore} \left(\bigcap _{S\in {\mathcal {S}}}S\right)=\bigcap _{S\in {\mathcal {S}}}\operatorname {balcore} S.}
+  
+
+In any topological vector space, the balanced hull of any open neighborhood of the origin is again open. 
+If 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is a Hausdorff topological vector space and if 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+  
+ is a compact subset of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ then the balanced hull of 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+  
+ is compact.
+If a set is closed (respectively, convex, absorbing, a neighborhood of the origin) then the same is true of its balanced core.
+For any subset 
+  
+    
+      
+        S
+        ⊆
+        X
+      
+    
+    {\displaystyle S\subseteq X}
+  
+ and any scalar 
+  
+    
+      
+        c
+        ,
+      
+    
+    {\displaystyle c,}
+  
+ 
+  
+    
+      
+        bal
+        ⁡
+        (
+        c
+        
+        S
+        )
+        =
+        c
+        bal
+        ⁡
+        S
+        =
+        
+          |
+        
+        c
+        
+          |
+        
+        bal
+        ⁡
+        S
+        .
+      
+    
+    {\displaystyle \operatorname {bal} (c\,S)=c\operatorname {bal} S=|c|\operatorname {bal} S.}
+  
+
+For any scalar 
+  
+    
+      
+        c
+        ≠
+        0
+        ,
+      
+    
+    {\displaystyle c\neq 0,}
+  
+ 
+  
+    
+      
+        balcore
+        ⁡
+        (
+        c
+        
+        S
+        )
+        =
+        c
+        balcore
+        ⁡
+        S
+        =
+        
+          |
+        
+        c
+        
+          |
+        
+        balcore
+        ⁡
+        S
+        .
+      
+    
+    {\displaystyle \operatorname {balcore} (c\,S)=c\operatorname {balcore} S=|c|\operatorname {balcore} S.}
+  
+ This equality holds for 
+  
+    
+      
+        c
+        =
+        0
+      
+    
+    {\displaystyle c=0}
+  
+ if and only if 
+  
+    
+      
+        S
+        ⊆
+        {
+        0
+        }
+        .
+      
+    
+    {\displaystyle S\subseteq \{0\}.}
+  
+ Thus if 
+  
+    
+      
+        0
+        ∈
+        S
+      
+    
+    {\displaystyle 0\in S}
+  
+ or 
+  
+    
+      
+        S
+        =
+        ∅
+      
+    
+    {\displaystyle S=\varnothing }
+  
+ then 
+  
+    
+      
+        balcore
+        ⁡
+        (
+        c
+        
+        S
+        )
+        =
+        c
+        balcore
+        ⁡
+        S
+        =
+        
+          |
+        
+        c
+        
+          |
+        
+        balcore
+        ⁡
+        S
+      
+    
+    {\displaystyle \operatorname {balcore} (c\,S)=c\operatorname {balcore} S=|c|\operatorname {balcore} S}
+  
+ for every scalar 
+  
+    
+      
+        c
+        .
+      
+    
+    {\displaystyle c.}
+  
+
+
+== Related notions ==
+A function 
+  
+    
+      
+        p
+        :
+        X
+        →
+        [
+        0
+        ,
+        ∞
+        )
+      
+    
+    {\displaystyle p:X\to [0,\infty )}
+  
+ on a real or complex vector space is said to be a balanced function if it satisfies any of the following equivalent conditions: 
+
+  
+    
+      
+        p
+        (
+        a
+        x
+        )
+        ≤
+        p
+        (
+        x
+        )
+      
+    
+    {\displaystyle p(ax)\leq p(x)}
+  
+ whenever 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ is a scalar satisfying 
+  
+    
+      
+        
+          |
+        
+        a
+        
+          |
+        
+        ≤
+        1
+      
+    
+    {\displaystyle |a|\leq 1}
+  
+ and 
+  
+    
+      
+        x
+        ∈
+        X
+        .
+      
+    
+    {\displaystyle x\in X.}
+  
+
+  
+    
+      
+        p
+        (
+        a
+        x
+        )
+        ≤
+        p
+        (
+        b
+        x
+        )
+      
+    
+    {\displaystyle p(ax)\leq p(bx)}
+  
+ whenever 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ and 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+  
+ are scalars satisfying 
+  
+    
+      
+        
+          |
+        
+        a
+        
+          |
+        
+        ≤
+        
+          |
+        
+        b
+        
+          |
+        
+      
+    
+    {\displaystyle |a|\leq |b|}
+  
+ and 
+  
+    
+      
+        x
+        ∈
+        X
+        .
+      
+    
+    {\displaystyle x\in X.}
+  
+
+  
+    
+      
+        {
+        x
+        ∈
+        X
+        :
+        p
+        (
+        x
+        )
+        ≤
+        t
+        }
+      
+    
+    {\displaystyle \{x\in X:p(x)\leq t\}}
+  
+ is a balanced set for every non-negative real 
+  
+    
+      
+        t
+        ≥
+        0.
+      
+    
+    {\displaystyle t\geq 0.}
+  
+
+If 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ is a balanced function then 
+  
+    
+      
+        p
+        (
+        a
+        x
+        )
+        =
+        p
+        (
+        
+          |
+        
+        a
+        
+          |
+        
+        x
+        )
+      
+    
+    {\displaystyle p(ax)=p(|a|x)}
+  
+ for every scalar 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ and vector 
+  
+    
+      
+        x
+        ∈
+        X
+        ;
+      
+    
+    {\displaystyle x\in X;}
+  
+ 
+so in particular, 
+  
+    
+      
+        p
+        (
+        u
+        x
+        )
+        =
+        p
+        (
+        x
+        )
+      
+    
+    {\displaystyle p(ux)=p(x)}
+  
+ for every unit length scalar 
+  
+    
+      
+        u
+      
+    
+    {\displaystyle u}
+  
+ (satisfying 
+  
+    
+      
+        
+          |
+        
+        u
+        
+          |
+        
+        =
+        1
+      
+    
+    {\displaystyle |u|=1}
+  
+) and every 
+  
+    
+      
+        x
+        ∈
+        X
+        .
+      
+    
+    {\displaystyle x\in X.}
+  
+
+Using 
+  
+    
+      
+        u
+        :=
+        −
+        1
+      
+    
+    {\displaystyle u:=-1}
+  
+ shows that every balanced function is a symmetric function.
+A real-valued function 
+  
+    
+      
+        p
+        :
+        X
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle p:X\to \mathbb {R} }
+  
+ is a seminorm if and only if it is a balanced sublinear function.
+
+
+== See also ==
+Absolutely convex set – Convex and balanced set
+Absorbing set – Set that can be "inflated" to reach any point
+Bounded set (topological vector space) – Generalization of boundedness
+Convex set – In geometry, set whose intersection with every line is a single line segment
+Star domain – Property of point sets in Euclidean spaces
+Symmetric set – Property of group subsets (mathematics)
+Topological vector space – Vector space with a notion of nearness
+
+
+== References ==
+
+Proofs
+
+
+=== Sources ===
+Bourbaki, Nicolas (1987) [1981]. Topological Vector Spaces: Chapters 1–5. Éléments de mathématique. Translated by Eggleston, H.G.; Madan, S. Berlin New York: Springer-Verlag. ISBN 3-540-13627-4. OCLC 17499190.
+Conway, John B. (1990). A Course in Functional Analysis. Graduate Texts in Mathematics. Vol. 96 (2nd ed.). New York: Springer-Verlag. ISBN 978-0-387-97245-9. OCLC 21195908.
+Dunford, Nelson; Schwartz, Jacob T. (1988). Linear Operators. Pure and applied mathematics. Vol. 1. New York: Wiley-Interscience. ISBN 978-0-471-60848-6. OCLC 18412261.
+Edwards, Robert E. (1995). Functional Analysis: Theory and Applications. New York: Dover Publications. ISBN 978-0-486-68143-6. OCLC 30593138.
+Jarchow, Hans (1981). Locally convex spaces. Stuttgart: B.G. Teubner. ISBN 978-3-519-02224-4. OCLC 8210342.
+Köthe, Gottfried (1983) [1969]. Topological Vector Spaces I. Grundlehren der mathematischen Wissenschaften. Vol. 159. Translated by Garling, D.J.H. New York: Springer Science & Business Media. ISBN 978-3-642-64988-2. MR 0248498. OCLC 840293704.
+Köthe, Gottfried (1979). Topological Vector Spaces II. Grundlehren der mathematischen Wissenschaften. Vol. 237. New York: Springer Science & Business Media. ISBN 978-0-387-90400-9. OCLC 180577972.
+Narici, Lawrence; Beckenstein, Edward (2011). Topological Vector Spaces. Pure and applied mathematics (Second ed.). Boca Raton, FL: CRC Press. ISBN 978-1584888666. OCLC 144216834.
+Robertson, Alex P.; Robertson, Wendy J. (1980). Topological Vector Spaces. Cambridge Tracts in Mathematics. Vol. 53. Cambridge England: Cambridge University Press. ISBN 978-0-521-29882-7. OCLC 589250.
+Rudin, Walter (1991). Functional Analysis. International Series in Pure and Applied Mathematics. Vol. 8 (Second ed.). New York, NY: McGraw-Hill Science/Engineering/Math. ISBN 978-0-07-054236-5. OCLC 21163277.
+Schaefer, Helmut H.; Wolff, Manfred P. (1999). Topological Vector Spaces. GTM. Vol. 8 (Second ed.). New York, NY: Springer New York Imprint Springer. ISBN 978-1-4612-7155-0. OCLC 840278135.
+Schechter, Eric (October 24, 1996). Handbook of Analysis and Its Foundations. Academic Press. ISBN 978-0-08-053299-8.
+Swartz, Charles (1992). An introduction to Functional Analysis. New York: M. Dekker. ISBN 978-0-8247-8643-4. OCLC 24909067.
+Trèves, François (2006) [1967]. Topological Vector Spaces, Distributions and Kernels. Mineola, N.Y.: Dover Publications. ISBN 978-0-486-45352-1. OCLC 853623322.
+Wilansky, Albert (2013). Modern Methods in Topological Vector Spaces. Mineola, New York: Dover Publications, Inc. ISBN 978-0-486-49353-4. OCLC 849801114.

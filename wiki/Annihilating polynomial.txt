@@ -1,0 +1,10 @@
+A polynomial P is annihilating or called an annihilating polynomial in linear algebra and operator theory if the polynomial considered as a function of the linear operator or a matrix A evaluates to zero, i.e., is such that P(A) = 0.
+Note that all characteristic polynomials and minimal polynomials of A are annihilating polynomials. In fact, every annihilating polynomial is the multiple of the minimal polynomial of an operator A.
+
+
+== See also ==
+Cayley–Hamilton theorem
+Minimal polynomial (linear algebra)
+
+
+== References ==

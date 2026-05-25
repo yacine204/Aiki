@@ -1,0 +1,244 @@
+In mathematics, Bendixson's inequality is a quantitative result in the field of matrices derived by Ivar Bendixson in 1902. The inequality puts limits on the imaginary and real parts of characteristic roots (eigenvalues) of real matrices. A special case of this inequality leads to the result that characteristic roots of a real symmetric matrix are always real.
+The inequality relating to the imaginary parts of characteristic roots of real matrices (Theorem I in ) is stated as:
+Let 
+  
+    
+      
+        A
+        =
+        
+          (
+          
+            a
+            
+              i
+              j
+            
+          
+          )
+        
+      
+    
+    {\displaystyle A=\left(a_{ij}\right)}
+  
+ be a real 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+  
+ matrix and 
+  
+    
+      
+        α
+        =
+        
+          max
+          
+            1
+            ≤
+            i
+            ,
+            j
+            ≤
+            n
+          
+        
+        
+          
+            1
+            2
+          
+        
+        
+          |
+          
+            
+              a
+              
+                i
+                j
+              
+            
+            −
+            
+              a
+              
+                j
+                i
+              
+            
+          
+          |
+        
+      
+    
+    {\displaystyle \alpha =\max _{1\leq i,j\leq n}{\frac {1}{2}}\left|a_{ij}-a_{ji}\right|}
+  
+. If 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  
+ is any characteristic root of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+, then
+
+  
+    
+      
+        
+          |
+          
+            Im
+            ⁡
+            (
+            λ
+            )
+          
+          |
+        
+        ≤
+        α
+        
+          
+            
+              
+                n
+                (
+                n
+                −
+                1
+                )
+              
+              2
+            
+          
+        
+        .
+        
+        
+
+        
+      
+    
+    {\displaystyle \left|\operatorname {Im} (\lambda )\right|\leq \alpha {\sqrt {\frac {n(n-1)}{2}}}.\,{}}
+  
+
+If 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ is symmetric then 
+  
+    
+      
+        α
+        =
+        0
+      
+    
+    {\displaystyle \alpha =0}
+  
+ and consequently the inequality implies that 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  
+ must be real.
+The inequality relating to the real parts of characteristic roots of real matrices (Theorem II in ) is stated as:
+Let 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ and 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+ be the smallest and largest characteristic roots of 
+  
+    
+      
+        
+          
+            
+              
+                A
+                +
+                
+                  A
+                  
+                    H
+                  
+                
+              
+              2
+            
+          
+        
+      
+    
+    {\displaystyle {\tfrac {A+A^{H}}{2}}}
+  
+, then
+
+  
+    
+      
+        m
+        ≤
+        Re
+        ⁡
+        (
+        λ
+        )
+        ≤
+        M
+      
+    
+    {\displaystyle m\leq \operatorname {Re} (\lambda )\leq M}
+  
+.
+
+
+== See also ==
+Gershgorin circle theorem
+
+
+== References ==

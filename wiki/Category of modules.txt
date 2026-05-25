@@ -1,0 +1,409 @@
+In algebra, given a ring 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+, the category of left modules over 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ is the category whose objects are all left modules over 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ and whose morphisms are all module homomorphisms between left 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+-modules. For example, when 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ is the ring of integers 
+  
+    
+      
+        
+          Z
+        
+      
+    
+    {\displaystyle \mathbb {Z} }
+  
+, it is the same thing as the category of abelian groups. The category of right modules is defined in a similar way.
+One can also define the category of bimodules over a ring 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ but that category is equivalent to the category of left (or right) modules over the enveloping algebra of 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ (or over the opposite of that).
+Note: Some authors use the term module category for the category of modules. This term can be ambiguous since it could also refer to a category with a monoidal-category action.
+
+
+== Properties ==
+The categories of left and right modules are abelian categories. These categories have enough projectives and enough injectives. Mitchell's embedding theorem states every abelian category arises as a full subcategory of the category of modules over some ring.
+Projective limits and inductive limits exist in the categories of left and right modules.
+Over a commutative ring, together with the tensor product of modules 
+  
+    
+      
+        ⊗
+      
+    
+    {\displaystyle \otimes }
+  
+, the category of modules is a symmetric monoidal category.
+
+
+== Objects ==
+
+A monoid object of the category of modules over a commutative ring 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ is exactly an associative algebra over 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+.
+A compact object in 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+-
+  
+    
+      
+        
+          M
+          o
+          d
+        
+      
+    
+    {\displaystyle \mathbf {Mod} }
+  
+ is exactly a finitely presented module.
+
+
+== Category of vector spaces ==
+
+The category 
+  
+    
+      
+        K
+        
+          -
+        
+        
+          V
+          e
+          c
+          t
+        
+      
+    
+    {\displaystyle K{\text{-}}\mathbf {Vect} }
+  
+ (some authors use 
+  
+    
+      
+        
+          
+            V
+            e
+            c
+            t
+          
+          
+            K
+          
+        
+      
+    
+    {\displaystyle \mathbf {Vect} _{K}}
+  
+) has all vector spaces over a field 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+  
+ as objects, and 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+  
+-linear maps as morphisms. Since vector spaces over 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+  
+ (as a field) are the same thing as modules over the ring 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+  
+, 
+  
+    
+      
+        K
+        
+          -
+        
+        
+          V
+          e
+          c
+          t
+        
+      
+    
+    {\displaystyle K{\text{-}}\mathbf {Vect} }
+  
+ is a special case of 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+-
+  
+    
+      
+        
+          M
+          o
+          d
+        
+      
+    
+    {\displaystyle \mathbf {Mod} }
+  
+ (some authors use 
+  
+    
+      
+        
+          
+            M
+            o
+            d
+          
+          
+            R
+          
+        
+      
+    
+    {\displaystyle \mathbf {Mod} _{R}}
+  
+), the category of left 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+-modules.
+Much of linear algebra concerns the description of 
+  
+    
+      
+        K
+        
+          -
+        
+        
+          V
+          e
+          c
+          t
+        
+      
+    
+    {\displaystyle K{\text{-}}\mathbf {Vect} }
+  
+. For example, the dimension theorem for vector spaces says that the isomorphism classes in 
+  
+    
+      
+        K
+        
+          -
+        
+        
+          V
+          e
+          c
+          t
+        
+      
+    
+    {\displaystyle K{\text{-}}\mathbf {Vect} }
+  
+ correspond exactly to the cardinal numbers, and that 
+  
+    
+      
+        K
+        
+          -
+        
+        
+          V
+          e
+          c
+          t
+        
+      
+    
+    {\displaystyle K{\text{-}}\mathbf {Vect} }
+  
+ is equivalent to the subcategory of 
+  
+    
+      
+        K
+        
+          -
+        
+        
+          V
+          e
+          c
+          t
+        
+      
+    
+    {\displaystyle K{\text{-}}\mathbf {Vect} }
+  
+ which has as its objects the vector spaces 
+  
+    
+      
+        
+          K
+          
+            n
+          
+        
+      
+    
+    {\displaystyle K_{n}}
+  
+, where 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ is any cardinal number.
+
+
+== Generalizations ==
+The category of sheaves of modules over a ringed space also has enough injectives (though not always enough projectives).
+
+
+== See also ==
+Algebraic K-theory (the important invariant of the category of modules.)
+Category of rings
+Derived category
+Module spectrum
+Category of graded vector spaces
+Category of representations
+Change of rings
+Morita equivalence
+Stable module category
+Eilenberg–Watts theorem
+
+
+== References ==
+
+
+=== Bibliography ===
+Bourbaki. "Algèbre linéaire". Algèbre.
+Dummit, David; Foote, Richard. Abstract Algebra.
+Mac Lane, Saunders (September 1998). Categories for the Working Mathematician. Graduate Texts in Mathematics. Vol. 5 (second ed.). Springer. ISBN 0-387-98403-8. Zbl 0906.18001.
+
+
+== External links ==
+Mod at the nLab

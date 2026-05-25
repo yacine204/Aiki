@@ -1,0 +1,2448 @@
+A 3D projection (or graphical projection) is a design technique used to display a three-dimensional object (3D object) on a two-dimensional plane. These projections rely on visual perspective and aspect analysis to project a complex object for viewing capability on a simpler plane.
+3D projections use the primary qualities of an object's basic shape to create a map of points, that are then connected to one another to create a visual element. The result is a graphic that contains conceptual properties to interpret the figure or image as not actually flat (2D), but rather, as a solid object (3D) being viewed on a 2D display.
+3D objects are largely displayed on two-dimensional mediums (such as paper and computer monitors). As such, graphical projections are a commonly used design element; notably, in engineering drawing, drafting, and computer graphics. Projections can be calculated through employment of mathematical analysis and formulae, or by using various geometric and optical techniques.
+
+
+== Overview ==
+
+In order to display a three-dimensional (3D) object on a two-dimensional (2D) surface, a projection transformation is applied to the 3D object using a projection matrix. This transformation removes information in the third dimension while preserving it in the first two. See Projective Geometry for more details.
+If the size and shape of the 3D object should not be distorted by its relative position to the 2D surface, a parallel projection may be used.
+
+Examples of parallel projections:If the 3D perspective of an object should be preserved on a 2D surface, the transformation must include scaling and translation based on the object's relative position to the 2D surface. This process is called perspective projection.
+Examples of perspective projections:
+
+
+== Parallel projection ==
+
+In parallel projection, the lines of sight from the object to the projection plane are parallel to each other. Thus, lines that are parallel in three-dimensional space remain parallel in the two-dimensional projected image. Parallel projection also corresponds to a perspective projection with an infinite focal length (the distance from a camera's lens and focal point), or "zoom".
+Images drawn in parallel projection rely upon the technique of axonometry ("to measure along axes"), as described in Pohlke's theorem. In general, the resulting image is oblique (the rays are not perpendicular to the image plane); but in special cases the result is orthographic (the rays are perpendicular to the image plane). Axonometry should not be confused with axonometric projection, as in English literature the latter usually refers only to a specific class of pictorials (see below).
+
+
+=== Orthographic projection ===
+
+The orthographic projection is derived from the principles of descriptive geometry and is a two-dimensional representation of a three-dimensional object. It is a parallel projection (the lines of projection are parallel both in reality and in the projection plane). It is the projection type of choice for working drawings.
+If the normal of the viewing plane (the camera direction) is parallel to one of the primary axes (which is the x, y, or z axis), the mathematical transformation is as follows;
+To project the 3D point 
+  
+    
+      
+        
+          a
+          
+            x
+          
+        
+      
+    
+    {\displaystyle a_{x}}
+  
+, 
+  
+    
+      
+        
+          a
+          
+            y
+          
+        
+      
+    
+    {\displaystyle a_{y}}
+  
+, 
+  
+    
+      
+        
+          a
+          
+            z
+          
+        
+      
+    
+    {\displaystyle a_{z}}
+  
+ onto the 2D point 
+  
+    
+      
+        
+          b
+          
+            x
+          
+        
+      
+    
+    {\displaystyle b_{x}}
+  
+, 
+  
+    
+      
+        
+          b
+          
+            y
+          
+        
+      
+    
+    {\displaystyle b_{y}}
+  
+ using an orthographic projection parallel to the y axis (where positive y represents forward direction - profile view), the following equations can be used:
+
+  
+    
+      
+        
+          b
+          
+            x
+          
+        
+        =
+        
+          s
+          
+            x
+          
+        
+        
+          a
+          
+            x
+          
+        
+        +
+        
+          c
+          
+            x
+          
+        
+      
+    
+    {\displaystyle b_{x}=s_{x}a_{x}+c_{x}}
+  
+
+  
+    
+      
+        
+          b
+          
+            y
+          
+        
+        =
+        
+          s
+          
+            z
+          
+        
+        
+          a
+          
+            z
+          
+        
+        +
+        
+          c
+          
+            z
+          
+        
+      
+    
+    {\displaystyle b_{y}=s_{z}a_{z}+c_{z}}
+  
+
+where the vector s is an arbitrary scale factor, and c is an arbitrary offset. These constants are optional, and can be used to properly align the viewport. Using matrix multiplication, the equations become:
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    b
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    b
+                    
+                      y
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    s
+                    
+                      x
+                    
+                  
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  
+                    s
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  
+                    a
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        +
+        
+          
+            [
+            
+              
+                
+                  
+                    c
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    c
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{bmatrix}b_{x}\\b_{y}\end{bmatrix}}={\begin{bmatrix}s_{x}&0&0\\0&0&s_{z}\end{bmatrix}}{\begin{bmatrix}a_{x}\\a_{y}\\a_{z}\end{bmatrix}}+{\begin{bmatrix}c_{x}\\c_{z}\end{bmatrix}}.}
+  
+
+While orthographically projected images represent the three dimensional nature of the object projected, they do not represent the object as it would be recorded photographically or perceived by a viewer observing it directly. In particular, parallel lengths at all points in an orthographically projected image are of the same scale regardless of whether they are far away or near to the virtual viewer. As a result, lengths are not foreshortened as they would be in a perspective projection.
+
+
+==== Multiview projection ====
+
+With multiview projections, up to six pictures (called primary views) of an object are produced, with each projection plane parallel to one of the coordinate axes of the object. The views are positioned relative to each other according to either of two schemes: first-angle or third-angle projection. In each, the appearances of views may be thought of as being projected onto planes that form a 6-sided box around the object. Although six different sides can be drawn, usually three views of a drawing give enough information to make a 3D object. These views are known as front view, top view, and end view. The terms elevation, plan and section are also used.
+
+
+=== Oblique projection ===
+
+In oblique projections the parallel projection rays are not perpendicular to the viewing plane as with orthographic projection, but strike the projection plane at an angle other than ninety degrees. In both orthographic and oblique projection, parallel lines in space appear parallel on the projected image. Because of its simplicity, oblique projection is used exclusively for pictorial purposes rather than for formal, working drawings. In an oblique pictorial drawing, the displayed angles among the axes as well as the foreshortening factors (scale) are arbitrary. The distortion created thereby is usually attenuated by aligning one plane of the imaged object to be parallel with the plane of projection thereby creating a true shape, full-size image of the chosen plane. Special types of oblique projections are:
+
+
+==== Cavalier projection (45°) ====
+In cavalier projection (sometimes cavalier perspective or high view point) a point of the object is represented by three coordinates, x, y and z. On the drawing, it is represented by only two coordinates, x″ and y″. On the flat drawing, two axes, x and z on the figure, are perpendicular and the length on these axes are drawn with a 1:1 scale; it is thus similar to the dimetric projections, although it is not an axonometric projection, as the third axis, here y, is drawn in diagonal, making an arbitrary angle with the x″ axis, usually 30 or 45°. The length of the third axis is not scaled.
+
+
+==== Cabinet projection ====
+The term cabinet projection (sometimes cabinet perspective) stems from its use in illustrations by the furniture industry. Like cavalier perspective, one face of the projected object is parallel to the viewing plane, and the third axis is projected as going off in an angle (typically 30° or 45° or arctan(2) = 63.4°). Unlike cavalier projection, where the third axis keeps its length, with cabinet projection the length of the receding lines is cut in half.
+
+
+==== Military projection ====
+A variant of oblique projection is called military projection. In this case, the horizontal sections are isometrically drawn so that the floor plans are not distorted and the verticals are drawn at an angle. The military projection is given by rotation in the xy-plane and a vertical translation an amount z.
+
+
+=== Axonometric projection ===
+
+Axonometric projections show an image of an object as viewed from a skew direction in order to reveal all three directions (axes) of space in one picture. Axonometric projections may be either orthographic or oblique. Axonometric instrument drawings are often used to approximate graphical perspective projections, but there is attendant distortion in the approximation. Because pictorial projections innately contain this distortion, in instrument drawings of pictorials great liberties may then be taken for economy of effort and best effect.
+Axonometric projection is further subdivided into three categories: isometric projection, dimetric projection, and trimetric projection, depending on the exact angle at which the view deviates from the orthogonal. A typical characteristic of orthographic pictorials is that one axis of space is usually displayed as vertical.
+
+
+==== Isometric projection ====
+In isometric pictorials (for methods, see Isometric projection), the direction of viewing is such that the three axes of space appear equally foreshortened, and there is a common angle of 120° between them. The distortion caused by foreshortening is uniform, therefore the proportionality of all sides and lengths are preserved, and the axes share a common scale. This enables measurements to be read or taken directly from the drawing.
+
+
+==== Dimetric projection ====
+In dimetric pictorials (for methods, see Dimetric projection), the direction of viewing is such that two of the three axes of space appear equally foreshortened, of which the attendant scale and angles of presentation are determined according to the angle of viewing; the scale of the third direction (vertical) is determined separately. Approximations are common in dimetric drawings.
+
+
+==== Trimetric projection ====
+In trimetric pictorials (for methods, see Trimetric projection), the direction of viewing is such that all of the three axes of space appear unequally foreshortened. The scale along each of the three axes and the angles among them are determined separately as dictated by the angle of viewing. Approximations in Trimetric drawings are common.
+
+
+=== Limitations of parallel projection ===
+
+Objects drawn with parallel projection do not appear larger or smaller as they extend closer to or away from the viewer. While advantageous for architectural drawings, where measurements must be taken directly from the image, the result is a perceived distortion, since unlike perspective projection, this is not how our eyes or photography normally work. It also can easily result in situations where depth and altitude are difficult to gauge, as is shown in the illustration to the right.
+In this isometric drawing, the blue sphere is two units higher than the red one. However, this difference in elevation is not apparent if one covers the right half of the picture, as the boxes (which serve as clues suggesting height) are then obscured.
+This visual ambiguity has been exploited in op art, as well as "impossible object" drawings. M. C. Escher's Waterfall (1961), while not strictly utilizing parallel projection, is a well-known example, in which a channel of water seems to travel unaided along a downward path, only to then paradoxically fall once again as it returns to its source. The water thus appears to disobey the law of conservation of energy. An extreme example is depicted in the film Inception, where by a forced perspective trick an immobile stairway changes its connectivity. The video game Fez uses tricks of perspective to determine where a player can and cannot move in a puzzle-like fashion.
+
+
+== Perspective projection ==
+
+Perspective projection or perspective transformation is a projection where three-dimensional objects are projected on a picture plane. This has the effect that distant objects appear smaller than nearer objects.
+It also means that lines which are parallel in nature (that is, meet at the point at infinity) appear to intersect in the projected image. For example, if railways are pictured with perspective projection, they appear to converge towards a single point, called the vanishing point. Photographic lenses and the human eye work in the same way, therefore the perspective projection looks the most realistic. Perspective projection is usually categorized into one-point, two-point and three-point perspective, depending on the orientation of the projection plane towards the axes of the depicted object.
+Graphical projection methods rely on the duality between lines and points, whereby two straight lines determine a point while two points determine a straight line. The orthogonal projection of the eye point onto the picture plane is called the principal vanishing point (P.P. in the scheme on the right, from the Italian term punto principale, coined during the renaissance).
+Two relevant points of a line are:
+
+its intersection with the picture plane, and
+its vanishing point, found at the intersection between the parallel line from the eye point and the picture plane.
+The principal vanishing point is the vanishing point of all horizontal lines perpendicular to the picture plane. The vanishing points of all horizontal lines lie on the horizon line. If, as is often the case, the picture plane is vertical, all vertical lines are drawn vertically, and have no finite vanishing point on the picture plane. Various graphical methods can be easily envisaged for projecting geometrical scenes. For example, lines traced from the eye point at 45° to the picture plane intersect the latter along a circle whose radius is the distance of the eye point from the plane, thus tracing that circle aids the construction of all the vanishing points of 45° lines; in particular, the intersection of that circle with the horizon line consists of two distance points. They are useful for drawing chessboard floors which, in turn, serve for locating the base of objects on the scene. In the perspective of a geometric solid on the right, after choosing the principal vanishing point —which determines the horizon line— the 45° vanishing point on the left side of the drawing completes the characterization of the (equally distant) point of view. Two lines are drawn from the orthogonal projection of each vertex, one at 45° and one at 90° to the picture plane. After intersecting the ground line, those lines go toward the distance point (for 45°) or the principal point (for 90°). Their new intersection locates the projection of the map. Natural heights are measured above the ground line and then projected in the same way until they meet the vertical from the map.
+While orthographic projection ignores perspective to allow accurate measurements, perspective projection shows distant objects as smaller to provide additional realism.
+
+
+=== Mathematical formula ===
+The perspective projection requires a more involved definition as compared to orthographic projections. A conceptual aid to understanding the mechanics of this projection is to imagine the 2D projection as though the object(s) are being viewed through a camera viewfinder. The camera's position, orientation, and field of view control the behavior of the projection transformation. The following variables are defined to describe this transformation:
+
+  
+    
+      
+        
+          
+            a
+          
+          
+            x
+            ,
+            y
+            ,
+            z
+          
+        
+      
+    
+    {\displaystyle \mathbf {a} _{x,y,z}}
+  
+ – the 3D position of a point A that is to be projected
+
+  
+    
+      
+        
+          
+            c
+          
+          
+            x
+            ,
+            y
+            ,
+            z
+          
+        
+      
+    
+    {\displaystyle \mathbf {c} _{x,y,z}}
+  
+ – the 3D position of a point C representing the camera
+
+  
+    
+      
+        
+          
+            θ
+          
+          
+            x
+            ,
+            y
+            ,
+            z
+          
+        
+      
+    
+    {\displaystyle \mathbf {\theta } _{x,y,z}}
+  
+ – The orientation of the camera (represented by Tait–Bryan angles)
+
+  
+    
+      
+        
+          
+            e
+          
+          
+            x
+            ,
+            y
+            ,
+            z
+          
+        
+      
+    
+    {\displaystyle \mathbf {e} _{x,y,z}}
+  
+ – the display surface's position relative to aforementioned 
+  
+    
+      
+        
+          c
+        
+      
+    
+    {\displaystyle \mathbf {c} }
+  
+
+Most conventions use positive z values (the plane being in front of the pinhole 
+  
+    
+      
+        
+          c
+        
+      
+    
+    {\displaystyle \mathbf {c} }
+  
+), however negative z values are physically more correct, but the image will be inverted both horizontally and vertically.
+Which results in:
+
+  
+    
+      
+        
+          
+            b
+          
+          
+            x
+            ,
+            y
+          
+        
+      
+    
+    {\displaystyle \mathbf {b} _{x,y}}
+  
+ – the 2D projection of 
+  
+    
+      
+        
+          a
+        
+        .
+      
+    
+    {\displaystyle \mathbf {a} .}
+  
+
+When 
+  
+    
+      
+        
+          
+            c
+          
+          
+            x
+            ,
+            y
+            ,
+            z
+          
+        
+        =
+        ⟨
+        0
+        ,
+        0
+        ,
+        0
+        ⟩
+        ,
+      
+    
+    {\displaystyle \mathbf {c} _{x,y,z}=\langle 0,0,0\rangle ,}
+  
+ and 
+  
+    
+      
+        
+          
+            θ
+          
+          
+            x
+            ,
+            y
+            ,
+            z
+          
+        
+        =
+        ⟨
+        0
+        ,
+        0
+        ,
+        0
+        ⟩
+        ,
+      
+    
+    {\displaystyle \mathbf {\theta } _{x,y,z}=\langle 0,0,0\rangle ,}
+  
+ the 3D vector 
+  
+    
+      
+        ⟨
+        1
+        ,
+        2
+        ,
+        0
+        ⟩
+      
+    
+    {\displaystyle \langle 1,2,0\rangle }
+  
+ is projected to the 2D vector 
+  
+    
+      
+        ⟨
+        1
+        ,
+        2
+        ⟩
+      
+    
+    {\displaystyle \langle 1,2\rangle }
+  
+.
+Otherwise, to compute 
+  
+    
+      
+        
+          
+            b
+          
+          
+            x
+            ,
+            y
+          
+        
+      
+    
+    {\displaystyle \mathbf {b} _{x,y}}
+  
+ we first define a vector 
+  
+    
+      
+        
+          
+            d
+          
+          
+            x
+            ,
+            y
+            ,
+            z
+          
+        
+      
+    
+    {\displaystyle \mathbf {d} _{x,y,z}}
+  
+ as the position of point A with respect to a coordinate system defined by the camera, with origin in C and rotated by 
+  
+    
+      
+        
+          θ
+        
+      
+    
+    {\displaystyle \mathbf {\theta } }
+  
+ with respect to the initial coordinate system.  This is achieved by subtracting 
+  
+    
+      
+        
+          c
+        
+      
+    
+    {\displaystyle \mathbf {c} }
+  
+ from 
+  
+    
+      
+        
+          a
+        
+      
+    
+    {\displaystyle \mathbf {a} }
+  
+ and then applying a rotation by 
+  
+    
+      
+        −
+        
+          θ
+        
+      
+    
+    {\displaystyle -\mathbf {\theta } }
+  
+ to the result.  This transformation is often called a camera transform, and can be expressed as follows, expressing the rotation in terms of rotations about the x, y, and z axes (these calculations assume that the axes are ordered as a left-handed system of axes):
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      d
+                    
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      d
+                    
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      d
+                    
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      x
+                    
+                  
+                  )
+                
+                
+                  sin
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      x
+                    
+                  
+                  )
+                
+              
+              
+                
+                  0
+                
+                
+                  −
+                  sin
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      x
+                    
+                  
+                  )
+                
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      x
+                    
+                  
+                  )
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      y
+                    
+                  
+                  )
+                
+                
+                  0
+                
+                
+                  −
+                  sin
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      y
+                    
+                  
+                  )
+                
+              
+              
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+              
+              
+                
+                  sin
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      y
+                    
+                  
+                  )
+                
+                
+                  0
+                
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      y
+                    
+                  
+                  )
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      z
+                    
+                  
+                  )
+                
+                
+                  sin
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      z
+                    
+                  
+                  )
+                
+                
+                  0
+                
+              
+              
+                
+                  −
+                  sin
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      z
+                    
+                  
+                  )
+                
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      θ
+                    
+                    
+                      z
+                    
+                  
+                  )
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            ]
+          
+        
+        
+          (
+          
+            
+              
+                [
+                
+                  
+                    
+                      
+                        
+                          a
+                        
+                        
+                          x
+                        
+                      
+                    
+                  
+                  
+                    
+                      
+                        
+                          a
+                        
+                        
+                          y
+                        
+                      
+                    
+                  
+                  
+                    
+                      
+                        
+                          a
+                        
+                        
+                          z
+                        
+                      
+                    
+                  
+                
+                ]
+              
+            
+            −
+            
+              
+                [
+                
+                  
+                    
+                      
+                        
+                          c
+                        
+                        
+                          x
+                        
+                      
+                    
+                  
+                  
+                    
+                      
+                        
+                          c
+                        
+                        
+                          y
+                        
+                      
+                    
+                  
+                  
+                    
+                      
+                        
+                          c
+                        
+                        
+                          z
+                        
+                      
+                    
+                  
+                
+                ]
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}\mathbf {d} _{x}\\\mathbf {d} _{y}\\\mathbf {d} _{z}\end{bmatrix}}={\begin{bmatrix}1&0&0\\0&\cos(\mathbf {\theta } _{x})&\sin(\mathbf {\theta } _{x})\\0&-\sin(\mathbf {\theta } _{x})&\cos(\mathbf {\theta } _{x})\end{bmatrix}}{\begin{bmatrix}\cos(\mathbf {\theta } _{y})&0&-\sin(\mathbf {\theta } _{y})\\0&1&0\\\sin(\mathbf {\theta } _{y})&0&\cos(\mathbf {\theta } _{y})\end{bmatrix}}{\begin{bmatrix}\cos(\mathbf {\theta } _{z})&\sin(\mathbf {\theta } _{z})&0\\-\sin(\mathbf {\theta } _{z})&\cos(\mathbf {\theta } _{z})&0\\0&0&1\end{bmatrix}}\left({{\begin{bmatrix}\mathbf {a} _{x}\\\mathbf {a} _{y}\\\mathbf {a} _{z}\\\end{bmatrix}}-{\begin{bmatrix}\mathbf {c} _{x}\\\mathbf {c} _{y}\\\mathbf {c} _{z}\\\end{bmatrix}}}\right)}
+  
+
+This representation corresponds to rotating by three Euler angles (more properly, Tait–Bryan angles), using the xyz convention, which can be interpreted either as "rotate about the extrinsic axes (axes of the scene) in the order z, y, x (reading right-to-left)" or "rotate about the intrinsic axes (axes of the camera) in the order x, y, z (reading left-to-right)". If the camera is not rotated (
+  
+    
+      
+        
+          
+            θ
+          
+          
+            x
+            ,
+            y
+            ,
+            z
+          
+        
+        =
+        ⟨
+        0
+        ,
+        0
+        ,
+        0
+        ⟩
+      
+    
+    {\displaystyle \mathbf {\theta } _{x,y,z}=\langle 0,0,0\rangle }
+  
+), then the matrices drop out (as identities), and this reduces to simply a shift: 
+  
+    
+      
+        
+          d
+        
+        =
+        
+          a
+        
+        −
+        
+          c
+        
+        .
+      
+    
+    {\displaystyle \mathbf {d} =\mathbf {a} -\mathbf {c} .}
+  
+
+Alternatively, without using matrices (let us replace 
+  
+    
+      
+        
+          a
+          
+            x
+          
+        
+        −
+        
+          c
+          
+            x
+          
+        
+      
+    
+    {\displaystyle a_{x}-c_{x}}
+  
+ with 
+  
+    
+      
+        
+          x
+        
+      
+    
+    {\displaystyle \mathbf {x} }
+  
+ and so on, and abbreviate 
+  
+    
+      
+        cos
+        ⁡
+        
+          (
+          
+            θ
+            
+              α
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \cos \left(\theta _{\alpha }\right)}
+  
+ to 
+  
+    
+      
+        c
+        o
+        
+          s
+          
+            α
+          
+        
+      
+    
+    {\displaystyle cos_{\alpha }}
+  
+ and 
+  
+    
+      
+        sin
+        ⁡
+        
+          (
+          
+            θ
+            
+              α
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \sin \left(\theta _{\alpha }\right)}
+  
+ to 
+  
+    
+      
+        s
+        i
+        
+          n
+          
+            α
+          
+        
+      
+    
+    {\displaystyle sin_{\alpha }}
+  
+):
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    d
+                  
+                  
+                    x
+                  
+                
+              
+              
+                
+                =
+                c
+                o
+                
+                  s
+                  
+                    y
+                  
+                
+                (
+                s
+                i
+                
+                  n
+                  
+                    z
+                  
+                
+                
+                  y
+                
+                +
+                c
+                o
+                
+                  s
+                  
+                    z
+                  
+                
+                
+                  x
+                
+                )
+                −
+                s
+                i
+                
+                  n
+                  
+                    y
+                  
+                
+                
+                  z
+                
+              
+            
+            
+              
+                
+                  
+                    d
+                  
+                  
+                    y
+                  
+                
+              
+              
+                
+                =
+                s
+                i
+                
+                  n
+                  
+                    x
+                  
+                
+                (
+                c
+                o
+                
+                  s
+                  
+                    y
+                  
+                
+                
+                  z
+                
+                +
+                s
+                i
+                
+                  n
+                  
+                    y
+                  
+                
+                (
+                s
+                i
+                
+                  n
+                  
+                    z
+                  
+                
+                
+                  y
+                
+                +
+                c
+                o
+                
+                  s
+                  
+                    z
+                  
+                
+                
+                  x
+                
+                )
+                )
+                +
+                c
+                o
+                
+                  s
+                  
+                    x
+                  
+                
+                (
+                c
+                o
+                
+                  s
+                  
+                    z
+                  
+                
+                
+                  y
+                
+                −
+                s
+                i
+                
+                  n
+                  
+                    z
+                  
+                
+                
+                  x
+                
+                )
+              
+            
+            
+              
+                
+                  
+                    d
+                  
+                  
+                    z
+                  
+                
+              
+              
+                
+                =
+                c
+                o
+                
+                  s
+                  
+                    x
+                  
+                
+                (
+                c
+                o
+                
+                  s
+                  
+                    y
+                  
+                
+                
+                  z
+                
+                +
+                s
+                i
+                
+                  n
+                  
+                    y
+                  
+                
+                (
+                s
+                i
+                
+                  n
+                  
+                    z
+                  
+                
+                
+                  y
+                
+                +
+                c
+                o
+                
+                  s
+                  
+                    z
+                  
+                
+                
+                  x
+                
+                )
+                )
+                −
+                s
+                i
+                
+                  n
+                  
+                    x
+                  
+                
+                (
+                c
+                o
+                
+                  s
+                  
+                    z
+                  
+                
+                
+                  y
+                
+                −
+                s
+                i
+                
+                  n
+                  
+                    z
+                  
+                
+                
+                  x
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {d} _{x}&=cos_{y}(sin_{z}\mathbf {y} +cos_{z}\mathbf {x} )-sin_{y}\mathbf {z} \\\mathbf {d} _{y}&=sin_{x}(cos_{y}\mathbf {z} +sin_{y}(sin_{z}\mathbf {y} +cos_{z}\mathbf {x} ))+cos_{x}(cos_{z}\mathbf {y} -sin_{z}\mathbf {x} )\\\mathbf {d} _{z}&=cos_{x}(cos_{y}\mathbf {z} +sin_{y}(sin_{z}\mathbf {y} +cos_{z}\mathbf {x} ))-sin_{x}(cos_{z}\mathbf {y} -sin_{z}\mathbf {x} )\end{aligned}}}
+  
+
+This transformed point can then be projected onto the 2D plane using the formula (here, x/y is used as the projection plane; literature also may use x/z):
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    b
+                  
+                  
+                    x
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        e
+                      
+                      
+                        z
+                      
+                    
+                    
+                      
+                        d
+                      
+                      
+                        z
+                      
+                    
+                  
+                
+                
+                  
+                    d
+                  
+                  
+                    x
+                  
+                
+                +
+                
+                  
+                    e
+                  
+                  
+                    x
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  
+                    b
+                  
+                  
+                    y
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        e
+                      
+                      
+                        z
+                      
+                    
+                    
+                      
+                        d
+                      
+                      
+                        z
+                      
+                    
+                  
+                
+                
+                  
+                    d
+                  
+                  
+                    y
+                  
+                
+                +
+                
+                  
+                    e
+                  
+                  
+                    y
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {b} _{x}&={\frac {\mathbf {e} _{z}}{\mathbf {d} _{z}}}\mathbf {d} _{x}+\mathbf {e} _{x},\\[5pt]\mathbf {b} _{y}&={\frac {\mathbf {e} _{z}}{\mathbf {d} _{z}}}\mathbf {d} _{y}+\mathbf {e} _{y}.\end{aligned}}}
+  
+
+Or, in matrix form using homogeneous coordinates, the system
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      f
+                    
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      f
+                    
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      f
+                    
+                    
+                      w
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+                
+                  
+                    
+                      
+                        
+                          e
+                        
+                        
+                          x
+                        
+                      
+                      
+                        
+                          e
+                        
+                        
+                          z
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                  0
+                
+                
+                  1
+                
+                
+                  
+                    
+                      
+                        
+                          e
+                        
+                        
+                          y
+                        
+                      
+                      
+                        
+                          e
+                        
+                        
+                          z
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  
+                    
+                      1
+                      
+                        
+                          e
+                        
+                        
+                          z
+                        
+                      
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      d
+                    
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      d
+                    
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      d
+                    
+                    
+                      z
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}\mathbf {f} _{x}\\\mathbf {f} _{y}\\\mathbf {f} _{w}\end{bmatrix}}={\begin{bmatrix}1&0&{\frac {\mathbf {e} _{x}}{\mathbf {e} _{z}}}\\0&1&{\frac {\mathbf {e} _{y}}{\mathbf {e} _{z}}}\\0&0&{\frac {1}{\mathbf {e} _{z}}}\end{bmatrix}}{\begin{bmatrix}\mathbf {d} _{x}\\\mathbf {d} _{y}\\\mathbf {d} _{z}\end{bmatrix}}}
+  
+
+in conjunction with an argument using similar triangles, leads to division by the homogeneous coordinate, giving
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    b
+                  
+                  
+                    x
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    f
+                  
+                  
+                    x
+                  
+                
+                
+                  /
+                
+                
+                  
+                    f
+                  
+                  
+                    w
+                  
+                
+              
+            
+            
+              
+                
+                  
+                    b
+                  
+                  
+                    y
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    f
+                  
+                  
+                    y
+                  
+                
+                
+                  /
+                
+                
+                  
+                    f
+                  
+                  
+                    w
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {b} _{x}&=\mathbf {f} _{x}/\mathbf {f} _{w}\\\mathbf {b} _{y}&=\mathbf {f} _{y}/\mathbf {f} _{w}\end{aligned}}}
+  
+
+The distance of the viewer from the display surface, 
+  
+    
+      
+        
+          
+            e
+          
+          
+            z
+          
+        
+      
+    
+    {\displaystyle \mathbf {e} _{z}}
+  
+, directly relates to the field of view, where 
+  
+    
+      
+        α
+        =
+        2
+        ⋅
+        arctan
+        ⁡
+        (
+        1
+        
+          /
+        
+        
+          
+            e
+          
+          
+            z
+          
+        
+        )
+      
+    
+    {\displaystyle \alpha =2\cdot \arctan(1/\mathbf {e} _{z})}
+  
+ is the viewed angle. (Note: This assumes that you map the points (-1,-1) and (1,1) to the corners of your viewing surface)
+The above equations can also be rewritten as:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    b
+                  
+                  
+                    x
+                  
+                
+              
+              
+                
+                =
+                (
+                
+                  
+                    d
+                  
+                  
+                    x
+                  
+                
+                
+                  
+                    s
+                  
+                  
+                    x
+                  
+                
+                )
+                
+                  /
+                
+                (
+                
+                  
+                    d
+                  
+                  
+                    z
+                  
+                
+                
+                  
+                    r
+                  
+                  
+                    x
+                  
+                
+                )
+                
+                  
+                    r
+                  
+                  
+                    z
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  
+                    b
+                  
+                  
+                    y
+                  
+                
+              
+              
+                
+                =
+                (
+                
+                  
+                    d
+                  
+                  
+                    y
+                  
+                
+                
+                  
+                    s
+                  
+                  
+                    y
+                  
+                
+                )
+                
+                  /
+                
+                (
+                
+                  
+                    d
+                  
+                  
+                    z
+                  
+                
+                
+                  
+                    r
+                  
+                  
+                    y
+                  
+                
+                )
+                
+                  
+                    r
+                  
+                  
+                    z
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {b} _{x}&=(\mathbf {d} _{x}\mathbf {s} _{x})/(\mathbf {d} _{z}\mathbf {r} _{x})\mathbf {r} _{z},\\\mathbf {b} _{y}&=(\mathbf {d} _{y}\mathbf {s} _{y})/(\mathbf {d} _{z}\mathbf {r} _{y})\mathbf {r} _{z}.\end{aligned}}}
+  
+
+In which 
+  
+    
+      
+        
+          
+            s
+          
+          
+            x
+            ,
+            y
+          
+        
+      
+    
+    {\displaystyle \mathbf {s} _{x,y}}
+  
+ is the display size, 
+  
+    
+      
+        
+          
+            r
+          
+          
+            x
+            ,
+            y
+          
+        
+      
+    
+    {\displaystyle \mathbf {r} _{x,y}}
+  
+ is the recording surface size (CCD or Photographic film), 
+  
+    
+      
+        
+          
+            r
+          
+          
+            z
+          
+        
+      
+    
+    {\displaystyle \mathbf {r} _{z}}
+  
+ is the distance from the recording surface to the entrance pupil (camera center), and 
+  
+    
+      
+        
+          
+            d
+          
+          
+            z
+          
+        
+      
+    
+    {\displaystyle \mathbf {d} _{z}}
+  
+ is the distance, from the 3D point being projected, to the entrance pupil.
+Subsequent clipping and scaling operations may be necessary to map the 2D plane onto any particular display media.
+
+
+=== Weak perspective projection ===
+A "weak" perspective projection uses the same principles of an orthographic projection, but requires the scaling factor to be specified, thus ensuring that closer objects appear bigger in the projection, and vice versa. It can be seen as a hybrid between an orthographic and a perspective projection, and described either as a perspective projection with individual point depths 
+  
+    
+      
+        
+          Z
+          
+            i
+          
+        
+      
+    
+    {\displaystyle Z_{i}}
+  
+ replaced by an average constant depth 
+  
+    
+      
+        
+          Z
+          
+            ave
+          
+        
+      
+    
+    {\displaystyle Z_{\text{ave}}}
+  
+, or simply as an orthographic projection plus a scaling.
+The weak-perspective model thus approximates perspective projection while using a simpler model, similar to the pure (unscaled) orthographic perspective.
+It is a reasonable approximation when the depth of the object along the line of sight is small compared to the distance from the camera, and the field of view is small. With these conditions, it can be assumed that all points on a 3D object are at the same distance 
+  
+    
+      
+        
+          Z
+          
+            ave
+          
+        
+      
+    
+    {\displaystyle Z_{\text{ave}}}
+  
+ from the camera without significant errors in the projection (compared to the full perspective model).
+Equation
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  P
+                  
+                    x
+                  
+                
+                =
+                
+                  
+                    X
+                    
+                      Z
+                      
+                        ave
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                  P
+                  
+                    y
+                  
+                
+                =
+                
+                  
+                    Y
+                    
+                      Z
+                      
+                        ave
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&P_{x}={\frac {X}{Z_{\text{ave}}}}\\[5pt]&P_{y}={\frac {Y}{Z_{\text{ave}}}}\end{aligned}}}
+  
+
+assuming focal length 
+  
+    
+      
+        f
+        =
+        1
+      
+    
+    {\textstyle f=1}
+  
+.
+
+
+== Diagram ==
+
+To determine which screen x-coordinate corresponds to a point at 
+  
+    
+      
+        
+          A
+          
+            x
+          
+        
+        ,
+        
+          A
+          
+            z
+          
+        
+      
+    
+    {\displaystyle A_{x},A_{z}}
+  
+ multiply the point coordinates by:
+
+  
+    
+      
+        
+          B
+          
+            x
+          
+        
+        =
+        
+          A
+          
+            x
+          
+        
+        
+          
+            
+              B
+              
+                z
+              
+            
+            
+              A
+              
+                z
+              
+            
+          
+        
+      
+    
+    {\displaystyle B_{x}=A_{x}{\frac {B_{z}}{A_{z}}}}
+  
+
+where 
+
+  
+    
+      
+        
+          B
+          
+            x
+          
+        
+      
+    
+    {\displaystyle B_{x}}
+  
+ is the screen x coordinate
+
+  
+    
+      
+        
+          A
+          
+            x
+          
+        
+      
+    
+    {\displaystyle A_{x}}
+  
+ is the model x coordinate
+
+  
+    
+      
+        
+          B
+          
+            z
+          
+        
+      
+    
+    {\displaystyle B_{z}}
+  
+ is the focal length—the axial distance from the camera center to the image plane
+
+  
+    
+      
+        
+          A
+          
+            z
+          
+        
+      
+    
+    {\displaystyle A_{z}}
+  
+ is the subject distance.
+Since the camera operates in 3D, the same principle applies to the screen’s y coordinate— one can substitute y for x in the diagram and equation above.
+Alternatively, clipping techniques can be used. These involve substituting values of a point outside the field of view (FOV) with interpolated values from a corresponding point inside the camera's view matrix.
+This approach, often referred to as the inverse camera method, involves performing a perspective projection calculation using known values. It determines the last visible point along the viewing frustum by projecting from an out-of-view (invisible) point after all necessary transformations have been applied.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Kenneth C. Finney (2004). 3D Game Programming All in One. Thomson Course. p. 93. ISBN 978-1-59200-136-1. 3D projection.
+Koehler; Ralph (December 2000). 2D/3D Graphics and Splines with Source Code. Author Solutions Incorporated. ISBN 978-0759611870.
+
+
+== External links ==
+
+Creating 3D Environments from Digital Photographs

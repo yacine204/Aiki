@@ -1,0 +1,14 @@
+Combinatorial matrix theory is a branch of linear algebra and combinatorics that studies matrices in terms of the patterns of nonzeros and of positive and negative values in their coefficients.
+Concepts and topics studied within combinatorial matrix theory include:
+
+(0,1)-matrix, a matrix whose coefficients are all 0 or 1
+Permutation matrix, a (0,1)-matrix with exactly one nonzero in each row and each column
+The Gale–Ryser theorem, on the existence of (0,1)-matrices with given row and column sums
+Hadamard matrix, a square matrix of 1 and −1 coefficients with each pair of rows having matching coefficients in exactly half of their columns
+Alternating sign matrix, a matrix of 0, 1, and −1 coefficients with the nonzeros in each row or column alternating between 1 and −1 and summing to 1
+Sparse matrix, is a matrix with few nonzero elements, and sparse matrices of special form such as diagonal matrices and band matrices
+Sylvester's law of inertia, on the invariance of the number of negative diagonal elements of a matrix under changes of basis
+Researchers in combinatorial matrix theory include Richard A. Brualdi and Pauline van den Driessche.
+
+
+== References ==
