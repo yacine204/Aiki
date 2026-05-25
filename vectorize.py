@@ -1,16 +1,27 @@
 import numpy as np
 from chunker import chunk_wiki_files
-import re 
+import re
 import math
 from topic_expansion_data import topic_expansion
 import argparse
 import sys
+import os
+import json
+import pickle
 
 import ollama
 
 # step 1 : vocabulary creation
 
-chunks = chunk_wiki_files()
+CACHE_DIR = ".cache"
+CACHE_META = os.path.join(CACHE_DIR, "vectorize_meta.json")
+CACHE_DATA = os.path.join(CACHE_DIR, "vectorize_cache.pkl")
+
+chunks = []
+vocab = {}
+document_vectors = []
+idf_vectors = []
+tfidf_vectors = []
 
 def sanitize(str: str):
     str = str.lower()
@@ -19,7 +30,7 @@ def sanitize(str: str):
     str = re.sub(r'\s+', ' ', str).strip()
     return str
 
-def build_vocab(chunks=chunks):
+def build_vocab(chunks):
     # creates a pair of {word, id} such as we get unique words with their id 
     # duplicates wont be storred
     word_to_id = {}
@@ -37,11 +48,9 @@ def build_vocab(chunks=chunks):
 
 # step 2 : document vector
 
-def document_vector(chunks=chunks):
+def document_vector(chunks, vocab):
     #create a bag of words from build_vocab
     #map id's to translate doc into numeric vector
-    global vocab 
-    vocab = build_vocab()
     all_vectors = []
     
     for chunk in chunks:
@@ -58,8 +67,6 @@ def document_vector(chunks=chunks):
 # step 3: Cosine Similarity Search
 # we measure the similarity between two chunks by calculating their angle
 # similarity = (A . B) / (|A| x |B|)
-
-document_vectors = document_vector()
 
 def query_to_vector(query):
     # take a query and return it into a vector
@@ -92,7 +99,7 @@ def query_to_vector(query):
 #                 vocabulary_frequency[vocab['id']][frequency] = math.log(len(chunks)/ (1+vocabulary_frequency[vocab['id']][frequency]))
 #     print(vocabulary_frequency)
     
-def doc_freq(vocab = vocab, chunks = chunks):
+def doc_freq(vocab, chunks):
     
     doc_freq = np.zeros(len(vocab))
     for chunk in chunks: 
@@ -105,12 +112,10 @@ def doc_freq(vocab = vocab, chunks = chunks):
                 doc_freq[word_id] += 1
     return doc_freq
 
-doc_freq = doc_freq()
+def idf(doc_freq_vec, total_chunks):
+    idf_vec = np.zeros(len(doc_freq_vec))
 
-def idf(doc_freq = doc_freq, total_chunks = len(chunks)):
-    idf_vec = np.zeros(len(doc_freq))
-
-    for word_id, freq in enumerate(doc_freq):
+    for word_id, freq in enumerate(doc_freq_vec):
         if freq>0:
             idf_vec[word_id] = np.log(total_chunks/freq)
         else:
@@ -118,12 +123,73 @@ def idf(doc_freq = doc_freq, total_chunks = len(chunks)):
 
     return idf_vec
 
-idf_vectors = idf()
+def get_wiki_signature():
+    wiki_dir = "wiki"
+    if not os.path.isdir(wiki_dir):
+        return {"count": 0, "latest_mtime": 0, "total_size": 0}
+    files = [
+        os.path.join(wiki_dir, f)
+        for f in os.listdir(wiki_dir)
+        if f.endswith(".txt")
+    ]
+    if not files:
+        return {"count": 0, "latest_mtime": 0, "total_size": 0}
+    stats = [os.stat(f) for f in files]
+    return {
+        "count": len(files),
+        "latest_mtime": max(s.st_mtime for s in stats),
+        "total_size": sum(s.st_size for s in stats),
+    }
 
-tfidf_vectors = []
-for tf_vector in document_vectors:
-    tfidf_vector = tf_vector * idf_vectors
-    tfidf_vectors.append(tfidf_vector)
+def load_cache(signature):
+    if not (os.path.exists(CACHE_META) and os.path.exists(CACHE_DATA)):
+        return None
+    try:
+        with open(CACHE_META, "r", encoding="utf-8") as meta_file:
+            cached_sig = json.load(meta_file)
+        if cached_sig != signature:
+            return None
+        with open(CACHE_DATA, "rb") as data_file:
+            return pickle.load(data_file)
+    except (OSError, json.JSONDecodeError, pickle.UnpicklingError):
+        return None
+
+def save_cache(signature, payload):
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    with open(CACHE_META, "w", encoding="utf-8") as meta_file:
+        json.dump(signature, meta_file)
+    with open(CACHE_DATA, "wb") as data_file:
+        pickle.dump(payload, data_file)
+
+def initialize_index():
+    global chunks, vocab, document_vectors, idf_vectors, tfidf_vectors
+    signature = get_wiki_signature()
+    cache = load_cache(signature)
+    if cache:
+        chunks = cache["chunks"]
+        vocab = cache["vocab"]
+        document_vectors = cache["document_vectors"]
+        idf_vectors = cache["idf_vectors"]
+        tfidf_vectors = cache["tfidf_vectors"]
+        return
+
+    chunks = chunk_wiki_files()
+    vocab = build_vocab(chunks)
+    document_vectors = document_vector(chunks, vocab)
+    doc_freq_vec = doc_freq(vocab, chunks)
+    idf_vectors = idf(doc_freq_vec, len(chunks))
+    tfidf_vectors = [tf_vector * idf_vectors for tf_vector in document_vectors]
+
+    save_cache(
+        signature,
+        {
+            "chunks": chunks,
+            "vocab": vocab,
+            "document_vectors": document_vectors,
+            "idf_vectors": idf_vectors,
+            "tfidf_vectors": tfidf_vectors,
+        },
+    )
 
 def query_to_idf_vector(query):
     # take a query and return it into a vector
@@ -198,6 +264,8 @@ if __name__ == "__main__":
         sys.exit(0)
 
     query = " ".join(args)
+
+    initialize_index()
 
     query_vector = query_to_idf_vector(query)
     result = search(query_vector, chunks_vector=tfidf_vectors, n=5)

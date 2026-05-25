@@ -1,67 +1,23 @@
 This glossary of linear algebra is a list of definitions and terms relevant to the field of linear algebra, the branch of mathematics concerned with linear equations and their representations as vector spaces.
-For a glossary related to the generalization of vector spaces through modules, see glossary of module theory.
-
-
-== A ==
-
-affine transformation
+For a glossary related to the generalization of vector spaces through modules, see glossary of module theory. == A == affine transformation
 A composition of functions consisting of a linear transformation between vector spaces followed by a translation. Equivalently, a function between vector spaces that preserves affine combinations.
 affine combination
-A linear combination in which the sum of the coefficients is 1.
-
-
-== B ==
-
-basis
+A linear combination in which the sum of the coefficients is 1. == B == basis
 In a vector space, a linearly independent set of vectors spanning the whole vector space.
 basis vector
 An element of a given basis of a vector space.
 bilinear form
-On vector space V over field K, a bilinear form is a function 
-  
-    
-      
-        B
-        :
-        V
-        ×
-        V
-        →
-        K
-      
-    
-    {\displaystyle B:V\times V\to K}
-  
- that is linear in each variable.
-
-
-== C ==
-
-column vector
+On vector space V over field K, a bilinear form is a function B: V × V → K B:V× V→ K that is linear in each variable. == C == column vector
 A matrix with only one column.
 complex number
 An element of a complex plane
 complex plane
-A linear algebra over the real numbers with basis {1, i }, where i is an imaginary unit
+A linear algebra over the real numbers with basis 1, i, where i is an imaginary unit
 coordinate vector
 The tuple of the coordinates of a vector on a basis.
 covector
-An element of the dual space of a vector space, (that is a linear form), identified to an element of the vector space through an inner product.
-
-
-== D ==
-
-determinant
-The unique scalar function over square matrices which is distributive over matrix multiplication, multilinear in the rows and columns, and takes the value of 
-  
-    
-      
-        1
-      
-    
-    {\displaystyle 1}
-  
- for the identity matrix.
+An element of the dual space of a vector space, (that is a linear form), identified to an element of the vector space through an inner product. == D == determinant
+The unique scalar function over square matrices which is distributive over matrix multiplication, multilinear in the rows and columns, and takes the value of 1 for the identity matrix.
 diagonal matrix
 A matrix in which only the entries on the main diagonal are non-zero.
 dimension
@@ -69,249 +25,28 @@ The number of elements of any basis of a vector space.
 dot product
 Given two vectors of the same length, the dot product is the sum of the products of their corresponding indices.
 dual space
-The vector space of all linear forms on a given vector space.
-
-
-== E ==
-
-elementary matrix
-Square matrix that differs from the identity matrix by at most one entry
-
-
-== H ==
-hyperbolic unit
-1.  An operator (x, y) → (y, x), reflecting the plane in the 45° diagonal
-2.  In a linear algebra, a linear map which when composed with itself yields the identity
-
-
-== I ==
-
-identity matrix
-A diagonal matrix all of the diagonal elements of which are equal to 
-  
-    
-      
-        1
-      
-    
-    {\displaystyle 1}
-  
-.
+The vector space of all linear forms on a given vector space. == E == elementary matrix
+Square matrix that differs from the identity matrix by at most one entry == H == hyperbolic unit
+1. An operator (x, y) → (y, x), reflecting the plane in the 45° diagonal
+2. In a linear algebra, a linear map which when composed with itself yields the identity == I == identity matrix
+A diagonal matrix all of the diagonal elements of which are equal to 1.
 imaginary unit
-1.  An operator (x, y) → (y, –x), rotating the plane 90° counterclockwise
-2.  In a linear algebra, a linear map which when composed with itself produces the negative of the identity
+1. An operator (x, y) → (y, –x), rotating the plane 90° counterclockwise
+2. In a linear algebra, a linear map which when composed with itself produces the negative of the identity
 inverse matrix
-Of a matrix 
-  
-    
-      
-        A
-      
-    
-    {\displaystyle A}
-  
-, another matrix 
-  
-    
-      
-        B
-      
-    
-    {\displaystyle B}
-  
- such that 
-  
-    
-      
-        A
-      
-    
-    {\displaystyle A}
-  
- multiplied by 
-  
-    
-      
-        B
-      
-    
-    {\displaystyle B}
-  
- and 
-  
-    
-      
-        B
-      
-    
-    {\displaystyle B}
-  
- multiplied by 
-  
-    
-      
-        A
-      
-    
-    {\displaystyle A}
-  
- both equal the identity matrix.
+Of a matrix A, another matrix B such that A multiplied by B and B multiplied by A both equal the identity matrix.
 isotropic vector
 In a vector space with a quadratic form, a non-zero vector for which the form is zero.
 isotropic quadratic form
-A vector space with a quadratic form which has a null vector.
-
-
-== L ==
-
-linear algebra
-1.  The branch of mathematics that deals with vectors, vector spaces, linear transformations and systems of linear equations.
-2.  A vector space that has a binary operation making it a ring. This linear algebra is also known as an algebra over a field.
+A vector space with a quadratic form which has a null vector. == L == linear algebra
+1. The branch of mathematics that deals with vectors, vector spaces, linear transformations and systems of linear equations.
+2. A vector space that has a binary operation making it a ring. This linear algebra is also known as an algebra over a field.
 linear combination
 A sum, each of whose summands is an appropriate vector times an appropriate scalar (or ring element).
 linear dependence
-A linear dependence of a tuple of vectors 
-  
-    
-      
-        
-          
-            
-              
-                v
-                →
-              
-            
-          
-          
-            1
-          
-        
-        ,
-        …
-        ,
-        
-          
-            
-              
-                v
-                →
-              
-            
-          
-          
-            n
-          
-        
-      
-    
-    {\textstyle {\vec {v}}_{1},\ldots ,{\vec {v}}_{n}}
-  
- is a nonzero tuple of scalar coefficients 
-  
-    
-      
-        
-          c
-          
-            1
-          
-        
-        ,
-        …
-        ,
-        
-          c
-          
-            n
-          
-        
-      
-    
-    {\textstyle c_{1},\ldots ,c_{n}}
-  
- for which the linear combination 
-  
-    
-      
-        
-          c
-          
-            1
-          
-        
-        
-          
-            
-              
-                v
-                →
-              
-            
-          
-          
-            1
-          
-        
-        +
-        ⋯
-        +
-        
-          c
-          
-            n
-          
-        
-        
-          
-            
-              
-                v
-                →
-              
-            
-          
-          
-            n
-          
-        
-      
-    
-    {\textstyle c_{1}{\vec {v}}_{1}+\cdots +c_{n}{\vec {v}}_{n}}
-  
- equals 
-  
-    
-      
-        
-          
-            
-              0
-              →
-            
-          
-        
-      
-    
-    {\textstyle {\vec {0}}}
-  
-.
+A linear dependence of a tuple of vectors v → 1, …, v → n textstyle vec v_₁,…,vec v_n is a nonzero tuple of scalar coefficients c 1, …, c n textstyle c_₁,…,c_n for which the linear combination c 1 v → 1 + ⋯ + c n v → n textstyle c_₁vec v_₁+⋯ +c_nvec v_n equals 0 → textstyle vec 0.
 linear equation
-A polynomial equation of degree one (such as 
-  
-    
-      
-        x
-        =
-        2
-        y
-        −
-        7
-      
-    
-    {\displaystyle x=2y-7}
-  
-).
+A polynomial equation of degree one (such as x = 2 y − 7 x=2y-7).
 linear form
 A linear map from a vector space to its field of scalars.
 linear independence
@@ -319,161 +54,36 @@ Property of being not linearly dependent.
 linear map
 A function between vector spaces which respects addition and scalar multiplication.
 linear transformation
-A linear map whose domain and codomain are equal; it is generally supposed to be invertible.
-
-
-== M ==
-
-matrix
+A linear map whose domain and codomain are equal; it is generally supposed to be invertible. == M == matrix
 Rectangular arrangement of numbers or other mathematical objects. A matrix is written A = (ai, j), where ai, j is the entry at row i and column j.
 matrix multiplication
-If a matrix A has the same number of columns as does matrix B of rows, then a product C = AB may be formed with ci, j equal to the dot product of row i of A with column j of B.
-
-
-== N ==
-
-null vector
-1.  Another term for an isotropic vector.
-2.  Another term for a zero vector.
-
-
-== O ==
-
-orthogonality
+If a matrix A has the same number of columns as does matrix B of rows, then a product C = AB may be formed with ci, j equal to the dot product of row i of A with column j of B. == N == null vector
+1. Another term for an isotropic vector.
+2. Another term for a zero vector. == O == orthogonality
 Two vectors u and v are orthogonal with respect to a bilinear form B when B(u,v) = 0.
 orthonormality
 A set of vectors is orthonormal when they are all unit vectors and are pairwise orthogonal.
 orthogonal matrix
-A real square matrix with rows (or columns) that form an orthonormal set.
-
-
-== R ==
-
-row vector
-A matrix with only one row.
-
-
-== S ==
-
-scalar
+A real square matrix with rows (or columns) that form an orthonormal set. == R == row vector
+A matrix with only one row. == S == scalar
 A scalar is an element of a field used in the definition of a vector space.
 singular-value decomposition
-a factorization of an 
-  
-    
-      
-        m
-        ×
-        n
-      
-    
-    {\displaystyle m\times n}
-  
- complex matrix M as 
-  
-    
-      
-        
-          U
-          Σ
-          
-            V
-            
-              ∗
-            
-          
-        
-      
-    
-    {\displaystyle \mathbf {U\Sigma V^{*}} }
-  
-, where U is an 
-  
-    
-      
-        m
-        ×
-        m
-      
-    
-    {\displaystyle m\times m}
-  
- complex unitary matrix, 
-  
-    
-      
-        
-          Σ
-        
-      
-    
-    {\displaystyle \mathbf {\Sigma } }
-  
- is an 
-  
-    
-      
-        m
-        ×
-        n
-      
-    
-    {\displaystyle m\times n}
-  
- rectangular diagonal matrix with non-negative real numbers on the diagonal, and V is an 
-  
-    
-      
-        n
-        ×
-        n
-      
-    
-    {\displaystyle n\times n}
-  
- complex unitary matrix.
+a factorization of an m × n m× n complex matrix M as U Σ V ∗ USigma V^*, where U is an m × m× m complex unitary matrix, Σ Sigma is an m × n m× n rectangular diagonal matrix with non-negative real numbers on the diagonal, and V is an n × n× n complex unitary matrix.
 spectrum
 Set of the eigenvalues of a matrix.
 split-complex number
 An element of a split-complex plane.
 split-complex plane
-A linear algebra over the real numbers with basis {1, j }, where j is a hyperbolic unit.
+A linear algebra over the real numbers with basis 1, j, where j is a hyperbolic unit.
 square matrix
-A matrix having the same number of rows as columns.
-
-
-== T ==
-
-transpose
-The transpose of an n × m matrix M is an m × n matrix M T obtained by using the rows of M for the columns of M T.
-
-
-== U ==
-
-unit vector
-a vector in a normed vector space whose norm is 1, or a Euclidean vector of length one.
-
-
-== V ==
-
-vector 
-1.  A directed quantity, one with both magnitude and direction.
-2.  An element of a vector space.
+A matrix having the same number of rows as columns. == T == transpose
+The transpose of an n × m matrix M is an m × n matrix M T obtained by using the rows of M for the columns of M T. == U == unit vector
+a vector in a normed vector space whose norm is 1, or a Euclidean vector of length one. == V == vector
+1. A directed quantity, one with both magnitude and direction.
+2. An element of a vector space.
 vector space
-A set, whose elements can be added together, and multiplied by elements of a field (this is scalar multiplication); the set must be an abelian group under addition, and the scalar multiplication must be a linear map.
-
-
-== Z ==
-
-zero vector
-The additive identity in a vector space. In a normed vector space, it is the unique vector of norm zero. In a Euclidean vector space, it is the unique vector of length zero.
-
-
-== Notes ==
-
-
-== References ==
-Curtis, Charles W. (1968) Linear Algebra: an introductory approach, second edition, Allyn & Bacon
+A set, whose elements can be added together, and multiplied by elements of a field (this is scalar multiplication); the set must be an abelian group under addition, and the scalar multiplication must be a linear map. == Z == zero vector
+The additive identity in a vector space. In a normed vector space, it is the unique vector of norm zero. In a Euclidean vector space, it is the unique vector of length zero. == Notes == == References == Curtis, Charles W. (1968) Linear Algebra: an introductory approach, second edition, Allyn & Bacon
 Dickson, L. E (1914) Linear Algebras via Internet Archive
 James, Robert C.; James, Glenn (1992). Mathematics Dictionary (5th ed.). Chapman and Hall. ISBN 978-0442007416.
 Bourbaki, Nicolas (1989). Algebra I. Springer. ISBN 978-3540193739.
